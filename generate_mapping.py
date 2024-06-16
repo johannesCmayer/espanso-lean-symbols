@@ -19,6 +19,12 @@ def json_to_espanso(json_file, espanso_file):
                 "replace": value
             }
         )
+        espanso_mappings["matches"].append(
+            {
+                "triggers": [f"\\{key} "],
+                "replace": value + " "
+            }
+        )
 
     # Custom shortcuts (no lean conflicts)
     key = "map"
