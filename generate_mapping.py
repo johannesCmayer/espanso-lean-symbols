@@ -25,4 +25,4 @@ def json_to_espanso(json_file, espanso_file):
         yaml.dump(espanso_mappings, out_file, sort_keys=False, allow_unicode=True)
 
 # Example usage:
-json_to_espanso('abbreviations.json', 'package.yaml')
+json_to_espanso('abbreviations.json', 'package.yml')
