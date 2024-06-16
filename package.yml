@@ -9124,3 +9124,8 @@ matches:
   - '\Vvdash '
   - "\\Vvdash\t"
   replace: ⊪
+- triggers:
+  - \map\
+  - '\map '
+  - "\\map\t"
+  replace: ↦

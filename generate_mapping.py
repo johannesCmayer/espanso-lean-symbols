@@ -20,6 +20,16 @@ def json_to_espanso(json_file, espanso_file):
             }
         )
 
+    # Custom shortcuts (no lean conflicts)
+    key = "map"
+    value = "↦"
+    espanso_mappings["matches"].append(
+        {
+            "triggers": [f"\\{key}\\", f"\\{key} ", f"\\{key}\t"],
+            "replace": value
+        }
+    )
+
     with open(espanso_file, 'w', encoding='utf-8') as out_file:
         yaml.dump(espanso_mappings, out_file, sort_keys=False, allow_unicode=True)
 
