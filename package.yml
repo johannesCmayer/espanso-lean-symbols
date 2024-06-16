@@ -1,9126 +1,9126 @@
 matches:
 - triggers:
   - \{}\
-  - \{}
+  - '\{} '
   - "\\{}\t"
   replace: '{$CURSOR}'
 - triggers:
   - \{}_\
-  - \{}_
+  - '\{}_ '
   - "\\{}_\t"
   replace: '{$CURSOR}_'
 - triggers:
   - \{{}}\
-  - \{{}}
+  - '\{{}} '
   - "\\{{}}\t"
   replace: ⦃$CURSOR⦄
 - triggers:
   - \[]\
-  - \[]
+  - '\[] '
   - "\\[]\t"
   replace: '[$CURSOR]'
 - triggers:
   - \[]_\
-  - \[]_
+  - '\[]_ '
   - "\\[]_\t"
   replace: '[$CURSOR]_'
 - triggers:
   - \[[]]\
-  - \[[]]
+  - '\[[]] '
   - "\\[[]]\t"
   replace: ⟦$CURSOR⟧
 - triggers:
   - \<>\
-  - \<>
+  - '\<> '
   - "\\<>\t"
   replace: ⟨$CURSOR⟩
 - triggers:
   - \()\
-  - \()
+  - '\() '
   - "\\()\t"
   replace: ($CURSOR)
 - triggers:
   - \()_\
-  - \()_
+  - '\()_ '
   - "\\()_\t"
   replace: ($CURSOR)_
 - triggers:
   - \([])'\
-  - \([])'
+  - '\([])'' '
   - "\\([])'\t"
   replace: ⟮$CURSOR⟯
 - triggers:
   - \f<>\
-  - \f<>
+  - '\f<> '
   - "\\f<>\t"
   replace: ‹$CURSOR›
 - triggers:
   - \f<<>>\
-  - \f<<>>
+  - '\f<<>> '
   - "\\f<<>>\t"
   replace: «$CURSOR»
 - triggers:
   - \[--]\
-  - \[--]
+  - '\[--] '
   - "\\[--]\t"
   replace: ⁅$CURSOR⁆
 - triggers:
   - \nnnorm\
-  - \nnnorm
+  - '\nnnorm '
   - "\\nnnorm\t"
   replace: ‖$CURSOR‖₊
 - triggers:
   - \norm\
-  - \norm
+  - '\norm '
   - "\\norm\t"
   replace: ‖$CURSOR‖
 - triggers:
   - \floor\
-  - \floor
+  - '\floor '
   - "\\floor\t"
   replace: ⌊$CURSOR⌋
 - triggers:
   - \ceil\
-  - \ceil
+  - '\ceil '
   - "\\ceil\t"
   replace: ⌈$CURSOR⌉
 - triggers:
   - \nfloor\
-  - \nfloor
+  - '\nfloor '
   - "\\nfloor\t"
   replace: ⌊$CURSOR⌋₊
 - triggers:
   - \nceil\
-  - \nceil
+  - '\nceil '
   - "\\nceil\t"
   replace: ⌈$CURSOR⌉₊
 - triggers:
   - \\\
-  - \\
+  - '\\ '
   - "\\\\\t"
   replace: \
 - triggers:
   - \a\
-  - \a
+  - '\a '
   - "\\a\t"
   replace: α
 - triggers:
   - \b\
-  - \b
+  - '\b '
   - "\\b\t"
   replace: β
 - triggers:
   - \c\
-  - \c
+  - '\c '
   - "\\c\t"
   replace: χ
 - triggers:
   - \d\
-  - \d
+  - '\d '
   - "\\d\t"
   replace: ↓
 - triggers:
   - \e\
-  - \e
+  - '\e '
   - "\\e\t"
   replace: ε
 - triggers:
   - \g\
-  - \g
+  - '\g '
   - "\\g\t"
   replace: γ
 - triggers:
   - \i\
-  - \i
+  - '\i '
   - "\\i\t"
   replace: ∩
 - triggers:
   - \m\
-  - \m
+  - '\m '
   - "\\m\t"
   replace: μ
 - triggers:
   - \n\
-  - \n
+  - '\n '
   - "\\n\t"
   replace: ¬
 - triggers:
   - \o\
-  - \o
+  - '\o '
   - "\\o\t"
   replace: ∘
 - triggers:
   - \p\
-  - \p
+  - '\p '
   - "\\p\t"
   replace: Π
 - triggers:
   - \t\
-  - \t
+  - '\t '
   - "\\t\t"
   replace: ▸
 - triggers:
   - \r\
-  - \r
+  - '\r '
   - "\\r\t"
   replace: →
 - triggers:
   - \u\
-  - \u
+  - '\u '
   - "\\u\t"
   replace: ↑
 - triggers:
   - \v\
-  - \v
+  - '\v '
   - "\\v\t"
   replace: ∨
 - triggers:
   - \x\
-  - \x
+  - '\x '
   - "\\x\t"
   replace: ×
 - triggers:
   - \-\
-  - \-
+  - '\- '
   - "\\-\t"
   replace: ⁻¹
 - triggers:
   - \~\
-  - \~
+  - '\~ '
   - "\\~\t"
   replace: ∼
 - triggers:
   - \.\
-  - \.
+  - '\. '
   - "\\.\t"
   replace: ·
 - triggers:
   - \*\
-  - \*
+  - '\* '
   - "\\*\t"
   replace: ⋆
 - triggers:
   - \?\
-  - \?
+  - '\? '
   - "\\?\t"
   replace: ¿
 - triggers:
   - \1\
-  - \1
+  - '\1 '
   - "\\1\t"
   replace: ₁
 - triggers:
   - \2\
-  - \2
+  - '\2 '
   - "\\2\t"
   replace: ₂
 - triggers:
   - \3\
-  - \3
+  - '\3 '
   - "\\3\t"
   replace: ₃
 - triggers:
   - \4\
-  - \4
+  - '\4 '
   - "\\4\t"
   replace: ₄
 - triggers:
   - \5\
-  - \5
+  - '\5 '
   - "\\5\t"
   replace: ₅
 - triggers:
   - \6\
-  - \6
+  - '\6 '
   - "\\6\t"
   replace: ₆
 - triggers:
   - \7\
-  - \7
+  - '\7 '
   - "\\7\t"
   replace: ₇
 - triggers:
   - \8\
-  - \8
+  - '\8 '
   - "\\8\t"
   replace: ₈
 - triggers:
   - \9\
-  - \9
+  - '\9 '
   - "\\9\t"
   replace: ₉
 - triggers:
   - \0\
-  - \0
+  - '\0 '
   - "\\0\t"
   replace: ₀
 - triggers:
   - \l\
-  - \l
+  - '\l '
   - "\\l\t"
   replace: ←
 - triggers:
   - \<\
-  - \<
+  - '\< '
   - "\\<\t"
   replace: ⟨
 - triggers:
   - \>\
-  - \>
+  - '\> '
   - "\\>\t"
   replace: ⟩
 - triggers:
   - \O\
-  - \O
+  - '\O '
   - "\\O\t"
   replace: Ø
 - triggers:
   - \&\
-  - \&
+  - '\& '
   - "\\&\t"
   replace: ⅋
 - triggers:
   - \A\
-  - \A
+  - '\A '
   - "\\A\t"
   replace: 𝔸
 - triggers:
   - \C\
-  - \C
+  - '\C '
   - "\\C\t"
   replace: ℂ
 - triggers:
   - \D\
-  - \D
+  - '\D '
   - "\\D\t"
   replace: Δ
 - triggers:
   - \F\
-  - \F
+  - '\F '
   - "\\F\t"
   replace: 𝔽
 - triggers:
   - \G\
-  - \G
+  - '\G '
   - "\\G\t"
   replace: Γ
 - triggers:
   - \H\
-  - \H
+  - '\H '
   - "\\H\t"
   replace: ℍ
 - triggers:
   - \I\
-  - \I
+  - '\I '
   - "\\I\t"
   replace: ⋂
 - triggers:
   - \I0\
-  - \I0
+  - '\I0 '
   - "\\I0\t"
   replace: ⋂₀
 - triggers:
   - \K\
-  - \K
+  - '\K '
   - "\\K\t"
   replace: 𝕂
 - triggers:
   - \L\
-  - \L
+  - '\L '
   - "\\L\t"
   replace: Λ
 - triggers:
   - \N\
-  - \N
+  - '\N '
   - "\\N\t"
   replace: ℕ
 - triggers:
   - \P\
-  - \P
+  - '\P '
   - "\\P\t"
   replace: Π
 - triggers:
   - \Q\
-  - \Q
+  - '\Q '
   - "\\Q\t"
   replace: ℚ
 - triggers:
   - \R\
-  - \R
+  - '\R '
   - "\\R\t"
   replace: ℝ
 - triggers:
   - \S\
-  - \S
+  - '\S '
   - "\\S\t"
   replace: Σ
 - triggers:
   - \U\
-  - \U
+  - '\U '
   - "\\U\t"
   replace: ⋃
 - triggers:
   - \U0\
-  - \U0
+  - '\U0 '
   - "\\U0\t"
   replace: ⋃₀
 - triggers:
   - \Z\
-  - \Z
+  - '\Z '
   - "\\Z\t"
   replace: ℤ
 - triggers:
   - \#\
-  - \#
+  - '\# '
   - "\\#\t"
   replace: ♯
 - triggers:
   - \:\
-  - '\:'
+  - '\: '
   - "\\:\t"
   replace: ∶
 - triggers:
   - \|\
-  - \|
+  - '\| '
   - "\\|\t"
   replace: ∣
 - triggers:
   - \!\
-  - \!
+  - '\! '
   - "\\!\t"
   replace: ¡
 - triggers:
   - \be\
-  - \be
+  - '\be '
   - "\\be\t"
   replace: β
 - triggers:
   - \ga\
-  - \ga
+  - '\ga '
   - "\\ga\t"
   replace: γ
 - triggers:
   - \de\
-  - \de
+  - '\de '
   - "\\de\t"
   replace: δ
 - triggers:
   - \ep\
-  - \ep
+  - '\ep '
   - "\\ep\t"
   replace: ε
 - triggers:
   - \ze\
-  - \ze
+  - '\ze '
   - "\\ze\t"
   replace: ζ
 - triggers:
   - \et\
-  - \et
+  - '\et '
   - "\\et\t"
   replace: η
 - triggers:
   - \th\
-  - \th
+  - '\th '
   - "\\th\t"
   replace: θ
 - triggers:
   - \io\
-  - \io
+  - '\io '
   - "\\io\t"
   replace: ι
 - triggers:
   - \ka\
-  - \ka
+  - '\ka '
   - "\\ka\t"
   replace: κ
 - triggers:
   - \la\
-  - \la
+  - '\la '
   - "\\la\t"
   replace: λ
 - triggers:
   - \mu\
-  - \mu
+  - '\mu '
   - "\\mu\t"
   replace: μ
 - triggers:
   - \nu\
-  - \nu
+  - '\nu '
   - "\\nu\t"
   replace: ν
 - triggers:
   - \xi\
-  - \xi
+  - '\xi '
   - "\\xi\t"
   replace: ξ
 - triggers:
   - \pi\
-  - \pi
+  - '\pi '
   - "\\pi\t"
   replace: π
 - triggers:
   - \rh\
-  - \rh
+  - '\rh '
   - "\\rh\t"
   replace: ρ
 - triggers:
   - \vsi\
-  - \vsi
+  - '\vsi '
   - "\\vsi\t"
   replace: ς
 - triggers:
   - \si\
-  - \si
+  - '\si '
   - "\\si\t"
   replace: σ
 - triggers:
   - \ta\
-  - \ta
+  - '\ta '
   - "\\ta\t"
   replace: τ
 - triggers:
   - \ph\
-  - \ph
+  - '\ph '
   - "\\ph\t"
   replace: φ
 - triggers:
   - \ch\
-  - \ch
+  - '\ch '
   - "\\ch\t"
   replace: χ
 - triggers:
   - \ps\
-  - \ps
+  - '\ps '
   - "\\ps\t"
   replace: ψ
 - triggers:
   - \om\
-  - \om
+  - '\om '
   - "\\om\t"
   replace: ω
 - triggers:
   - \`A\
-  - \`A
+  - '\`A '
   - "\\`A\t"
   replace: À
 - triggers:
   - \'A\
-  - \'A
+  - '\''A '
   - "\\'A\t"
   replace: Á
 - triggers:
   - \^{A}\
-  - \^{A}
+  - '\^{A} '
   - "\\^{A}\t"
   replace: Â
 - triggers:
   - \~A\
-  - \~A
+  - '\~A '
   - "\\~A\t"
   replace: Ã
 - triggers:
   - \"A\
-  - \"A
+  - '\"A '
   - "\\\"A\t"
   replace: Ä
 - triggers:
   - \cC\
-  - \cC
+  - '\cC '
   - "\\cC\t"
   replace: Ç
 - triggers:
   - \`E\
-  - \`E
+  - '\`E '
   - "\\`E\t"
   replace: È
 - triggers:
   - \'E\
-  - \'E
+  - '\''E '
   - "\\'E\t"
   replace: É
 - triggers:
   - \^{E}\
-  - \^{E}
+  - '\^{E} '
   - "\\^{E}\t"
   replace: Ê
 - triggers:
   - \"E\
-  - \"E
+  - '\"E '
   - "\\\"E\t"
   replace: Ë
 - triggers:
   - \`I\
-  - \`I
+  - '\`I '
   - "\\`I\t"
   replace: Ì
 - triggers:
   - \'I\
-  - \'I
+  - '\''I '
   - "\\'I\t"
   replace: Í
 - triggers:
   - \^{I}\
-  - \^{I}
+  - '\^{I} '
   - "\\^{I}\t"
   replace: Î
 - triggers:
   - \"I\
-  - \"I
+  - '\"I '
   - "\\\"I\t"
   replace: Ï
 - triggers:
   - \~N\
-  - \~N
+  - '\~N '
   - "\\~N\t"
   replace: Ñ
 - triggers:
   - \`O\
-  - \`O
+  - '\`O '
   - "\\`O\t"
   replace: Ò
 - triggers:
   - \'O\
-  - \'O
+  - '\''O '
   - "\\'O\t"
   replace: Ó
 - triggers:
   - \^{O}\
-  - \^{O}
+  - '\^{O} '
   - "\\^{O}\t"
   replace: Ô
 - triggers:
   - \~O\
-  - \~O
+  - '\~O '
   - "\\~O\t"
   replace: Õ
 - triggers:
   - \"O\
-  - \"O
+  - '\"O '
   - "\\\"O\t"
   replace: Ö
 - triggers:
   - \/O\
-  - \/O
+  - '\/O '
   - "\\/O\t"
   replace: Ø
 - triggers:
   - \`U\
-  - \`U
+  - '\`U '
   - "\\`U\t"
   replace: Ù
 - triggers:
   - \'U\
-  - \'U
+  - '\''U '
   - "\\'U\t"
   replace: Ú
 - triggers:
   - \^{U}\
-  - \^{U}
+  - '\^{U} '
   - "\\^{U}\t"
   replace: Û
 - triggers:
   - \"U\
-  - \"U
+  - '\"U '
   - "\\\"U\t"
   replace: Ü
 - triggers:
   - \'Y\
-  - \'Y
+  - '\''Y '
   - "\\'Y\t"
   replace: Ý
 - triggers:
   - \`a\
-  - \`a
+  - '\`a '
   - "\\`a\t"
   replace: à
 - triggers:
   - \'a\
-  - \'a
+  - '\''a '
   - "\\'a\t"
   replace: á
 - triggers:
   - \^{a}\
-  - \^{a}
+  - '\^{a} '
   - "\\^{a}\t"
   replace: â
 - triggers:
   - \~a\
-  - \~a
+  - '\~a '
   - "\\~a\t"
   replace: ã
 - triggers:
   - \"a\
-  - \"a
+  - '\"a '
   - "\\\"a\t"
   replace: ä
 - triggers:
   - \cc\
-  - \cc
+  - '\cc '
   - "\\cc\t"
   replace: ç
 - triggers:
   - \`e\
-  - \`e
+  - '\`e '
   - "\\`e\t"
   replace: è
 - triggers:
   - \'e\
-  - \'e
+  - '\''e '
   - "\\'e\t"
   replace: é
 - triggers:
   - \^{e}\
-  - \^{e}
+  - '\^{e} '
   - "\\^{e}\t"
   replace: ê
 - triggers:
   - \"e\
-  - \"e
+  - '\"e '
   - "\\\"e\t"
   replace: ë
 - triggers:
   - \`i\
-  - \`i
+  - '\`i '
   - "\\`i\t"
   replace: ì
 - triggers:
   - \'i\
-  - \'i
+  - '\''i '
   - "\\'i\t"
   replace: í
 - triggers:
   - \^{i}\
-  - \^{i}
+  - '\^{i} '
   - "\\^{i}\t"
   replace: î
 - triggers:
   - \"i\
-  - \"i
+  - '\"i '
   - "\\\"i\t"
   replace: ï
 - triggers:
   - \~{n}\
-  - \~{n}
+  - '\~{n} '
   - "\\~{n}\t"
   replace: ñ
 - triggers:
   - \`o\
-  - \`o
+  - '\`o '
   - "\\`o\t"
   replace: ò
 - triggers:
   - \'o\
-  - \'o
+  - '\''o '
   - "\\'o\t"
   replace: ó
 - triggers:
   - \^{o}\
-  - \^{o}
+  - '\^{o} '
   - "\\^{o}\t"
   replace: ô
 - triggers:
   - \~o\
-  - \~o
+  - '\~o '
   - "\\~o\t"
   replace: õ
 - triggers:
   - \"o\
-  - \"o
+  - '\"o '
   - "\\\"o\t"
   replace: ö
 - triggers:
   - \/o\
-  - \/o
+  - '\/o '
   - "\\/o\t"
   replace: ø
 - triggers:
   - \`u\
-  - \`u
+  - '\`u '
   - "\\`u\t"
   replace: ù
 - triggers:
   - \'u\
-  - \'u
+  - '\''u '
   - "\\'u\t"
   replace: ú
 - triggers:
   - \^{u}\
-  - \^{u}
+  - '\^{u} '
   - "\\^{u}\t"
   replace: û
 - triggers:
   - \"u\
-  - \"u
+  - '\"u '
   - "\\\"u\t"
   replace: ü
 - triggers:
   - \'y\
-  - \'y
+  - '\''y '
   - "\\'y\t"
   replace: ý
 - triggers:
   - \"y\
-  - \"y
+  - '\"y '
   - "\\\"y\t"
   replace: ÿ
 - triggers:
   - \/L\
-  - \/L
+  - '\/L '
   - "\\/L\t"
   replace: Ł
 - triggers:
   - \notin\
-  - \notin
+  - '\notin '
   - "\\notin\t"
   replace: ∉
 - triggers:
   - \note\
-  - \note
+  - '\note '
   - "\\note\t"
   replace: ♩
 - triggers:
   - \not\
-  - \not
+  - '\not '
   - "\\not\t"
   replace: ¬
 - triggers:
   - \nomisma\
-  - \nomisma
+  - '\nomisma '
   - "\\nomisma\t"
   replace: 𐆎
 - triggers:
   - \nin\
-  - \nin
+  - '\nin '
   - "\\nin\t"
   replace: ∉
 - triggers:
   - \nni\
-  - \nni
+  - '\nni '
   - "\\nni\t"
   replace: ∌
 - triggers:
   - \ni\
-  - \ni
+  - '\ni '
   - "\\ni\t"
   replace: ∋
 - triggers:
   - \nattrans\
-  - \nattrans
+  - '\nattrans '
   - "\\nattrans\t"
   replace: ⟹
 - triggers:
   - \nat_trans\
-  - \nat_trans
+  - '\nat_trans '
   - "\\nat_trans\t"
   replace: ⟹
 - triggers:
   - \natural\
-  - \natural
+  - '\natural '
   - "\\natural\t"
   replace: ♮
 - triggers:
   - \nat\
-  - \nat
+  - '\nat '
   - "\\nat\t"
   replace: ℕ
 - triggers:
   - \naira\
-  - \naira
+  - '\naira '
   - "\\naira\t"
   replace: ₦
 - triggers:
   - \nabla\
-  - \nabla
+  - '\nabla '
   - "\\nabla\t"
   replace: ∇
 - triggers:
   - \napprox\
-  - \napprox
+  - '\napprox '
   - "\\napprox\t"
   replace: ≉
 - triggers:
   - \numero\
-  - \numero
+  - '\numero '
   - "\\numero\t"
   replace: №
 - triggers:
   - \nLeftarrow\
-  - \nLeftarrow
+  - '\nLeftarrow '
   - "\\nLeftarrow\t"
   replace: ⇍
 - triggers:
   - \nLeftrightarrow\
-  - \nLeftrightarrow
+  - '\nLeftrightarrow '
   - "\\nLeftrightarrow\t"
   replace: ⇎
 - triggers:
   - \nRightarrow\
-  - \nRightarrow
+  - '\nRightarrow '
   - "\\nRightarrow\t"
   replace: ⇏
 - triggers:
   - \nVDash\
-  - \nVDash
+  - '\nVDash '
   - "\\nVDash\t"
   replace: ⊯
 - triggers:
   - \nVdash\
-  - \nVdash
+  - '\nVdash '
   - "\\nVdash\t"
   replace: ⊮
 - triggers:
   - \ncong\
-  - \ncong
+  - '\ncong '
   - "\\ncong\t"
   replace: ≇
 - triggers:
   - \nearrow\
-  - \nearrow
+  - '\nearrow '
   - "\\nearrow\t"
   replace: ↗
 - triggers:
   - \neg\
-  - \neg
+  - '\neg '
   - "\\neg\t"
   replace: ¬
 - triggers:
   - \nequiv\
-  - \nequiv
+  - '\nequiv '
   - "\\nequiv\t"
   replace: ≢
 - triggers:
   - \neq\
-  - \neq
+  - '\neq '
   - "\\neq\t"
   replace: ≠
 - triggers:
   - \nexists\
-  - \nexists
+  - '\nexists '
   - "\\nexists\t"
   replace: ∄
 - triggers:
   - \ne\
-  - \ne
+  - '\ne '
   - "\\ne\t"
   replace: ≠
 - triggers:
   - \ngeqq\
-  - \ngeqq
+  - '\ngeqq '
   - "\\ngeqq\t"
   replace: ≱
 - triggers:
   - \ngeqslant\
-  - \ngeqslant
+  - '\ngeqslant '
   - "\\ngeqslant\t"
   replace: ≱
 - triggers:
   - \ngeq\
-  - \ngeq
+  - '\ngeq '
   - "\\ngeq\t"
   replace: ≱
 - triggers:
   - \ngtr\
-  - \ngtr
+  - '\ngtr '
   - "\\ngtr\t"
   replace: ≯
 - triggers:
   - \nleftarrow\
-  - \nleftarrow
+  - '\nleftarrow '
   - "\\nleftarrow\t"
   replace: ↚
 - triggers:
   - \nleftrightarrow\
-  - \nleftrightarrow
+  - '\nleftrightarrow '
   - "\\nleftrightarrow\t"
   replace: ↮
 - triggers:
   - \nleqq\
-  - \nleqq
+  - '\nleqq '
   - "\\nleqq\t"
   replace: ≰
 - triggers:
   - \nleqslant\
-  - \nleqslant
+  - '\nleqslant '
   - "\\nleqslant\t"
   replace: ≰
 - triggers:
   - \nleq\
-  - \nleq
+  - '\nleq '
   - "\\nleq\t"
   replace: ≰
 - triggers:
   - \nless\
-  - \nless
+  - '\nless '
   - "\\nless\t"
   replace: ≮
 - triggers:
   - \nmid\
-  - \nmid
+  - '\nmid '
   - "\\nmid\t"
   replace: ∤
 - triggers:
   - \nparallel\
-  - \nparallel
+  - '\nparallel '
   - "\\nparallel\t"
   replace: ∦
 - triggers:
   - \npreceq\
-  - \npreceq
+  - '\npreceq '
   - "\\npreceq\t"
   replace: ⋠
 - triggers:
   - \nprec\
-  - \nprec
+  - '\nprec '
   - "\\nprec\t"
   replace: ⊀
 - triggers:
   - \nrightarrow\
-  - \nrightarrow
+  - '\nrightarrow '
   - "\\nrightarrow\t"
   replace: ↛
 - triggers:
   - \nshortmid\
-  - \nshortmid
+  - '\nshortmid '
   - "\\nshortmid\t"
   replace: ∤
 - triggers:
   - \nsimeq\
-  - \nsimeq
+  - '\nsimeq '
   - "\\nsimeq\t"
   replace: ≄
 - triggers:
   - \nsim\
-  - \nsim
+  - '\nsim '
   - "\\nsim\t"
   replace: ≁
 - triggers:
   - \nsubseteqq\
-  - \nsubseteqq
+  - '\nsubseteqq '
   - "\\nsubseteqq\t"
   replace: ⊈
 - triggers:
   - \nsubseteq\
-  - \nsubseteq
+  - '\nsubseteq '
   - "\\nsubseteq\t"
   replace: ⊈
 - triggers:
   - \nsubset\
-  - \nsubset
+  - '\nsubset '
   - "\\nsubset\t"
   replace: ⊄
 - triggers:
   - \nsucceq\
-  - \nsucceq
+  - '\nsucceq '
   - "\\nsucceq\t"
   replace: ⋡
 - triggers:
   - \nsucc\
-  - \nsucc
+  - '\nsucc '
   - "\\nsucc\t"
   replace: ⊁
 - triggers:
   - \nsupseteqq\
-  - \nsupseteqq
+  - '\nsupseteqq '
   - "\\nsupseteqq\t"
   replace: ⊉
 - triggers:
   - \nsupseteq\
-  - \nsupseteq
+  - '\nsupseteq '
   - "\\nsupseteq\t"
   replace: ⊉
 - triggers:
   - \nsupset\
-  - \nsupset
+  - '\nsupset '
   - "\\nsupset\t"
   replace: ⊅
 - triggers:
   - \ntrianglelefteq\
-  - \ntrianglelefteq
+  - '\ntrianglelefteq '
   - "\\ntrianglelefteq\t"
   replace: ⋬
 - triggers:
   - \ntriangleleft\
-  - \ntriangleleft
+  - '\ntriangleleft '
   - "\\ntriangleleft\t"
   replace: ⋪
 - triggers:
   - \ntrianglerighteq\
-  - \ntrianglerighteq
+  - '\ntrianglerighteq '
   - "\\ntrianglerighteq\t"
   replace: ⋭
 - triggers:
   - \ntriangleright\
-  - \ntriangleright
+  - '\ntriangleright '
   - "\\ntriangleright\t"
   replace: ⋫
 - triggers:
   - \nvDash\
-  - \nvDash
+  - '\nvDash '
   - "\\nvDash\t"
   replace: ⊭
 - triggers:
   - \nvdash\
-  - \nvdash
+  - '\nvdash '
   - "\\nvdash\t"
   replace: ⊬
 - triggers:
   - \nwarrow\
-  - \nwarrow
+  - '\nwarrow '
   - "\\nwarrow\t"
   replace: ↖
 - triggers:
   - \eqn\
-  - \eqn
+  - '\eqn '
   - "\\eqn\t"
   replace: ≠
 - triggers:
   - \equiv\
-  - \equiv
+  - '\equiv '
   - "\\equiv\t"
   replace: ≃
 - triggers:
   - \eqcirc\
-  - \eqcirc
+  - '\eqcirc '
   - "\\eqcirc\t"
   replace: ≖
 - triggers:
   - \eqcolon\
-  - \eqcolon
+  - '\eqcolon '
   - "\\eqcolon\t"
   replace: ≕
 - triggers:
   - \eqslantgtr\
-  - \eqslantgtr
+  - '\eqslantgtr '
   - "\\eqslantgtr\t"
   replace: ⋝
 - triggers:
   - \eqslantless\
-  - \eqslantless
+  - '\eqslantless '
   - "\\eqslantless\t"
   replace: ⋜
 - triggers:
   - \entails\
-  - \entails
+  - '\entails '
   - "\\entails\t"
   replace: ⊢
 - triggers:
   - \en\
-  - \en
+  - '\en '
   - "\\en\t"
   replace: –
 - triggers:
   - \exn\
-  - \exn
+  - '\exn '
   - "\\exn\t"
   replace: ∄
 - triggers:
   - \exists\
-  - \exists
+  - '\exists '
   - "\\exists\t"
   replace: ∃
 - triggers:
   - \ex\
-  - \ex
+  - '\ex '
   - "\\ex\t"
   replace: ∃
 - triggers:
   - \emptyset\
-  - \emptyset
+  - '\emptyset '
   - "\\emptyset\t"
   replace: ∅
 - triggers:
   - \empty\
-  - \empty
+  - '\empty '
   - "\\empty\t"
   replace: ∅
 - triggers:
   - \em\
-  - \em
+  - '\em '
   - "\\em\t"
   replace: —
 - triggers:
   - \epsilon\
-  - \epsilon
+  - '\epsilon '
   - "\\epsilon\t"
   replace: ε
 - triggers:
   - \eps\
-  - \eps
+  - '\eps '
   - "\\eps\t"
   replace: ε
 - triggers:
   - \euro\
-  - \euro
+  - '\euro '
   - "\\euro\t"
   replace: €
 - triggers:
   - \eta\
-  - \eta
+  - '\eta '
   - "\\eta\t"
   replace: η
 - triggers:
   - \ell\
-  - \ell
+  - '\ell '
   - "\\ell\t"
   replace: ℓ
 - triggers:
   - \iso\
-  - \iso
+  - '\iso '
   - "\\iso\t"
   replace: ≅
 - triggers:
   - \in\
-  - \in
+  - '\in '
   - "\\in\t"
   replace: ∈
 - triggers:
   - \inn\
-  - \inn
+  - '\inn '
   - "\\inn\t"
   replace: ∉
 - triggers:
   - \inter\
-  - \inter
+  - '\inter '
   - "\\inter\t"
   replace: ∩
 - triggers:
   - \intercal\
-  - \intercal
+  - '\intercal '
   - "\\intercal\t"
   replace: ⊺
 - triggers:
   - \intersection\
-  - \intersection
+  - '\intersection '
   - "\\intersection\t"
   replace: ∩
 - triggers:
   - \integral\
-  - \integral
+  - '\integral '
   - "\\integral\t"
   replace: ∫
 - triggers:
   - \integral-\
-  - \integral-
+  - '\integral- '
   - "\\integral-\t"
   replace: ⨍
 - triggers:
   - \int\
-  - \int
+  - '\int '
   - "\\int\t"
   replace: ℤ
 - triggers:
   - \inv\
-  - \inv
+  - '\inv '
   - "\\inv\t"
   replace: ⁻¹
 - triggers:
   - \increment\
-  - \increment
+  - '\increment '
   - "\\increment\t"
   replace: ∆
 - triggers:
   - \inf\
-  - \inf
+  - '\inf '
   - "\\inf\t"
   replace: ⊓
 - triggers:
   - \infi\
-  - \infi
+  - '\infi '
   - "\\infi\t"
   replace: ⨅
 - triggers:
   - \infty\
-  - \infty
+  - '\infty '
   - "\\infty\t"
   replace: ∞
 - triggers:
   - \iff\
-  - \iff
+  - '\iff '
   - "\\iff\t"
   replace: ↔
 - triggers:
   - \imp\
-  - \imp
+  - '\imp '
   - "\\imp\t"
   replace: →
 - triggers:
   - \imath\
-  - \imath
+  - '\imath '
   - "\\imath\t"
   replace: ı
 - triggers:
   - \iota\
-  - \iota
+  - '\iota '
   - "\\iota\t"
   replace: ι
 - triggers:
   - \=n\
-  - \=n
+  - '\=n '
   - "\\=n\t"
   replace: ≠
 - triggers:
   - \==n\
-  - \==n
+  - '\==n '
   - "\\==n\t"
   replace: ≢
 - triggers:
   - \===\
-  - \===
+  - '\=== '
   - "\\===\t"
   replace: ≣
 - triggers:
   - \==>\
-  - \==>
+  - '\==> '
   - "\\==>\t"
   replace: ⟹
 - triggers:
   - \==\
-  - \==
+  - '\== '
   - "\\==\t"
   replace: ≡
 - triggers:
   - \=:\
-  - '\=:'
+  - '\=: '
   - "\\=:\t"
   replace: ≕
 - triggers:
   - \=o\
-  - \=o
+  - '\=o '
   - "\\=o\t"
   replace: ≗
 - triggers:
   - \=>n\
-  - \=>n
+  - '\=>n '
   - "\\=>n\t"
   replace: ⇏
 - triggers:
   - \=>\
-  - \=>
+  - '\=> '
   - "\\=>\t"
   replace: ⇒
 - triggers:
   - \~n\
-  - \~n
+  - '\~n '
   - "\\~n\t"
   replace: ≁
 - triggers:
   - \~~n\
-  - \~~n
+  - '\~~n '
   - "\\~~n\t"
   replace: ≉
 - triggers:
   - \~~~\
-  - \~~~
+  - '\~~~ '
   - "\\~~~\t"
   replace: ≋
 - triggers:
   - \~~-\
-  - \~~-
+  - '\~~- '
   - "\\~~-\t"
   replace: ≊
 - triggers:
   - \~~\
-  - \~~
+  - '\~~ '
   - "\\~~\t"
   replace: ≈
 - triggers:
   - \~-n\
-  - \~-n
+  - '\~-n '
   - "\\~-n\t"
   replace: ≄
 - triggers:
   - \~-\
-  - \~-
+  - '\~- '
   - "\\~-\t"
   replace: ≃
 - triggers:
   - \~=n\
-  - \~=n
+  - '\~=n '
   - "\\~=n\t"
   replace: ≇
 - triggers:
   - \~=\
-  - \~=
+  - '\~= '
   - "\\~=\t"
   replace: ≅
 - triggers:
   - \homotopy\
-  - \homotopy
+  - '\homotopy '
   - "\\homotopy\t"
   replace: ∼
 - triggers:
   - \hom\
-  - \hom
+  - '\hom '
   - "\\hom\t"
   replace: ⟶
 - triggers:
   - \hori\
-  - \hori
+  - '\hori '
   - "\\hori\t"
   replace: ϩ
 - triggers:
   - \hookleftarrow\
-  - \hookleftarrow
+  - '\hookleftarrow '
   - "\\hookleftarrow\t"
   replace: ↩
 - triggers:
   - \hookrightarrow\
-  - \hookrightarrow
+  - '\hookrightarrow '
   - "\\hookrightarrow\t"
   replace: ↪
 - triggers:
   - \hryvnia\
-  - \hryvnia
+  - '\hryvnia '
   - "\\hryvnia\t"
   replace: ₴
 - triggers:
   - \heta\
-  - \heta
+  - '\heta '
   - "\\heta\t"
   replace: ͱ
 - triggers:
   - \heartsuit\
-  - \heartsuit
+  - '\heartsuit '
   - "\\heartsuit\t"
   replace: ♥
 - triggers:
   - \hbar\
-  - \hbar
+  - '\hbar '
   - "\\hbar\t"
   replace: ℏ
 - triggers:
   - \:~\
-  - \:~
+  - '\:~ '
   - "\\:~\t"
   replace: ∻
 - triggers:
   - \:=\
-  - \:=
+  - '\:= '
   - "\\:=\t"
   replace: ≔
 - triggers:
   - \::-\
-  - \::-
+  - '\::- '
   - "\\::-\t"
   replace: ∺
 - triggers:
   - \::\
-  - '\::'
+  - '\:: '
   - "\\::\t"
   replace: ∷
 - triggers:
   - \-~\
-  - \-~
+  - '\-~ '
   - "\\-~\t"
   replace: ≂
 - triggers:
   - \-|\
-  - \-|
+  - '\-| '
   - "\\-|\t"
   replace: ⊣
 - triggers:
   - \-1\
-  - \-1
+  - '\-1 '
   - "\\-1\t"
   replace: ⁻¹
 - triggers:
   - \^-1\
-  - \^-1
+  - '\^-1 '
   - "\\^-1\t"
   replace: ⁻¹
 - triggers:
   - \-2\
-  - \-2
+  - '\-2 '
   - "\\-2\t"
   replace: ⁻²
 - triggers:
   - \-3\
-  - \-3
+  - '\-3 '
   - "\\-3\t"
   replace: ⁻³
 - triggers:
   - \-:\
-  - '\-:'
+  - '\-: '
   - "\\-:\t"
   replace: ∹
 - triggers:
   - \->n\
-  - \->n
+  - '\->n '
   - "\\->n\t"
   replace: ↛
 - triggers:
   - \->\
-  - \->
+  - '\-> '
   - "\\->\t"
   replace: →
 - triggers:
   - \-->\
-  - \-->
+  - '\--> '
   - "\\-->\t"
   replace: ⟶
 - triggers:
   - \---\
-  - \---
+  - '\--- '
   - "\\---\t"
   replace: ─
 - triggers:
   - \--=\
-  - \--=
+  - '\--= '
   - "\\--=\t"
   replace: ═
 - triggers:
   - \--_\
-  - \--_
+  - '\--_ '
   - "\\--_\t"
   replace: ━
 - triggers:
   - \--.\
-  - \--.
+  - '\--. '
   - "\\--.\t"
   replace: ╌
 - triggers:
   - \-o\
-  - \-o
+  - '\-o '
   - "\\-o\t"
   replace: ⊸
 - triggers:
   - \.=.\
-  - \.=.
+  - '\.=. '
   - "\\.=.\t"
   replace: ≑
 - triggers:
   - \.=\
-  - \.=
+  - '\.= '
   - "\\.=\t"
   replace: ≐
 - triggers:
   - \.+\
-  - \.+
+  - '\.+ '
   - "\\.+\t"
   replace: ∔
 - triggers:
   - \.-\
-  - \.-
+  - '\.- '
   - "\\.-\t"
   replace: ∸
 - triggers:
   - \...\
-  - \...
+  - '\... '
   - "\\...\t"
   replace: ⋯
 - triggers:
   - \(=\
-  - \(=
+  - '\(= '
   - "\\(=\t"
   replace: ≘
 - triggers:
   - \(b\
-  - \(b
+  - '\(b '
   - "\\(b\t"
   replace: ⟅
 - triggers:
   - \and=\
-  - \and=
+  - '\and= '
   - "\\and=\t"
   replace: ≙
 - triggers:
   - \and\
-  - \and
+  - '\and '
   - "\\and\t"
   replace: ∧
 - triggers:
   - \an\
-  - \an
+  - '\an '
   - "\\an\t"
   replace: ∧
 - triggers:
   - \angle\
-  - \angle
+  - '\angle '
   - "\\angle\t"
   replace: ∠
 - triggers:
   - \rightangle\
-  - \rightangle
+  - '\rightangle '
   - "\\rightangle\t"
   replace: ∟
 - triggers:
   - \angstrom\
-  - \angstrom
+  - '\angstrom '
   - "\\angstrom\t"
   replace: Å
 - triggers:
   - \all\
-  - \all
+  - '\all '
   - "\\all\t"
   replace: ∀
 - triggers:
   - \allf\
-  - \allf
+  - '\allf '
   - "\\allf\t"
   replace: ∀ᶠ
 - triggers:
   - \all^f\
-  - \all^f
+  - '\all^f '
   - "\\all^f\t"
   replace: ∀ᶠ
 - triggers:
   - \allm\
-  - \allm
+  - '\allm '
   - "\\allm\t"
   replace: ∀ᵐ
 - triggers:
   - \all^m\
-  - \all^m
+  - '\all^m '
   - "\\all^m\t"
   replace: ∀ᵐ
 - triggers:
   - \alpha\
-  - \alpha
+  - '\alpha '
   - "\\alpha\t"
   replace: α
 - triggers:
   - \aleph\
-  - \aleph
+  - '\aleph '
   - "\\aleph\t"
   replace: ℵ
 - triggers:
   - \aleph0\
-  - \aleph0
+  - '\aleph0 '
   - "\\aleph0\t"
   replace: ℵ₀
 - triggers:
   - \asterisk\
-  - \asterisk
+  - '\asterisk '
   - "\\asterisk\t"
   replace: ⁎
 - triggers:
   - \ast\
-  - \ast
+  - '\ast '
   - "\\ast\t"
   replace: ∗
 - triggers:
   - \asymp\
-  - \asymp
+  - '\asymp '
   - "\\asymp\t"
   replace: ≍
 - triggers:
   - \apl\
-  - \apl
+  - '\apl '
   - "\\apl\t"
   replace: ⌶
 - triggers:
   - \approxeq\
-  - \approxeq
+  - '\approxeq '
   - "\\approxeq\t"
   replace: ≊
 - triggers:
   - \approx\
-  - \approx
+  - '\approx '
   - "\\approx\t"
   replace: ≈
 - triggers:
   - \aa\
-  - \aa
+  - '\aa '
   - "\\aa\t"
   replace: å
 - triggers:
   - \ae\
-  - \ae
+  - '\ae '
   - "\\ae\t"
   replace: æ
 - triggers:
   - \austral\
-  - \austral
+  - '\austral '
   - "\\austral\t"
   replace: ₳
 - triggers:
   - \afghani\
-  - \afghani
+  - '\afghani '
   - "\\afghani\t"
   replace: ؋
 - triggers:
   - \amalg\
-  - \amalg
+  - '\amalg '
   - "\\amalg\t"
   replace: ∐
 - triggers:
   - \average\
-  - \average
+  - '\average '
   - "\\average\t"
   replace: ⨍
 - triggers:
   - \-int\
-  - \-int
+  - '\-int '
   - "\\-int\t"
   replace: ⨍
 - triggers:
   - \or=\
-  - \or=
+  - '\or= '
   - "\\or=\t"
   replace: ≚
 - triggers:
   - \ordfeminine\
-  - \ordfeminine
+  - '\ordfeminine '
   - "\\ordfeminine\t"
   replace: ª
 - triggers:
   - \ordmasculine\
-  - \ordmasculine
+  - '\ordmasculine '
   - "\\ordmasculine\t"
   replace: º
 - triggers:
   - \or\
-  - \or
+  - '\or '
   - "\\or\t"
   replace: ∨
 - triggers:
   - \oplus\
-  - \oplus
+  - '\oplus '
   - "\\oplus\t"
   replace: ⊕
 - triggers:
   - \od\
-  - \od
+  - '\od '
   - "\\od\t"
   replace: ᵒᵈ
 - triggers:
   - \orderdual\
-  - \orderdual
+  - '\orderdual '
   - "\\orderdual\t"
   replace: ᵒᵈ
 - triggers:
   - \addopposite\
-  - \addopposite
+  - '\addopposite '
   - "\\addopposite\t"
   replace: ᵃᵒᵖ
 - triggers:
   - \aop\
-  - \aop
+  - '\aop '
   - "\\aop\t"
   replace: ᵃᵒᵖ
 - triggers:
   - \mulopposite\
-  - \mulopposite
+  - '\mulopposite '
   - "\\mulopposite\t"
   replace: ᵐᵒᵖ
 - triggers:
   - \mop\
-  - \mop
+  - '\mop '
   - "\\mop\t"
   replace: ᵐᵒᵖ
 - triggers:
   - \opposite\
-  - \opposite
+  - '\opposite '
   - "\\opposite\t"
   replace: ᵒᵖ
 - triggers:
   - \op\
-  - \op
+  - '\op '
   - "\\op\t"
   replace: ᵒᵖ
 - triggers:
   - \o+\
-  - \o+
+  - '\o+ '
   - "\\o+\t"
   replace: ⊕
 - triggers:
   - \o--\
-  - \o--
+  - '\o-- '
   - "\\o--\t"
   replace: ⊖
 - triggers:
   - \o-\
-  - \o-
+  - '\o- '
   - "\\o-\t"
   replace: ⊝
 - triggers:
   - \ox\
-  - \ox
+  - '\ox '
   - "\\ox\t"
   replace: ⊗
 - triggers:
   - \o/\
-  - \o/
+  - '\o/ '
   - "\\o/\t"
   replace: ⊘
 - triggers:
   - \o.\
-  - \o.
+  - '\o. '
   - "\\o.\t"
   replace: ⊙
 - triggers:
   - \oo\
-  - \oo
+  - '\oo '
   - "\\oo\t"
   replace: ⊚
 - triggers:
   - \o*\
-  - \o*
+  - '\o* '
   - "\\o*\t"
   replace: ∘*
 - triggers:
   - \o=\
-  - \o=
+  - '\o= '
   - "\\o=\t"
   replace: ⊜
 - triggers:
   - \oe\
-  - \oe
+  - '\oe '
   - "\\oe\t"
   replace: œ
 - triggers:
   - \octagonal\
-  - \octagonal
+  - '\octagonal '
   - "\\octagonal\t"
   replace: 🛑
 - triggers:
   - \ohm\
-  - \ohm
+  - '\ohm '
   - "\\ohm\t"
   replace: Ω
 - triggers:
   - \ounce\
-  - \ounce
+  - '\ounce '
   - "\\ounce\t"
   replace: ℥
 - triggers:
   - \omega\
-  - \omega
+  - '\omega '
   - "\\omega\t"
   replace: ω
 - triggers:
   - \omicron\
-  - \omicron
+  - '\omicron '
   - "\\omicron\t"
   replace: ο
 - triggers:
   - \ominus\
-  - \ominus
+  - '\ominus '
   - "\\ominus\t"
   replace: ⊖
 - triggers:
   - \odot\
-  - \odot
+  - '\odot '
   - "\\odot\t"
   replace: ⊙
 - triggers:
   - \oint\
-  - \oint
+  - '\oint '
   - "\\oint\t"
   replace: ∮
 - triggers:
   - \oiint\
-  - \oiint
+  - '\oiint '
   - "\\oiint\t"
   replace: ∯
 - triggers:
   - \oslash\
-  - \oslash
+  - '\oslash '
   - "\\oslash\t"
   replace: ⊘
 - triggers:
   - \otimes\
-  - \otimes
+  - '\otimes '
   - "\\otimes\t"
   replace: ⊗
 - triggers:
   - \tensorproduct\
-  - \tensorproduct
+  - '\tensorproduct '
   - "\\tensorproduct\t"
   replace: ⊗
 - triggers:
   - \pitensorproduct\
-  - \pitensorproduct
+  - '\pitensorproduct '
   - "\\pitensorproduct\t"
   replace: ⨂
 - triggers:
   - \tensorpower\
-  - \tensorpower
+  - '\tensorpower '
   - "\\tensorpower\t"
   replace: ⨂
 - triggers:
   - \pd\
-  - \pd
+  - '\pd '
   - "\\pd\t"
   replace: ∂
 - triggers:
   - \*=\
-  - \*=
+  - '\*= '
   - "\\*=\t"
   replace: ≛
 - triggers:
   - \t=\
-  - \t=
+  - '\t= '
   - "\\t=\t"
   replace: ≜
 - triggers:
   - \tint\
-  - \tint
+  - '\tint '
   - "\\tint\t"
   replace: ∯
 - triggers:
   - \transport\
-  - \transport
+  - '\transport '
   - "\\transport\t"
   replace: ▹
 - triggers:
   - \trans\
-  - \trans
+  - '\trans '
   - "\\trans\t"
   replace: ▹
 - triggers:
   - \triangledown\
-  - \triangledown
+  - '\triangledown '
   - "\\triangledown\t"
   replace: ▿
 - triggers:
   - \trianglelefteq\
-  - \trianglelefteq
+  - '\trianglelefteq '
   - "\\trianglelefteq\t"
   replace: ⊴
 - triggers:
   - \triangleleft\
-  - \triangleleft
+  - '\triangleleft '
   - "\\triangleleft\t"
   replace: ◃
 - triggers:
   - \triangleq\
-  - \triangleq
+  - '\triangleq '
   - "\\triangleq\t"
   replace: ≜
 - triggers:
   - \trianglerighteq\
-  - \trianglerighteq
+  - '\trianglerighteq '
   - "\\trianglerighteq\t"
   replace: ⊵
 - triggers:
   - \triangleright\
-  - \triangleright
+  - '\triangleright '
   - "\\triangleright\t"
   replace: ▹
 - triggers:
   - \triangle\
-  - \triangle
+  - '\triangle '
   - "\\triangle\t"
   replace: ▵
 - triggers:
   - \tr\
-  - \tr
+  - '\tr '
   - "\\tr\t"
   replace: ⬝
 - triggers:
   - \tb\
-  - \tb
+  - '\tb '
   - "\\tb\t"
   replace: ◂
 - triggers:
   - \twoheadleftarrow\
-  - \twoheadleftarrow
+  - '\twoheadleftarrow '
   - "\\twoheadleftarrow\t"
   replace: ↞
 - triggers:
   - \twoheadrightarrow\
-  - \twoheadrightarrow
+  - '\twoheadrightarrow '
   - "\\twoheadrightarrow\t"
   replace: ↠
 - triggers:
   - \tw\
-  - \tw
+  - '\tw '
   - "\\tw\t"
   replace: ◃
 - triggers:
   - \tie\
-  - \tie
+  - '\tie '
   - "\\tie\t"
   replace: ⁀
 - triggers:
   - \times\
-  - \times
+  - '\times '
   - "\\times\t"
   replace: ×
 - triggers:
   - \theta\
-  - \theta
+  - '\theta '
   - "\\theta\t"
   replace: θ
 - triggers:
   - \therefore\
-  - \therefore
+  - '\therefore '
   - "\\therefore\t"
   replace: ∴
 - triggers:
   - \thickapprox\
-  - \thickapprox
+  - '\thickapprox '
   - "\\thickapprox\t"
   replace: ≈
 - triggers:
   - \thicksim\
-  - \thicksim
+  - '\thicksim '
   - "\\thicksim\t"
   replace: ∼
 - triggers:
   - \telephone\
-  - \telephone
+  - '\telephone '
   - "\\telephone\t"
   replace: ℡
 - triggers:
   - \tenge\
-  - \tenge
+  - '\tenge '
   - "\\tenge\t"
   replace: ₸
 - triggers:
   - \textmusicalnote\
-  - \textmusicalnote
+  - '\textmusicalnote '
   - "\\textmusicalnote\t"
   replace: ♪
 - triggers:
   - \textmu\
-  - \textmu
+  - '\textmu '
   - "\\textmu\t"
   replace: µ
 - triggers:
   - \textfractionsolidus\
-  - \textfractionsolidus
+  - '\textfractionsolidus '
   - "\\textfractionsolidus\t"
   replace: ⁄
 - triggers:
   - \textbaht\
-  - \textbaht
+  - '\textbaht '
   - "\\textbaht\t"
   replace: ฿
 - triggers:
   - \textdied\
-  - \textdied
+  - '\textdied '
   - "\\textdied\t"
   replace: ✝
 - triggers:
   - \textdiscount\
-  - \textdiscount
+  - '\textdiscount '
   - "\\textdiscount\t"
   replace: ⁒
 - triggers:
   - \textcolonmonetary\
-  - \textcolonmonetary
+  - '\textcolonmonetary '
   - "\\textcolonmonetary\t"
   replace: ₡
 - triggers:
   - \textcircledP\
-  - \textcircledP
+  - '\textcircledP '
   - "\\textcircledP\t"
   replace: ℗
 - triggers:
   - \textwon\
-  - \textwon
+  - '\textwon '
   - "\\textwon\t"
   replace: ₩
 - triggers:
   - \textnaira\
-  - \textnaira
+  - '\textnaira '
   - "\\textnaira\t"
   replace: ₦
 - triggers:
   - \textnumero\
-  - \textnumero
+  - '\textnumero '
   - "\\textnumero\t"
   replace: №
 - triggers:
   - \textpeso\
-  - \textpeso
+  - '\textpeso '
   - "\\textpeso\t"
   replace: ₱
 - triggers:
   - \textpertenthousand\
-  - \textpertenthousand
+  - '\textpertenthousand '
   - "\\textpertenthousand\t"
   replace: ‱
 - triggers:
   - \textlira\
-  - \textlira
+  - '\textlira '
   - "\\textlira\t"
   replace: ₤
 - triggers:
   - \textlquill\
-  - \textlquill
+  - '\textlquill '
   - "\\textlquill\t"
   replace: ⁅
 - triggers:
   - \textrecipe\
-  - \textrecipe
+  - '\textrecipe '
   - "\\textrecipe\t"
   replace: ℞
 - triggers:
   - \textreferencemark\
-  - \textreferencemark
+  - '\textreferencemark '
   - "\\textreferencemark\t"
   replace: ※
 - triggers:
   - \textrquill\
-  - \textrquill
+  - '\textrquill '
   - "\\textrquill\t"
   replace: ⁆
 - triggers:
   - \textinterrobang\
-  - \textinterrobang
+  - '\textinterrobang '
   - "\\textinterrobang\t"
   replace: ‽
 - triggers:
   - \textestimated\
-  - \textestimated
+  - '\textestimated '
   - "\\textestimated\t"
   replace: ℮
 - triggers:
   - \textopenbullet\
-  - \textopenbullet
+  - '\textopenbullet '
   - "\\textopenbullet\t"
   replace: ◦
 - triggers:
   - \tugrik\
-  - \tugrik
+  - '\tugrik '
   - "\\tugrik\t"
   replace: ₮
 - triggers:
   - \tau\
-  - \tau
+  - '\tau '
   - "\\tau\t"
   replace: τ
 - triggers:
   - \top\
-  - \top
+  - '\top '
   - "\\top\t"
   replace: ⊤
 - triggers:
   - \to\
-  - \to
+  - '\to '
   - "\\to\t"
   replace: →
 - triggers:
   - \to0\
-  - \to0
+  - '\to0 '
   - "\\to0\t"
   replace: →₀
 - triggers:
   - \r0\
-  - \r0
+  - '\r0 '
   - "\\r0\t"
   replace: →₀
 - triggers:
   - \to_0\
-  - \to_0
+  - '\to_0 '
   - "\\to_0\t"
   replace: →₀
 - triggers:
   - \r_0\
-  - \r_0
+  - '\r_0 '
   - "\\r_0\t"
   replace: →₀
 - triggers:
   - \finsupp\
-  - \finsupp
+  - '\finsupp '
   - "\\finsupp\t"
   replace: →₀
 - triggers:
   - \to1\
-  - \to1
+  - '\to1 '
   - "\\to1\t"
   replace: →₁
 - triggers:
   - \r1\
-  - \r1
+  - '\r1 '
   - "\\r1\t"
   replace: →₁
 - triggers:
   - \to_1\
-  - \to_1
+  - '\to_1 '
   - "\\to_1\t"
   replace: →₁
 - triggers:
   - \r_1\
-  - \r_1
+  - '\r_1 '
   - "\\r_1\t"
   replace: →₁
 - triggers:
   - \l1\
-  - \l1
+  - '\l1 '
   - "\\l1\t"
   replace: →₁
 - triggers:
   - \to1s\
-  - \to1s
+  - '\to1s '
   - "\\to1s\t"
   replace: →₁ₛ
 - triggers:
   - \r1s\
-  - \r1s
+  - '\r1s '
   - "\\r1s\t"
   replace: →₁ₛ
 - triggers:
   - \to_1s\
-  - \to_1s
+  - '\to_1s '
   - "\\to_1s\t"
   replace: →₁ₛ
 - triggers:
   - \r_1s\
-  - \r_1s
+  - '\r_1s '
   - "\\r_1s\t"
   replace: →₁ₛ
 - triggers:
   - \l1simplefunc\
-  - \l1simplefunc
+  - '\l1simplefunc '
   - "\\l1simplefunc\t"
   replace: →₁ₛ
 - triggers:
   - \toa\
-  - \toa
+  - '\toa '
   - "\\toa\t"
   replace: →ₐ
 - triggers:
   - \ra\
-  - \ra
+  - '\ra '
   - "\\ra\t"
   replace: →ₐ
 - triggers:
   - \to_a\
-  - \to_a
+  - '\to_a '
   - "\\to_a\t"
   replace: →ₐ
 - triggers:
   - \r_a\
-  - \r_a
+  - '\r_a '
   - "\\r_a\t"
   replace: →ₐ
 - triggers:
   - \alghom\
-  - \alghom
+  - '\alghom '
   - "\\alghom\t"
   replace: →ₐ
 - triggers:
   - \tob\
-  - \tob
+  - '\tob '
   - "\\tob\t"
   replace: →ᵇ
 - triggers:
   - \rb\
-  - \rb
+  - '\rb '
   - "\\rb\t"
   replace: →ᵇ
 - triggers:
   - \to^b\
-  - \to^b
+  - '\to^b '
   - "\\to^b\t"
   replace: →ᵇ
 - triggers:
   - \r^b\
-  - \r^b
+  - '\r^b '
   - "\\r^b\t"
   replace: →ᵇ
 - triggers:
   - \boundedcontinuousfunction\
-  - \boundedcontinuousfunction
+  - '\boundedcontinuousfunction '
   - "\\boundedcontinuousfunction\t"
   replace: →ᵇ
 - triggers:
   - \tol\
-  - \tol
+  - '\tol '
   - "\\tol\t"
   replace: →ₗ
 - triggers:
   - \rl\
-  - \rl
+  - '\rl '
   - "\\rl\t"
   replace: →ₗ
 - triggers:
   - \to_l\
-  - \to_l
+  - '\to_l '
   - "\\to_l\t"
   replace: →ₗ
 - triggers:
   - \r_l\
-  - \r_l
+  - '\r_l '
   - "\\r_l\t"
   replace: →ₗ
 - triggers:
   - \linearmap\
-  - \linearmap
+  - '\linearmap '
   - "\\linearmap\t"
   replace: →ₗ
 - triggers:
   - \tom\
-  - \tom
+  - '\tom '
   - "\\tom\t"
   replace: →ₘ
 - triggers:
   - \rm\
-  - \rm
+  - '\rm '
   - "\\rm\t"
   replace: →ₘ
 - triggers:
   - \to_m\
-  - \to_m
+  - '\to_m '
   - "\\to_m\t"
   replace: →ₘ
 - triggers:
   - \r_m\
-  - \r_m
+  - '\r_m '
   - "\\r_m\t"
   replace: →ₘ
 - triggers:
   - \aeeqfun\
-  - \aeeqfun
+  - '\aeeqfun '
   - "\\aeeqfun\t"
   replace: →ₘ
 - triggers:
   - \rp\
-  - \rp
+  - '\rp '
   - "\\rp\t"
   replace: →ₚ
 - triggers:
   - \to_p\
-  - \to_p
+  - '\to_p '
   - "\\to_p\t"
   replace: →ₚ
 - triggers:
   - \r_p\
-  - \r_p
+  - '\r_p '
   - "\\r_p\t"
   replace: →ₚ
 - triggers:
   - \dfinsupp\
-  - \dfinsupp
+  - '\dfinsupp '
   - "\\dfinsupp\t"
   replace: →ₚ
 - triggers:
   - \tos\
-  - \tos
+  - '\tos '
   - "\\tos\t"
   replace: →ₛ
 - triggers:
   - \rs\
-  - \rs
+  - '\rs '
   - "\\rs\t"
   replace: →ₛ
 - triggers:
   - \to_s\
-  - \to_s
+  - '\to_s '
   - "\\to_s\t"
   replace: →ₛ
 - triggers:
   - \r_s\
-  - \r_s
+  - '\r_s '
   - "\\r_s\t"
   replace: →ₛ
 - triggers:
   - \simplefunc\
-  - \simplefunc
+  - '\simplefunc '
   - "\\simplefunc\t"
   replace: →ₛ
 - triggers:
   - \heyting\
-  - \heyting
+  - '\heyting '
   - "\\heyting\t"
   replace: ⇨
 - triggers:
   - \himp\
-  - \himp
+  - '\himp '
   - "\\himp\t"
   replace: ⇨
 - triggers:
   - \hnot\
-  - \hnot
+  - '\hnot '
   - "\\hnot\t"
   replace: ￢
 - triggers:
   - \covers\
-  - \covers
+  - '\covers '
   - "\\covers\t"
   replace: ⋖
 - triggers:
   - \covby\
-  - \covby
+  - '\covby '
   - "\\covby\t"
   replace: ⋖
 - triggers:
   - \wcovby\
-  - \wcovby
+  - '\wcovby '
   - "\\wcovby\t"
   replace: ⩿
 - triggers:
   - \wcovers\
-  - \wcovers
+  - '\wcovers '
   - "\\wcovers\t"
   replace: ⩿
 - triggers:
   - \def=\
-  - \def=
+  - '\def= '
   - "\\def=\t"
   replace: ≝
 - triggers:
   - \defs\
-  - \defs
+  - '\defs '
   - "\\defs\t"
   replace: ≙
 - triggers:
   - \degree\
-  - \degree
+  - '\degree '
   - "\\degree\t"
   replace: °
 - triggers:
   - \dei\
-  - \dei
+  - '\dei '
   - "\\dei\t"
   replace: ϯ
 - triggers:
   - \delta\
-  - \delta
+  - '\delta '
   - "\\delta\t"
   replace: δ
 - triggers:
   - \doteqdot\
-  - \doteqdot
+  - '\doteqdot '
   - "\\doteqdot\t"
   replace: ≑
 - triggers:
   - \doteq\
-  - \doteq
+  - '\doteq '
   - "\\doteq\t"
   replace: ≐
 - triggers:
   - \dotplus\
-  - \dotplus
+  - '\dotplus '
   - "\\dotplus\t"
   replace: ∔
 - triggers:
   - \dotsquare\
-  - \dotsquare
+  - '\dotsquare '
   - "\\dotsquare\t"
   replace: ⊡
 - triggers:
   - \dot\
-  - \dot
+  - '\dot '
   - "\\dot\t"
   replace: ⬝
 - triggers:
   - \dong\
-  - \dong
+  - '\dong '
   - "\\dong\t"
   replace: ₫
 - triggers:
   - \downarrow\
-  - \downarrow
+  - '\downarrow '
   - "\\downarrow\t"
   replace: ↓
 - triggers:
   - \downdownarrows\
-  - \downdownarrows
+  - '\downdownarrows '
   - "\\downdownarrows\t"
   replace: ⇊
 - triggers:
   - \downleftharpoon\
-  - \downleftharpoon
+  - '\downleftharpoon '
   - "\\downleftharpoon\t"
   replace: ⇃
 - triggers:
   - \downrightharpoon\
-  - \downrightharpoon
+  - '\downrightharpoon '
   - "\\downrightharpoon\t"
   replace: ⇂
 - triggers:
   - \dr-\
-  - \dr-
+  - '\dr- '
   - "\\dr-\t"
   replace: ↘
 - triggers:
   - \dr=\
-  - \dr=
+  - '\dr= '
   - "\\dr=\t"
   replace: ⇘
 - triggers:
   - \drachma\
-  - \drachma
+  - '\drachma '
   - "\\drachma\t"
   replace: ₯
 - triggers:
   - \dr\
-  - \dr
+  - '\dr '
   - "\\dr\t"
   replace: ↘
 - triggers:
   - \dl-\
-  - \dl-
+  - '\dl- '
   - "\\dl-\t"
   replace: ↙
 - triggers:
   - \dl=\
-  - \dl=
+  - '\dl= '
   - "\\dl=\t"
   replace: ⇙
 - triggers:
   - \dl\
-  - \dl
+  - '\dl '
   - "\\dl\t"
   replace: ↙
 - triggers:
   - \d-2\
-  - \d-2
+  - '\d-2 '
   - "\\d-2\t"
   replace: ⇊
 - triggers:
   - \d-u-\
-  - \d-u-
+  - '\d-u- '
   - "\\d-u-\t"
   replace: ⇵
 - triggers:
   - \d-|\
-  - \d-|
+  - '\d-| '
   - "\\d-|\t"
   replace: ↧
 - triggers:
   - \d-\
-  - \d-
+  - '\d- '
   - "\\d-\t"
   replace: ↓
 - triggers:
   - \d==\
-  - \d==
+  - '\d== '
   - "\\d==\t"
   replace: ⟱
 - triggers:
   - \d=\
-  - \d=
+  - '\d= '
   - "\\d=\t"
   replace: ⇓
 - triggers:
   - \dd-\
-  - \dd-
+  - '\dd- '
   - "\\dd-\t"
   replace: ↡
 - triggers:
   - \ddagger\
-  - \ddagger
+  - '\ddagger '
   - "\\ddagger\t"
   replace: ‡
 - triggers:
   - \ddag\
-  - \ddag
+  - '\ddag '
   - "\\ddag\t"
   replace: ‡
 - triggers:
   - \ddots\
-  - \ddots
+  - '\ddots '
   - "\\ddots\t"
   replace: ⋱
 - triggers:
   - \dz\
-  - \dz
+  - '\dz '
   - "\\dz\t"
   replace: ↯
 - triggers:
   - \dib\
-  - \dib
+  - '\dib '
   - "\\dib\t"
   replace: ◆
 - triggers:
   - \diw\
-  - \diw
+  - '\diw '
   - "\\diw\t"
   replace: ◇
 - triggers:
   - \di.\
-  - \di.
+  - '\di. '
   - "\\di.\t"
   replace: ◈
 - triggers:
   - \die\
-  - \die
+  - '\die '
   - "\\die\t"
   replace: ⚀
 - triggers:
   - \division\
-  - \division
+  - '\division '
   - "\\division\t"
   replace: ÷
 - triggers:
   - \divideontimes\
-  - \divideontimes
+  - '\divideontimes '
   - "\\divideontimes\t"
   replace: ⋇
 - triggers:
   - \div\
-  - \div
+  - '\div '
   - "\\div\t"
   replace: ÷
 - triggers:
   - \diameter\
-  - \diameter
+  - '\diameter '
   - "\\diameter\t"
   replace: ⌀
 - triggers:
   - \diamondsuit\
-  - \diamondsuit
+  - '\diamondsuit '
   - "\\diamondsuit\t"
   replace: ♢
 - triggers:
   - \diamond\
-  - \diamond
+  - '\diamond '
   - "\\diamond\t"
   replace: ⋄
 - triggers:
   - \digamma\
-  - \digamma
+  - '\digamma '
   - "\\digamma\t"
   replace: ϝ
 - triggers:
   - \di\
-  - \di
+  - '\di '
   - "\\di\t"
   replace: ◆
 - triggers:
   - \dagger\
-  - \dagger
+  - '\dagger '
   - "\\dagger\t"
   replace: †
 - triggers:
   - \dag\
-  - \dag
+  - '\dag '
   - "\\dag\t"
   replace: †
 - triggers:
   - \daleth\
-  - \daleth
+  - '\daleth '
   - "\\daleth\t"
   replace: ℸ
 - triggers:
   - \dashv\
-  - \dashv
+  - '\dashv '
   - "\\dashv\t"
   replace: ⊣
 - triggers:
   - \dh\
-  - \dh
+  - '\dh '
   - "\\dh\t"
   replace: ð
 - triggers:
   - \dvd\
-  - \dvd
+  - '\dvd '
   - "\\dvd\t"
   replace: ∣
 - triggers:
   - \m=\
-  - \m=
+  - '\m= '
   - "\\m=\t"
   replace: ≞
 - triggers:
   - \meet\
-  - \meet
+  - '\meet '
   - "\\meet\t"
   replace: ⊓
 - triggers:
   - \member\
-  - \member
+  - '\member '
   - "\\member\t"
   replace: ∈
 - triggers:
   - \mem\
-  - \mem
+  - '\mem '
   - "\\mem\t"
   replace: ∈
 - triggers:
   - \measuredangle\
-  - \measuredangle
+  - '\measuredangle '
   - "\\measuredangle\t"
   replace: ∡
 - triggers:
   - \mapsto\
-  - \mapsto
+  - '\mapsto '
   - "\\mapsto\t"
   replace: ↦
 - triggers:
   - \male\
-  - \male
+  - '\male '
   - "\\male\t"
   replace: ♂
 - triggers:
   - \maltese\
-  - \maltese
+  - '\maltese '
   - "\\maltese\t"
   replace: ✠
 - triggers:
   - \manat\
-  - \manat
+  - '\manat '
   - "\\manat\t"
   replace: ₼
 - triggers:
   - \mathscr{I}\
-  - \mathscr{I}
+  - '\mathscr{I} '
   - "\\mathscr{I}\t"
   replace: ℐ
 - triggers:
   - \minus\
-  - \minus
+  - '\minus '
   - "\\minus\t"
   replace: −
 - triggers:
   - \mill\
-  - \mill
+  - '\mill '
   - "\\mill\t"
   replace: ₥
 - triggers:
   - \micro\
-  - \micro
+  - '\micro '
   - "\\micro\t"
   replace: µ
 - triggers:
   - \mid\
-  - \mid
+  - '\mid '
   - "\\mid\t"
   replace: ∣
 - triggers:
   - \multiplication\
-  - \multiplication
+  - '\multiplication '
   - "\\multiplication\t"
   replace: ×
 - triggers:
   - \multimap\
-  - \multimap
+  - '\multimap '
   - "\\multimap\t"
   replace: ⊸
 - triggers:
   - \mho\
-  - \mho
+  - '\mho '
   - "\\mho\t"
   replace: ℧
 - triggers:
   - \models\
-  - \models
+  - '\models '
   - "\\models\t"
   replace: ⊧
 - triggers:
   - \mp\
-  - \mp
+  - '\mp '
   - "\\mp\t"
   replace: ∓
 - triggers:
   - \?=\
-  - \?=
+  - '\?= '
   - "\\?=\t"
   replace: ≟
 - triggers:
   - \??\
-  - \??
+  - '\?? '
   - "\\??\t"
   replace: ⁇
 - triggers:
   - \?!\
-  - \?!
+  - '\?! '
   - "\\?!\t"
   replace: ‽
 - triggers:
   - \prohibited\
-  - \prohibited
+  - '\prohibited '
   - "\\prohibited\t"
   replace: 🛇
 - triggers:
   - \prod\
-  - \prod
+  - '\prod '
   - "\\prod\t"
   replace: ∏
 - triggers:
   - \propto\
-  - \propto
+  - '\propto '
   - "\\propto\t"
   replace: ∝
 - triggers:
   - \precapprox\
-  - \precapprox
+  - '\precapprox '
   - "\\precapprox\t"
   replace: ≾
 - triggers:
   - \preceq\
-  - \preceq
+  - '\preceq '
   - "\\preceq\t"
   replace: ≼
 - triggers:
   - \precnapprox\
-  - \precnapprox
+  - '\precnapprox '
   - "\\precnapprox\t"
   replace: ⋨
 - triggers:
   - \precnsim\
-  - \precnsim
+  - '\precnsim '
   - "\\precnsim\t"
   replace: ⋨
 - triggers:
   - \precsim\
-  - \precsim
+  - '\precsim '
   - "\\precsim\t"
   replace: ≾
 - triggers:
   - \prec\
-  - \prec
+  - '\prec '
   - "\\prec\t"
   replace: ≺
 - triggers:
   - \preim\
-  - \preim
+  - '\preim '
   - "\\preim\t"
   replace: ⁻¹'
 - triggers:
   - \preimage\
-  - \preimage
+  - '\preimage '
   - "\\preimage\t"
   replace: ⁻¹'
 - triggers:
   - \prime\
-  - \prime
+  - '\prime '
   - "\\prime\t"
   replace: ′
 - triggers:
   - \pr\
-  - \pr
+  - '\pr '
   - "\\pr\t"
   replace: ↣
 - triggers:
   - \powerset\
-  - \powerset
+  - '\powerset '
   - "\\powerset\t"
   replace: 𝒫
 - triggers:
   - \pounds\
-  - \pounds
+  - '\pounds '
   - "\\pounds\t"
   replace: £
 - triggers:
   - \pound\
-  - \pound
+  - '\pound '
   - "\\pound\t"
   replace: £
 - triggers:
   - \pab\
-  - \pab
+  - '\pab '
   - "\\pab\t"
   replace: ▰
 - triggers:
   - \paw\
-  - \paw
+  - '\paw '
   - "\\paw\t"
   replace: ▱
 - triggers:
   - \partnership\
-  - \partnership
+  - '\partnership '
   - "\\partnership\t"
   replace: ㉐
 - triggers:
   - \partial\
-  - \partial
+  - '\partial '
   - "\\partial\t"
   replace: ∂
 - triggers:
   - \paragraph\
-  - \paragraph
+  - '\paragraph '
   - "\\paragraph\t"
   replace: ¶
 - triggers:
   - \parallel\
-  - \parallel
+  - '\parallel '
   - "\\parallel\t"
   replace: ∥
 - triggers:
   - \pa\
-  - \pa
+  - '\pa '
   - "\\pa\t"
   replace: ▰
 - triggers:
   - \pm\
-  - \pm
+  - '\pm '
   - "\\pm\t"
   replace: ±
 - triggers:
   - \perp\
-  - \perp
+  - '\perp '
   - "\\perp\t"
   replace: ⟂
 - triggers:
   - \^perp\
-  - \^perp
+  - '\^perp '
   - "\\^perp\t"
   replace: ᗮ
 - triggers:
   - \permil\
-  - \permil
+  - '\permil '
   - "\\permil\t"
   replace: ‰
 - triggers:
   - \per\
-  - \per
+  - '\per '
   - "\\per\t"
   replace: ⅌
 - triggers:
   - \peso\
-  - \peso
+  - '\peso '
   - "\\peso\t"
   replace: ₱
 - triggers:
   - \peseta\
-  - \peseta
+  - '\peseta '
   - "\\peseta\t"
   replace: ₧
 - triggers:
   - \pilcrow\
-  - \pilcrow
+  - '\pilcrow '
   - "\\pilcrow\t"
   replace: ¶
 - triggers:
   - \pitchfork\
-  - \pitchfork
+  - '\pitchfork '
   - "\\pitchfork\t"
   replace: ⋔
 - triggers:
   - \psi\
-  - \psi
+  - '\psi '
   - "\\psi\t"
   replace: ψ
 - triggers:
   - \phi\
-  - \phi
+  - '\phi '
   - "\\phi\t"
   replace: φ
 - triggers:
   - \8<\
-  - \8<
+  - '\8< '
   - "\\8<\t"
   replace: ✂
 - triggers:
   - \leqn\
-  - \leqn
+  - '\leqn '
   - "\\leqn\t"
   replace: ≰
 - triggers:
   - \leqq\
-  - \leqq
+  - '\leqq '
   - "\\leqq\t"
   replace: ≦
 - triggers:
   - \leqslant\
-  - \leqslant
+  - '\leqslant '
   - "\\leqslant\t"
   replace: ≤
 - triggers:
   - \leq\
-  - \leq
+  - '\leq '
   - "\\leq\t"
   replace: ≤
 - triggers:
   - \len\
-  - \len
+  - '\len '
   - "\\len\t"
   replace: ≰
 - triggers:
   - \leadsto\
-  - \leadsto
+  - '\leadsto '
   - "\\leadsto\t"
   replace: ↝
 - triggers:
   - \leftarrowtail\
-  - \leftarrowtail
+  - '\leftarrowtail '
   - "\\leftarrowtail\t"
   replace: ↢
 - triggers:
   - \leftarrow\
-  - \leftarrow
+  - '\leftarrow '
   - "\\leftarrow\t"
   replace: ←
 - triggers:
   - \leftharpoondown\
-  - \leftharpoondown
+  - '\leftharpoondown '
   - "\\leftharpoondown\t"
   replace: ↽
 - triggers:
   - \leftharpoonup\
-  - \leftharpoonup
+  - '\leftharpoonup '
   - "\\leftharpoonup\t"
   replace: ↼
 - triggers:
   - \leftleftarrows\
-  - \leftleftarrows
+  - '\leftleftarrows '
   - "\\leftleftarrows\t"
   replace: ⇇
 - triggers:
   - \leftrightarrows\
-  - \leftrightarrows
+  - '\leftrightarrows '
   - "\\leftrightarrows\t"
   replace: ⇆
 - triggers:
   - \leftrightarrow\
-  - \leftrightarrow
+  - '\leftrightarrow '
   - "\\leftrightarrow\t"
   replace: ↔
 - triggers:
   - \leftrightharpoons\
-  - \leftrightharpoons
+  - '\leftrightharpoons '
   - "\\leftrightharpoons\t"
   replace: ⇋
 - triggers:
   - \leftrightsquigarrow\
-  - \leftrightsquigarrow
+  - '\leftrightsquigarrow '
   - "\\leftrightsquigarrow\t"
   replace: ↭
 - triggers:
   - \leftthreetimes\
-  - \leftthreetimes
+  - '\leftthreetimes '
   - "\\leftthreetimes\t"
   replace: ⋋
 - triggers:
   - \lessapprox\
-  - \lessapprox
+  - '\lessapprox '
   - "\\lessapprox\t"
   replace: ≲
 - triggers:
   - \lessdot\
-  - \lessdot
+  - '\lessdot '
   - "\\lessdot\t"
   replace: ⋖
 - triggers:
   - \lesseqgtr\
-  - \lesseqgtr
+  - '\lesseqgtr '
   - "\\lesseqgtr\t"
   replace: ⋚
 - triggers:
   - \lesseqqgtr\
-  - \lesseqqgtr
+  - '\lesseqqgtr '
   - "\\lesseqqgtr\t"
   replace: ⋚
 - triggers:
   - \lessgtr\
-  - \lessgtr
+  - '\lessgtr '
   - "\\lessgtr\t"
   replace: ≶
 - triggers:
   - \lesssim\
-  - \lesssim
+  - '\lesssim '
   - "\\lesssim\t"
   replace: ≲
 - triggers:
   - \le\
-  - \le
+  - '\le '
   - "\\le\t"
   replace: ≤
 - triggers:
   - \lub\
-  - \lub
+  - '\lub '
   - "\\lub\t"
   replace: ⊔
 - triggers:
   - \lr--\
-  - \lr--
+  - '\lr-- '
   - "\\lr--\t"
   replace: ⟷
 - triggers:
   - \lr-n\
-  - \lr-n
+  - '\lr-n '
   - "\\lr-n\t"
   replace: ↮
 - triggers:
   - \lr-\
-  - \lr-
+  - '\lr- '
   - "\\lr-\t"
   replace: ↔
 - triggers:
   - \lr=n\
-  - \lr=n
+  - '\lr=n '
   - "\\lr=n\t"
   replace: ⇎
 - triggers:
   - \lr=\
-  - \lr=
+  - '\lr= '
   - "\\lr=\t"
   replace: ⇔
 - triggers:
   - \lr~\
-  - \lr~
+  - '\lr~ '
   - "\\lr~\t"
   replace: ↭
 - triggers:
   - \lrcorner\
-  - \lrcorner
+  - '\lrcorner '
   - "\\lrcorner\t"
   replace: ⌟
 - triggers:
   - \lr\
-  - \lr
+  - '\lr '
   - "\\lr\t"
   replace: ↔
 - triggers:
   - \l-2\
-  - \l-2
+  - '\l-2 '
   - "\\l-2\t"
   replace: ⇇
 - triggers:
   - \l-r-\
-  - \l-r-
+  - '\l-r- '
   - "\\l-r-\t"
   replace: ⇆
 - triggers:
   - \l--\
-  - \l--
+  - '\l-- '
   - "\\l--\t"
   replace: ⟵
 - triggers:
   - \l-n\
-  - \l-n
+  - '\l-n '
   - "\\l-n\t"
   replace: ↚
 - triggers:
   - \l-|\
-  - \l-|
+  - '\l-| '
   - "\\l-|\t"
   replace: ↤
 - triggers:
   - \l->\
-  - \l->
+  - '\l-> '
   - "\\l->\t"
   replace: ↢
 - triggers:
   - \l-\
-  - \l-
+  - '\l- '
   - "\\l-\t"
   replace: ←
 - triggers:
   - \l==\
-  - \l==
+  - '\l== '
   - "\\l==\t"
   replace: ⇚
 - triggers:
   - \l=n\
-  - \l=n
+  - '\l=n '
   - "\\l=n\t"
   replace: ⇍
 - triggers:
   - \l=\
-  - \l=
+  - '\l= '
   - "\\l=\t"
   replace: ⇐
 - triggers:
   - \l~\
-  - \l~
+  - '\l~ '
   - "\\l~\t"
   replace: ↜
 - triggers:
   - \ll-\
-  - \ll-
+  - '\ll- '
   - "\\ll-\t"
   replace: ↞
 - triggers:
   - \llcorner\
-  - \llcorner
+  - '\llcorner '
   - "\\llcorner\t"
   replace: ⌞
 - triggers:
   - \llbracket\
-  - \llbracket
+  - '\llbracket '
   - "\\llbracket\t"
   replace: 〚
 - triggers:
   - \ll\
-  - \ll
+  - '\ll '
   - "\\ll\t"
   replace: ≪
 - triggers:
   - \lbag\
-  - \lbag
+  - '\lbag '
   - "\\lbag\t"
   replace: ⟅
 - triggers:
   - \lambda\
-  - \lambda
+  - '\lambda '
   - "\\lambda\t"
   replace: λ
 - triggers:
   - \lamda\
-  - \lamda
+  - '\lamda '
   - "\\lamda\t"
   replace: λ
 - triggers:
   - \lam\
-  - \lam
+  - '\lam '
   - "\\lam\t"
   replace: λ
 - triggers:
   - \lari\
-  - \lari
+  - '\lari '
   - "\\lari\t"
   replace: ₾
 - triggers:
   - \langle\
-  - \langle
+  - '\langle '
   - "\\langle\t"
   replace: ⟨
 - triggers:
   - \lira\
-  - \lira
+  - '\lira '
   - "\\lira\t"
   replace: ₤
 - triggers:
   - \lceil\
-  - \lceil
+  - '\lceil '
   - "\\lceil\t"
   replace: ⌈
 - triggers:
   - \ldots\
-  - \ldots
+  - '\ldots '
   - "\\ldots\t"
   replace: …
 - triggers:
   - \ldq\
-  - \ldq
+  - '\ldq '
   - "\\ldq\t"
   replace: “
 - triggers:
   - \ldata\
-  - \ldata
+  - '\ldata '
   - "\\ldata\t"
   replace: 《
 - triggers:
   - \lfloor\
-  - \lfloor
+  - '\lfloor '
   - "\\lfloor\t"
   replace: ⌊
 - triggers:
   - \lf\
-  - \lf
+  - '\lf '
   - "\\lf\t"
   replace: ⧏
 - triggers:
   - \<|\
-  - \<|
+  - '\<| '
   - "\\<|\t"
   replace: ⧏
 - triggers:
   - \lhd\
-  - \lhd
+  - '\lhd '
   - "\\lhd\t"
   replace: ◁
 - triggers:
   - \lnapprox\
-  - \lnapprox
+  - '\lnapprox '
   - "\\lnapprox\t"
   replace: ⋦
 - triggers:
   - \lneqq\
-  - \lneqq
+  - '\lneqq '
   - "\\lneqq\t"
   replace: ≨
 - triggers:
   - \lneq\
-  - \lneq
+  - '\lneq '
   - "\\lneq\t"
   replace: ≨
 - triggers:
   - \lnsim\
-  - \lnsim
+  - '\lnsim '
   - "\\lnsim\t"
   replace: ⋦
 - triggers:
   - \lnot\
-  - \lnot
+  - '\lnot '
   - "\\lnot\t"
   replace: ¬
 - triggers:
   - \longleftarrow\
-  - \longleftarrow
+  - '\longleftarrow '
   - "\\longleftarrow\t"
   replace: ⟵
 - triggers:
   - \longleftrightarrow\
-  - \longleftrightarrow
+  - '\longleftrightarrow '
   - "\\longleftrightarrow\t"
   replace: ⟷
 - triggers:
   - \longrightarrow\
-  - \longrightarrow
+  - '\longrightarrow '
   - "\\longrightarrow\t"
   replace: ⟶
 - triggers:
   - \looparrowleft\
-  - \looparrowleft
+  - '\looparrowleft '
   - "\\looparrowleft\t"
   replace: ↫
 - triggers:
   - \looparrowright\
-  - \looparrowright
+  - '\looparrowright '
   - "\\looparrowright\t"
   replace: ↬
 - triggers:
   - \lozenge\
-  - \lozenge
+  - '\lozenge '
   - "\\lozenge\t"
   replace: ✧
 - triggers:
   - \lq\
-  - \lq
+  - '\lq '
   - "\\lq\t"
   replace: ‘
 - triggers:
   - \ltimes\
-  - \ltimes
+  - '\ltimes '
   - "\\ltimes\t"
   replace: ⋉
 - triggers:
   - \lvertneqq\
-  - \lvertneqq
+  - '\lvertneqq '
   - "\\lvertneqq\t"
   replace: ≨
 - triggers:
   - \geqn\
-  - \geqn
+  - '\geqn '
   - "\\geqn\t"
   replace: ≱
 - triggers:
   - \geqq\
-  - \geqq
+  - '\geqq '
   - "\\geqq\t"
   replace: ≧
 - triggers:
   - \geqslant\
-  - \geqslant
+  - '\geqslant '
   - "\\geqslant\t"
   replace: ≥
 - triggers:
   - \geq\
-  - \geq
+  - '\geq '
   - "\\geq\t"
   replace: ≥
 - triggers:
   - \gen\
-  - \gen
+  - '\gen '
   - "\\gen\t"
   replace: ≱
 - triggers:
   - \gets\
-  - \gets
+  - '\gets '
   - "\\gets\t"
   replace: ←
 - triggers:
   - \ge\
-  - \ge
+  - '\ge '
   - "\\ge\t"
   replace: ≥
 - triggers:
   - \glb\
-  - \glb
+  - '\glb '
   - "\\glb\t"
   replace: ⊓
 - triggers:
   - \glqq\
-  - \glqq
+  - '\glqq '
   - "\\glqq\t"
   replace: „
 - triggers:
   - \glq\
-  - \glq
+  - '\glq '
   - "\\glq\t"
   replace: ‚
 - triggers:
   - \guarani\
-  - \guarani
+  - '\guarani '
   - "\\guarani\t"
   replace: ₲
 - triggers:
   - \gangia\
-  - \gangia
+  - '\gangia '
   - "\\gangia\t"
   replace: ϫ
 - triggers:
   - \gamma\
-  - \gamma
+  - '\gamma '
   - "\\gamma\t"
   replace: γ
 - triggers:
   - \ggg\
-  - \ggg
+  - '\ggg '
   - "\\ggg\t"
   replace: ⋙
 - triggers:
   - \gg\
-  - \gg
+  - '\gg '
   - "\\gg\t"
   replace: ≫
 - triggers:
   - \gimel\
-  - \gimel
+  - '\gimel '
   - "\\gimel\t"
   replace: ℷ
 - triggers:
   - \gnapprox\
-  - \gnapprox
+  - '\gnapprox '
   - "\\gnapprox\t"
   replace: ⋧
 - triggers:
   - \gneqq\
-  - \gneqq
+  - '\gneqq '
   - "\\gneqq\t"
   replace: ≩
 - triggers:
   - \gneq\
-  - \gneq
+  - '\gneq '
   - "\\gneq\t"
   replace: ≩
 - triggers:
   - \gnsim\
-  - \gnsim
+  - '\gnsim '
   - "\\gnsim\t"
   replace: ⋧
 - triggers:
   - \gtrapprox\
-  - \gtrapprox
+  - '\gtrapprox '
   - "\\gtrapprox\t"
   replace: ≳
 - triggers:
   - \gtrdot\
-  - \gtrdot
+  - '\gtrdot '
   - "\\gtrdot\t"
   replace: ⋗
 - triggers:
   - \gtreqless\
-  - \gtreqless
+  - '\gtreqless '
   - "\\gtreqless\t"
   replace: ⋛
 - triggers:
   - \gtreqqless\
-  - \gtreqqless
+  - '\gtreqqless '
   - "\\gtreqqless\t"
   replace: ⋛
 - triggers:
   - \gtrless\
-  - \gtrless
+  - '\gtrless '
   - "\\gtrless\t"
   replace: ≷
 - triggers:
   - \gtrsim\
-  - \gtrsim
+  - '\gtrsim '
   - "\\gtrsim\t"
   replace: ≳
 - triggers:
   - \gvertneqq\
-  - \gvertneqq
+  - '\gvertneqq '
   - "\\gvertneqq\t"
   replace: ≩
 - triggers:
   - \grqq\
-  - \grqq
+  - '\grqq '
   - "\\grqq\t"
   replace: “
 - triggers:
   - \grq\
-  - \grq
+  - '\grq '
   - "\\grq\t"
   replace: ‘
 - triggers:
   - \<=n\
-  - \<=n
+  - '\<=n '
   - "\\<=n\t"
   replace: ≰
 - triggers:
   - \<=>n\
-  - \<=>n
+  - '\<=>n '
   - "\\<=>n\t"
   replace: ⇎
 - triggers:
   - \<=>\
-  - \<=>
+  - '\<=> '
   - "\\<=>\t"
   replace: ⇔
 - triggers:
   - \<=\
-  - \<=
+  - '\<= '
   - "\\<=\t"
   replace: ≤
 - triggers:
   - \<n\
-  - \<n
+  - '\<n '
   - "\\<n\t"
   replace: ≮
 - triggers:
   - \<~nn\
-  - \<~nn
+  - '\<~nn '
   - "\\<~nn\t"
   replace: ≴
 - triggers:
   - \<~n\
-  - \<~n
+  - '\<~n '
   - "\\<~n\t"
   replace: ⋦
 - triggers:
   - \<~\
-  - \<~
+  - '\<~ '
   - "\\<~\t"
   replace: ≲
 - triggers:
   - \<:\
-  - '\<:'
+  - '\<: '
   - "\\<:\t"
   replace: ⋖
 - triggers:
   - \:>\
-  - \:>
+  - '\:> '
   - "\\:>\t"
   replace: ⋗
 - triggers:
   - \<->n\
-  - \<->n
+  - '\<->n '
   - "\\<->n\t"
   replace: ↮
 - triggers:
   - \<->\
-  - \<->
+  - '\<-> '
   - "\\<->\t"
   replace: ↔
 - triggers:
   - \<-->\
-  - \<-->
+  - '\<--> '
   - "\\<-->\t"
   replace: ⟷
 - triggers:
   - \<--\
-  - \<--
+  - '\<-- '
   - "\\<--\t"
   replace: ⟵
 - triggers:
   - \<-n\
-  - \<-n
+  - '\<-n '
   - "\\<-n\t"
   replace: ↚
 - triggers:
   - \<-\
-  - \<-
+  - '\<- '
   - "\\<-\t"
   replace: ←
 - triggers:
   - \<<\
-  - \<<
+  - '\<< '
   - "\\<<\t"
   replace: ⟪
 - triggers:
   - \>=n\
-  - \>=n
+  - '\>=n '
   - "\\>=n\t"
   replace: ≱
 - triggers:
   - \>=\
-  - \>=
+  - '\>= '
   - "\\>=\t"
   replace: ≥
 - triggers:
   - \>n\
-  - \>n
+  - '\>n '
   - "\\>n\t"
   replace: ≯
 - triggers:
   - \>~nn\
-  - \>~nn
+  - '\>~nn '
   - "\\>~nn\t"
   replace: ≵
 - triggers:
   - \>~n\
-  - \>~n
+  - '\>~n '
   - "\\>~n\t"
   replace: ⋧
 - triggers:
   - \>~\
-  - \>~
+  - '\>~ '
   - "\\>~\t"
   replace: ≳
 - triggers:
   - \>>\
-  - \>>
+  - '\>> '
   - "\\>>\t"
   replace: ⟫
 - triggers:
   - \root\
-  - \root
+  - '\root '
   - "\\root\t"
   replace: √
 - triggers:
   - \ssubn\
-  - \ssubn
+  - '\ssubn '
   - "\\ssubn\t"
   replace: ⊄
 - triggers:
   - \ssub\
-  - \ssub
+  - '\ssub '
   - "\\ssub\t"
   replace: ⊂
 - triggers:
   - \ssupn\
-  - \ssupn
+  - '\ssupn '
   - "\\ssupn\t"
   replace: ⊅
 - triggers:
   - \ssup\
-  - \ssup
+  - '\ssup '
   - "\\ssup\t"
   replace: ⊃
 - triggers:
   - \ssqub\
-  - \ssqub
+  - '\ssqub '
   - "\\ssqub\t"
   replace: ⊏
 - triggers:
   - \ssqup\
-  - \ssqup
+  - '\ssqup '
   - "\\ssqup\t"
   replace: ⊐
 - triggers:
   - \ss\
-  - \ss
+  - '\ss '
   - "\\ss\t"
   replace: ⊆
 - triggers:
   - \subn\
-  - \subn
+  - '\subn '
   - "\\subn\t"
   replace: ⊈
 - triggers:
   - \subseteqq\
-  - \subseteqq
+  - '\subseteqq '
   - "\\subseteqq\t"
   replace: ⊆
 - triggers:
   - \subseteq\
-  - \subseteq
+  - '\subseteq '
   - "\\subseteq\t"
   replace: ⊆
 - triggers:
   - \subsetneqq\
-  - \subsetneqq
+  - '\subsetneqq '
   - "\\subsetneqq\t"
   replace: ⊊
 - triggers:
   - \subsetneq\
-  - \subsetneq
+  - '\subsetneq '
   - "\\subsetneq\t"
   replace: ⊊
 - triggers:
   - \subset\
-  - \subset
+  - '\subset '
   - "\\subset\t"
   replace: ⊆
 - triggers:
   - \ssubset\
-  - \ssubset
+  - '\ssubset '
   - "\\ssubset\t"
   replace: ⊂
 - triggers:
   - \sub\
-  - \sub
+  - '\sub '
   - "\\sub\t"
   replace: ⊆
 - triggers:
   - \supn\
-  - \supn
+  - '\supn '
   - "\\supn\t"
   replace: ⊉
 - triggers:
   - \supseteqq\
-  - \supseteqq
+  - '\supseteqq '
   - "\\supseteqq\t"
   replace: ⊇
 - triggers:
   - \supseteq\
-  - \supseteq
+  - '\supseteq '
   - "\\supseteq\t"
   replace: ⊇
 - triggers:
   - \supsetneqq\
-  - \supsetneqq
+  - '\supsetneqq '
   - "\\supsetneqq\t"
   replace: ⊋
 - triggers:
   - \supsetneq\
-  - \supsetneq
+  - '\supsetneq '
   - "\\supsetneq\t"
   replace: ⊋
 - triggers:
   - \supset\
-  - \supset
+  - '\supset '
   - "\\supset\t"
   replace: ⊇
 - triggers:
   - \ssupset\
-  - \ssupset
+  - '\ssupset '
   - "\\ssupset\t"
   replace: ⊃
 - triggers:
   - \sUnion\
-  - \sUnion
+  - '\sUnion '
   - "\\sUnion\t"
   replace: ⋃₀
 - triggers:
   - \sInter\
-  - \sInter
+  - '\sInter '
   - "\\sInter\t"
   replace: ⋂₀
 - triggers:
   - \sup\
-  - \sup
+  - '\sup '
   - "\\sup\t"
   replace: ⊔
 - triggers:
   - \supr\
-  - \supr
+  - '\supr '
   - "\\supr\t"
   replace: ⨆
 - triggers:
   - \surd3\
-  - \surd3
+  - '\surd3 '
   - "\\surd3\t"
   replace: ∛
 - triggers:
   - \surd4\
-  - \surd4
+  - '\surd4 '
   - "\\surd4\t"
   replace: ∜
 - triggers:
   - \surd\
-  - \surd
+  - '\surd '
   - "\\surd\t"
   replace: √
 - triggers:
   - \succapprox\
-  - \succapprox
+  - '\succapprox '
   - "\\succapprox\t"
   replace: ≿
 - triggers:
   - \succcurlyeq\
-  - \succcurlyeq
+  - '\succcurlyeq '
   - "\\succcurlyeq\t"
   replace: ≽
 - triggers:
   - \succeq\
-  - \succeq
+  - '\succeq '
   - "\\succeq\t"
   replace: ≽
 - triggers:
   - \succnapprox\
-  - \succnapprox
+  - '\succnapprox '
   - "\\succnapprox\t"
   replace: ⋩
 - triggers:
   - \succnsim\
-  - \succnsim
+  - '\succnsim '
   - "\\succnsim\t"
   replace: ⋩
 - triggers:
   - \succsim\
-  - \succsim
+  - '\succsim '
   - "\\succsim\t"
   replace: ≿
 - triggers:
   - \succ\
-  - \succ
+  - '\succ '
   - "\\succ\t"
   replace: ≻
 - triggers:
   - \sum\
-  - \sum
+  - '\sum '
   - "\\sum\t"
   replace: ∑
 - triggers:
   - \specializes\
-  - \specializes
+  - '\specializes '
   - "\\specializes\t"
   replace: ⤳
 - triggers:
   - \~>\
-  - \~>
+  - '\~> '
   - "\\~>\t"
   replace: ⤳
 - triggers:
   - \squbn\
-  - \squbn
+  - '\squbn '
   - "\\squbn\t"
   replace: ⋢
 - triggers:
   - \squb\
-  - \squb
+  - '\squb '
   - "\\squb\t"
   replace: ⊑
 - triggers:
   - \squpn\
-  - \squpn
+  - '\squpn '
   - "\\squpn\t"
   replace: ⋣
 - triggers:
   - \squp\
-  - \squp
+  - '\squp '
   - "\\squp\t"
   replace: ⊒
 - triggers:
   - \square\
-  - \square
+  - '\square '
   - "\\square\t"
   replace: □
 - triggers:
   - \squigarrowright\
-  - \squigarrowright
+  - '\squigarrowright '
   - "\\squigarrowright\t"
   replace: ⇝
 - triggers:
   - \sqb\
-  - \sqb
+  - '\sqb '
   - "\\sqb\t"
   replace: ■
 - triggers:
   - \sqw\
-  - \sqw
+  - '\sqw '
   - "\\sqw\t"
   replace: □
 - triggers:
   - \sq.\
-  - \sq.
+  - '\sq. '
   - "\\sq.\t"
   replace: ▣
 - triggers:
   - \sqo\
-  - \sqo
+  - '\sqo '
   - "\\sqo\t"
   replace: ▢
 - triggers:
   - \sqcap\
-  - \sqcap
+  - '\sqcap '
   - "\\sqcap\t"
   replace: ⊓
 - triggers:
   - \sqcup\
-  - \sqcup
+  - '\sqcup '
   - "\\sqcup\t"
   replace: ⊔
 - triggers:
   - \sqrt\
-  - \sqrt
+  - '\sqrt '
   - "\\sqrt\t"
   replace: √
 - triggers:
   - \sqsubseteq\
-  - \sqsubseteq
+  - '\sqsubseteq '
   - "\\sqsubseteq\t"
   replace: ⊑
 - triggers:
   - \sqsubset\
-  - \sqsubset
+  - '\sqsubset '
   - "\\sqsubset\t"
   replace: ⊏
 - triggers:
   - \sqsupseteq\
-  - \sqsupseteq
+  - '\sqsupseteq '
   - "\\sqsupseteq\t"
   replace: ⊒
 - triggers:
   - \sqsupset\
-  - \sqsupset
+  - '\sqsupset '
   - "\\sqsupset\t"
   replace: ⊐
 - triggers:
   - \sq\
-  - \sq
+  - '\sq '
   - "\\sq\t"
   replace: ◾
 - triggers:
   - \sy\
-  - \sy
+  - '\sy '
   - "\\sy\t"
   replace: ⁻¹
 - triggers:
   - \symmdiff\
-  - \symmdiff
+  - '\symmdiff '
   - "\\symmdiff\t"
   replace: ∆
 - triggers:
   - \st4\
-  - \st4
+  - '\st4 '
   - "\\st4\t"
   replace: ✦
 - triggers:
   - \st6\
-  - \st6
+  - '\st6 '
   - "\\st6\t"
   replace: ✶
 - triggers:
   - \st8\
-  - \st8
+  - '\st8 '
   - "\\st8\t"
   replace: ✴
 - triggers:
   - \st12\
-  - \st12
+  - '\st12 '
   - "\\st12\t"
   replace: ✹
 - triggers:
   - \stigma\
-  - \stigma
+  - '\stigma '
   - "\\stigma\t"
   replace: ϛ
 - triggers:
   - \star\
-  - \star
+  - '\star '
   - "\\star\t"
   replace: ⋆
 - triggers:
   - \straightphi\
-  - \straightphi
+  - '\straightphi '
   - "\\straightphi\t"
   replace: φ
 - triggers:
   - \st\
-  - \st
+  - '\st '
   - "\\st\t"
   replace: ⋆
 - triggers:
   - \spesmilo\
-  - \spesmilo
+  - '\spesmilo '
   - "\\spesmilo\t"
   replace: ₷
 - triggers:
   - \span\
-  - \span
+  - '\span '
   - "\\span\t"
   replace: ∙
 - triggers:
   - \spadesuit\
-  - \spadesuit
+  - '\spadesuit '
   - "\\spadesuit\t"
   replace: ♠
 - triggers:
   - \sphericalangle\
-  - \sphericalangle
+  - '\sphericalangle '
   - "\\sphericalangle\t"
   replace: ∢
 - triggers:
   - \section\
-  - \section
+  - '\section '
   - "\\section\t"
   replace: §
 - triggers:
   - \searrow\
-  - \searrow
+  - '\searrow '
   - "\\searrow\t"
   replace: ↘
 - triggers:
   - \setminus\
-  - \setminus
+  - '\setminus '
   - "\\setminus\t"
   replace: \
 - triggers:
   - \san\
-  - \san
+  - '\san '
   - "\\san\t"
   replace: ϻ
 - triggers:
   - \sampi\
-  - \sampi
+  - '\sampi '
   - "\\sampi\t"
   replace: ϡ
 - triggers:
   - \shortmid\
-  - \shortmid
+  - '\shortmid '
   - "\\shortmid\t"
   replace: ∣
 - triggers:
   - \sho\
-  - \sho
+  - '\sho '
   - "\\sho\t"
   replace: ϸ
 - triggers:
   - \shima\
-  - \shima
+  - '\shima '
   - "\\shima\t"
   replace: ϭ
 - triggers:
   - \shei\
-  - \shei
+  - '\shei '
   - "\\shei\t"
   replace: ϣ
 - triggers:
   - \sharp\
-  - \sharp
+  - '\sharp '
   - "\\sharp\t"
   replace: ♯
 - triggers:
   - \sigma\
-  - \sigma
+  - '\sigma '
   - "\\sigma\t"
   replace: σ
 - triggers:
   - \simeq\
-  - \simeq
+  - '\simeq '
   - "\\simeq\t"
   replace: ≃
 - triggers:
   - \sim\
-  - \sim
+  - '\sim '
   - "\\sim\t"
   replace: ∼
 - triggers:
   - \sbs\
-  - \sbs
+  - '\sbs '
   - "\\sbs\t"
   replace: ﹨
 - triggers:
   - \smallamalg\
-  - \smallamalg
+  - '\smallamalg '
   - "\\smallamalg\t"
   replace: ∐
 - triggers:
   - \smallsetminus\
-  - \smallsetminus
+  - '\smallsetminus '
   - "\\smallsetminus\t"
   replace: ∖
 - triggers:
   - \smallsmile\
-  - \smallsmile
+  - '\smallsmile '
   - "\\smallsmile\t"
   replace: ⌣
 - triggers:
   - \smile\
-  - \smile
+  - '\smile '
   - "\\smile\t"
   replace: ⌣
 - triggers:
   - \smul\
-  - \smul
+  - '\smul '
   - "\\smul\t"
   replace: •
 - triggers:
   - \swarrow\
-  - \swarrow
+  - '\swarrow '
   - "\\swarrow\t"
   replace: ↙
 - triggers:
   - \Tr\
-  - \Tr
+  - '\Tr '
   - "\\Tr\t"
   replace: ◀
 - triggers:
   - \Tb\
-  - \Tb
+  - '\Tb '
   - "\\Tb\t"
   replace: ◀
 - triggers:
   - \Tw\
-  - \Tw
+  - '\Tw '
   - "\\Tw\t"
   replace: ◁
 - triggers:
   - \Tau\
-  - \Tau
+  - '\Tau '
   - "\\Tau\t"
   replace: Τ
 - triggers:
   - \Theta\
-  - \Theta
+  - '\Theta '
   - "\\Theta\t"
   replace: Θ
 - triggers:
   - \TH\
-  - \TH
+  - '\TH '
   - "\\TH\t"
   replace: Þ
 - triggers:
   - \union\
-  - \union
+  - '\union '
   - "\\union\t"
   replace: ∪
 - triggers:
   - \undertie\
-  - \undertie
+  - '\undertie '
   - "\\undertie\t"
   replace: ‿
 - triggers:
   - \uncertainty\
-  - \uncertainty
+  - '\uncertainty '
   - "\\uncertainty\t"
   replace: ⯑
 - triggers:
   - \un\
-  - \un
+  - '\un '
   - "\\un\t"
   replace: ∪
 - triggers:
   - \u+\
-  - \u+
+  - '\u+ '
   - "\\u+\t"
   replace: ⊎
 - triggers:
   - \u.\
-  - \u.
+  - '\u. '
   - "\\u.\t"
   replace: ⊍
 - triggers:
   - \ud-|\
-  - \ud-|
+  - '\ud-| '
   - "\\ud-|\t"
   replace: ↨
 - triggers:
   - \ud-\
-  - \ud-
+  - '\ud- '
   - "\\ud-\t"
   replace: ↕
 - triggers:
   - \ud=\
-  - \ud=
+  - '\ud= '
   - "\\ud=\t"
   replace: ⇕
 - triggers:
   - \ud\
-  - \ud
+  - '\ud '
   - "\\ud\t"
   replace: ↕
 - triggers:
   - \ul-\
-  - \ul-
+  - '\ul- '
   - "\\ul-\t"
   replace: ↖
 - triggers:
   - \ul=\
-  - \ul=
+  - '\ul= '
   - "\\ul=\t"
   replace: ⇖
 - triggers:
   - \ulcorner\
-  - \ulcorner
+  - '\ulcorner '
   - "\\ulcorner\t"
   replace: ⌜
 - triggers:
   - \ul\
-  - \ul
+  - '\ul '
   - "\\ul\t"
   replace: ↖
 - triggers:
   - \ur-\
-  - \ur-
+  - '\ur- '
   - "\\ur-\t"
   replace: ↗
 - triggers:
   - \ur=\
-  - \ur=
+  - '\ur= '
   - "\\ur=\t"
   replace: ⇗
 - triggers:
   - \urcorner\
-  - \urcorner
+  - '\urcorner '
   - "\\urcorner\t"
   replace: ⌝
 - triggers:
   - \ur\
-  - \ur
+  - '\ur '
   - "\\ur\t"
   replace: ↗
 - triggers:
   - \u-2\
-  - \u-2
+  - '\u-2 '
   - "\\u-2\t"
   replace: ⇈
 - triggers:
   - \u-d-\
-  - \u-d-
+  - '\u-d- '
   - "\\u-d-\t"
   replace: ⇅
 - triggers:
   - \u-|\
-  - \u-|
+  - '\u-| '
   - "\\u-|\t"
   replace: ↥
 - triggers:
   - \u-\
-  - \u-
+  - '\u- '
   - "\\u-\t"
   replace: ↑
 - triggers:
   - \u==\
-  - \u==
+  - '\u== '
   - "\\u==\t"
   replace: ⟰
 - triggers:
   - \u=\
-  - \u=
+  - '\u= '
   - "\\u=\t"
   replace: ⇑
 - triggers:
   - \uu-\
-  - \uu-
+  - '\uu- '
   - "\\uu-\t"
   replace: ↟
 - triggers:
   - \upsilon\
-  - \upsilon
+  - '\upsilon '
   - "\\upsilon\t"
   replace: υ
 - triggers:
   - \uparrow\
-  - \uparrow
+  - '\uparrow '
   - "\\uparrow\t"
   replace: ↑
 - triggers:
   - \updownarrow\
-  - \updownarrow
+  - '\updownarrow '
   - "\\updownarrow\t"
   replace: ↕
 - triggers:
   - \upleftharpoon\
-  - \upleftharpoon
+  - '\upleftharpoon '
   - "\\upleftharpoon\t"
   replace: ↿
 - triggers:
   - \uplus\
-  - \uplus
+  - '\uplus '
   - "\\uplus\t"
   replace: ⊎
 - triggers:
   - \uprightharpoon\
-  - \uprightharpoon
+  - '\uprightharpoon '
   - "\\uprightharpoon\t"
   replace: ↾
 - triggers:
   - \upuparrows\
-  - \upuparrows
+  - '\upuparrows '
   - "\\upuparrows\t"
   replace: ⇈
 - triggers:
   - \And\
-  - \And
+  - '\And '
   - "\\And\t"
   replace: ⋀
 - triggers:
   - \AA\
-  - \AA
+  - '\AA '
   - "\\AA\t"
   replace: Å
 - triggers:
   - \AE\
-  - \AE
+  - '\AE '
   - "\\AE\t"
   replace: Æ
 - triggers:
   - \Alpha\
-  - \Alpha
+  - '\Alpha '
   - "\\Alpha\t"
   replace: Α
 - triggers:
   - \Or\
-  - \Or
+  - '\Or '
   - "\\Or\t"
   replace: ⋁
 - triggers:
   - \O+\
-  - \O+
+  - '\O+ '
   - "\\O+\t"
   replace: ⨁
 - triggers:
   - \directsum\
-  - \directsum
+  - '\directsum '
   - "\\directsum\t"
   replace: ⨁
 - triggers:
   - \Ox\
-  - \Ox
+  - '\Ox '
   - "\\Ox\t"
   replace: ⨂
 - triggers:
   - \O.\
-  - \O.
+  - '\O. '
   - "\\O.\t"
   replace: ⨀
 - triggers:
   - \O*\
-  - \O*
+  - '\O* '
   - "\\O*\t"
   replace: ⍟
 - triggers:
   - \OE\
-  - \OE
+  - '\OE '
   - "\\OE\t"
   replace: Œ
 - triggers:
   - \Omega\
-  - \Omega
+  - '\Omega '
   - "\\Omega\t"
   replace: Ω
 - triggers:
   - \Omicron\
-  - \Omicron
+  - '\Omicron '
   - "\\Omicron\t"
   replace: Ο
 - triggers:
   - \Int\
-  - \Int
+  - '\Int '
   - "\\Int\t"
   replace: ℤ
 - triggers:
   - \Inter\
-  - \Inter
+  - '\Inter '
   - "\\Inter\t"
   replace: ⋂
 - triggers:
   - \bInter\
-  - \bInter
+  - '\bInter '
   - "\\bInter\t"
   replace: ⋂
 - triggers:
   - \Iota\
-  - \Iota
+  - '\Iota '
   - "\\Iota\t"
   replace: Ι
 - triggers:
   - \Im\
-  - \Im
+  - '\Im '
   - "\\Im\t"
   replace: ℑ
 - triggers:
   - \Un\
-  - \Un
+  - '\Un '
   - "\\Un\t"
   replace: ⋃
 - triggers:
   - \Union\
-  - \Union
+  - '\Union '
   - "\\Union\t"
   replace: ⋃
 - triggers:
   - \bUnion\
-  - \bUnion
+  - '\bUnion '
   - "\\bUnion\t"
   replace: ⋃
 - triggers:
   - \U+\
-  - \U+
+  - '\U+ '
   - "\\U+\t"
   replace: ⨄
 - triggers:
   - \U.\
-  - \U.
+  - '\U. '
   - "\\U.\t"
   replace: ⨃
 - triggers:
   - \Upsilon\
-  - \Upsilon
+  - '\Upsilon '
   - "\\Upsilon\t"
   replace: Υ
 - triggers:
   - \Uparrow\
-  - \Uparrow
+  - '\Uparrow '
   - "\\Uparrow\t"
   replace: ⇑
 - triggers:
   - \Updownarrow\
-  - \Updownarrow
+  - '\Updownarrow '
   - "\\Updownarrow\t"
   replace: ⇕
 - triggers:
   - \Gl-\
-  - \Gl-
+  - '\Gl- '
   - "\\Gl-\t"
   replace: ƛ
 - triggers:
   - \Gl\
-  - \Gl
+  - '\Gl '
   - "\\Gl\t"
   replace: λ
 - triggers:
   - \Gangia\
-  - \Gangia
+  - '\Gangia '
   - "\\Gangia\t"
   replace: Ϫ
 - triggers:
   - \Gamma\
-  - \Gamma
+  - '\Gamma '
   - "\\Gamma\t"
   replace: Γ
 - triggers:
   - \Glb\
-  - \Glb
+  - '\Glb '
   - "\\Glb\t"
   replace: ⨅
 - triggers:
   - \Ga\
-  - \Ga
+  - '\Ga '
   - "\\Ga\t"
   replace: α
 - triggers:
   - \GA\
-  - \GA
+  - '\GA '
   - "\\GA\t"
   replace: Α
 - triggers:
   - \Gb\
-  - \Gb
+  - '\Gb '
   - "\\Gb\t"
   replace: β
 - triggers:
   - \GB\
-  - \GB
+  - '\GB '
   - "\\GB\t"
   replace: Β
 - triggers:
   - \Gg\
-  - \Gg
+  - '\Gg '
   - "\\Gg\t"
   replace: γ
 - triggers:
   - \GG\
-  - \GG
+  - '\GG '
   - "\\GG\t"
   replace: Γ
 - triggers:
   - \Gd\
-  - \Gd
+  - '\Gd '
   - "\\Gd\t"
   replace: δ
 - triggers:
   - \GD\
-  - \GD
+  - '\GD '
   - "\\GD\t"
   replace: Δ
 - triggers:
   - \Ge\
-  - \Ge
+  - '\Ge '
   - "\\Ge\t"
   replace: ε
 - triggers:
   - \GE\
-  - \GE
+  - '\GE '
   - "\\GE\t"
   replace: Ε
 - triggers:
   - \Gz\
-  - \Gz
+  - '\Gz '
   - "\\Gz\t"
   replace: ζ
 - triggers:
   - \GZ\
-  - \GZ
+  - '\GZ '
   - "\\GZ\t"
   replace: Ζ
 - triggers:
   - \Gth\
-  - \Gth
+  - '\Gth '
   - "\\Gth\t"
   replace: θ
 - triggers:
   - \Gt\
-  - \Gt
+  - '\Gt '
   - "\\Gt\t"
   replace: τ
 - triggers:
   - \GTH\
-  - \GTH
+  - '\GTH '
   - "\\GTH\t"
   replace: Θ
 - triggers:
   - \GT\
-  - \GT
+  - '\GT '
   - "\\GT\t"
   replace: Τ
 - triggers:
   - \Gi\
-  - \Gi
+  - '\Gi '
   - "\\Gi\t"
   replace: ι
 - triggers:
   - \GI\
-  - \GI
+  - '\GI '
   - "\\GI\t"
   replace: Ι
 - triggers:
   - \Gk\
-  - \Gk
+  - '\Gk '
   - "\\Gk\t"
   replace: κ
 - triggers:
   - \GK\
-  - \GK
+  - '\GK '
   - "\\GK\t"
   replace: Κ
 - triggers:
   - \GL\
-  - \GL
+  - '\GL '
   - "\\GL\t"
   replace: Λ
 - triggers:
   - \Gm\
-  - \Gm
+  - '\Gm '
   - "\\Gm\t"
   replace: μ
 - triggers:
   - \GM\
-  - \GM
+  - '\GM '
   - "\\GM\t"
   replace: Μ
 - triggers:
   - \Gn\
-  - \Gn
+  - '\Gn '
   - "\\Gn\t"
   replace: ν
 - triggers:
   - \GN\
-  - \GN
+  - '\GN '
   - "\\GN\t"
   replace: Ν
 - triggers:
   - \Gx\
-  - \Gx
+  - '\Gx '
   - "\\Gx\t"
   replace: ξ
 - triggers:
   - \GX\
-  - \GX
+  - '\GX '
   - "\\GX\t"
   replace: Ξ
 - triggers:
   - \Gr\
-  - \Gr
+  - '\Gr '
   - "\\Gr\t"
   replace: ρ
 - triggers:
   - \GR\
-  - \GR
+  - '\GR '
   - "\\GR\t"
   replace: Ρ
 - triggers:
   - \Gs\
-  - \Gs
+  - '\Gs '
   - "\\Gs\t"
   replace: σ
 - triggers:
   - \GS\
-  - \GS
+  - '\GS '
   - "\\GS\t"
   replace: Σ
 - triggers:
   - \Gu\
-  - \Gu
+  - '\Gu '
   - "\\Gu\t"
   replace: υ
 - triggers:
   - \GU\
-  - \GU
+  - '\GU '
   - "\\GU\t"
   replace: Υ
 - triggers:
   - \Gf\
-  - \Gf
+  - '\Gf '
   - "\\Gf\t"
   replace: φ
 - triggers:
   - \GF\
-  - \GF
+  - '\GF '
   - "\\GF\t"
   replace: Φ
 - triggers:
   - \Gc\
-  - \Gc
+  - '\Gc '
   - "\\Gc\t"
   replace: χ
 - triggers:
   - \GC\
-  - \GC
+  - '\GC '
   - "\\GC\t"
   replace: Χ
 - triggers:
   - \Gp\
-  - \Gp
+  - '\Gp '
   - "\\Gp\t"
   replace: ψ
 - triggers:
   - \GP\
-  - \GP
+  - '\GP '
   - "\\GP\t"
   replace: Ψ
 - triggers:
   - \Go\
-  - \Go
+  - '\Go '
   - "\\Go\t"
   replace: ω
 - triggers:
   - \GO\
-  - \GO
+  - '\GO '
   - "\\GO\t"
   replace: Ω
 - triggers:
   - \Inf\
-  - \Inf
+  - '\Inf '
   - "\\Inf\t"
   replace: ⨅
 - triggers:
   - \Join\
-  - \Join
+  - '\Join '
   - "\\Join\t"
   replace: ⨆
 - triggers:
   - \Lub\
-  - \Lub
+  - '\Lub '
   - "\\Lub\t"
   replace: ⨆
 - triggers:
   - \Lambda\
-  - \Lambda
+  - '\Lambda '
   - "\\Lambda\t"
   replace: Λ
 - triggers:
   - \Lamda\
-  - \Lamda
+  - '\Lamda '
   - "\\Lamda\t"
   replace: Λ
 - triggers:
   - \Leftarrow\
-  - \Leftarrow
+  - '\Leftarrow '
   - "\\Leftarrow\t"
   replace: ⇐
 - triggers:
   - \Leftrightarrow\
-  - \Leftrightarrow
+  - '\Leftrightarrow '
   - "\\Leftrightarrow\t"
   replace: ⇔
 - triggers:
   - \Letter\
-  - \Letter
+  - '\Letter '
   - "\\Letter\t"
   replace: ✉
 - triggers:
   - \Lleftarrow\
-  - \Lleftarrow
+  - '\Lleftarrow '
   - "\\Lleftarrow\t"
   replace: ⇚
 - triggers:
   - \Ll\
-  - \Ll
+  - '\Ll '
   - "\\Ll\t"
   replace: ⋘
 - triggers:
   - \Longleftarrow\
-  - \Longleftarrow
+  - '\Longleftarrow '
   - "\\Longleftarrow\t"
   replace: ⇐
 - triggers:
   - \Longleftrightarrow\
-  - \Longleftrightarrow
+  - '\Longleftrightarrow '
   - "\\Longleftrightarrow\t"
   replace: ⇔
 - triggers:
   - \Longrightarrow\
-  - \Longrightarrow
+  - '\Longrightarrow '
   - "\\Longrightarrow\t"
   replace: ⇒
 - triggers:
   - \Meet\
-  - \Meet
+  - '\Meet '
   - "\\Meet\t"
   replace: ⨅
 - triggers:
   - \Sup\
-  - \Sup
+  - '\Sup '
   - "\\Sup\t"
   replace: ⨆
 - triggers:
   - \Sqcap\
-  - \Sqcap
+  - '\Sqcap '
   - "\\Sqcap\t"
   replace: ⨅
 - triggers:
   - \Sqcup\
-  - \Sqcup
+  - '\Sqcup '
   - "\\Sqcup\t"
   replace: ⨆
 - triggers:
   - \Lsh\
-  - \Lsh
+  - '\Lsh '
   - "\\Lsh\t"
   replace: ↰
 - triggers:
   - \|-n\
-  - \|-n
+  - '\|-n '
   - "\\|-n\t"
   replace: ⊬
 - triggers:
   - \|-\
-  - \|-
+  - '\|- '
   - "\\|-\t"
   replace: ⊢
 - triggers:
   - \|=n\
-  - \|=n
+  - '\|=n '
   - "\\|=n\t"
   replace: ⊭
 - triggers:
   - \|=\
-  - \|=
+  - '\|= '
   - "\\|=\t"
   replace: ⊨
 - triggers:
   - \|->\
-  - \|->
+  - '\|-> '
   - "\\|->\t"
   replace: ↦
 - triggers:
   - \|=>\
-  - \|=>
+  - '\|=> '
   - "\\|=>\t"
   replace: ⇰
 - triggers:
   - \||-n\
-  - \||-n
+  - '\||-n '
   - "\\||-n\t"
   replace: ⊮
 - triggers:
   - \||-\
-  - \||-
+  - '\||- '
   - "\\||-\t"
   replace: ⊩
 - triggers:
   - \||=n\
-  - \||=n
+  - '\||=n '
   - "\\||=n\t"
   replace: ⊯
 - triggers:
   - \||=\
-  - \||=
+  - '\||= '
   - "\\||=\t"
   replace: ⊫
 - triggers:
   - \|||-\
-  - \|||-
+  - '\|||- '
   - "\\|||-\t"
   replace: ⊪
 - triggers:
   - \||\
-  - \||
+  - '\|| '
   - "\\||\t"
   replace: ‖
 - triggers:
   - \fuzzy\
-  - \fuzzy
+  - '\fuzzy '
   - "\\fuzzy\t"
   replace: ‖
 - triggers:
   - \|n\
-  - \|n
+  - '\|n '
   - "\\|n\t"
   replace: ∤
 - triggers:
   - \Com\
-  - \Com
+  - '\Com '
   - "\\Com\t"
   replace: ℂ
 - triggers:
   - \Chi\
-  - \Chi
+  - '\Chi '
   - "\\Chi\t"
   replace: Χ
 - triggers:
   - \Cap\
-  - \Cap
+  - '\Cap '
   - "\\Cap\t"
   replace: ⋒
 - triggers:
   - \Cup\
-  - \Cup
+  - '\Cup '
   - "\\Cup\t"
   replace: ⋓
 - triggers:
   - \cul\
-  - \cul
+  - '\cul '
   - "\\cul\t"
   replace: ⌜
 - triggers:
   - \cuL\
-  - \cuL
+  - '\cuL '
   - "\\cuL\t"
   replace: ⌈
 - triggers:
   - \currency\
-  - \currency
+  - '\currency '
   - "\\currency\t"
   replace: ¤
 - triggers:
   - \curlyeqprec\
-  - \curlyeqprec
+  - '\curlyeqprec '
   - "\\curlyeqprec\t"
   replace: ⋞
 - triggers:
   - \curlyeqsucc\
-  - \curlyeqsucc
+  - '\curlyeqsucc '
   - "\\curlyeqsucc\t"
   replace: ⋟
 - triggers:
   - \curlypreceq\
-  - \curlypreceq
+  - '\curlypreceq '
   - "\\curlypreceq\t"
   replace: ≼
 - triggers:
   - \curlyvee\
-  - \curlyvee
+  - '\curlyvee '
   - "\\curlyvee\t"
   replace: ⋎
 - triggers:
   - \curlywedge\
-  - \curlywedge
+  - '\curlywedge '
   - "\\curlywedge\t"
   replace: ⋏
 - triggers:
   - \curvearrowleft\
-  - \curvearrowleft
+  - '\curvearrowleft '
   - "\\curvearrowleft\t"
   replace: ↶
 - triggers:
   - \curvearrowright\
-  - \curvearrowright
+  - '\curvearrowright '
   - "\\curvearrowright\t"
   replace: ↷
 - triggers:
   - \cur\
-  - \cur
+  - '\cur '
   - "\\cur\t"
   replace: ⌝
 - triggers:
   - \cuR\
-  - \cuR
+  - '\cuR '
   - "\\cuR\t"
   replace: ⌉
 - triggers:
   - \cup\
-  - \cup
+  - '\cup '
   - "\\cup\t"
   replace: ∪
 - triggers:
   - \cu\
-  - \cu
+  - '\cu '
   - "\\cu\t"
   replace: ⌜
 - triggers:
   - \cll\
-  - \cll
+  - '\cll '
   - "\\cll\t"
   replace: ⌞
 - triggers:
   - \clL\
-  - \clL
+  - '\clL '
   - "\\clL\t"
   replace: ⌊
 - triggers:
   - \clr\
-  - \clr
+  - '\clr '
   - "\\clr\t"
   replace: ⌟
 - triggers:
   - \clR\
-  - \clR
+  - '\clR '
   - "\\clR\t"
   replace: ⌋
 - triggers:
   - \clubsuit\
-  - \clubsuit
+  - '\clubsuit '
   - "\\clubsuit\t"
   replace: ♣
 - triggers:
   - \cl\
-  - \cl
+  - '\cl '
   - "\\cl\t"
   replace: ⌞
 - triggers:
   - \construction\
-  - \construction
+  - '\construction '
   - "\\construction\t"
   replace: 🚧
 - triggers:
   - \cong\
-  - \cong
+  - '\cong '
   - "\\cong\t"
   replace: ≅
 - triggers:
   - \con\
-  - \con
+  - '\con '
   - "\\con\t"
   replace: ⬝
 - triggers:
   - \compl\
-  - \compl
+  - '\compl '
   - "\\compl\t"
   replace: ᶜ
 - triggers:
   - \complement\
-  - \complement
+  - '\complement '
   - "\\complement\t"
   replace: ᶜ
 - triggers:
   - \complementprefix\
-  - \complementprefix
+  - '\complementprefix '
   - "\\complementprefix\t"
   replace: ∁
 - triggers:
   - \Complement\
-  - \Complement
+  - '\Complement '
   - "\\Complement\t"
   replace: ∁
 - triggers:
   - \comp\
-  - \comp
+  - '\comp '
   - "\\comp\t"
   replace: ∘
 - triggers:
   - \com\
-  - \com
+  - '\com '
   - "\\com\t"
   replace: ℂ
 - triggers:
   - \coloneq\
-  - \coloneq
+  - '\coloneq '
   - "\\coloneq\t"
   replace: ≔
 - triggers:
   - \colon\
-  - \colon
+  - '\colon '
   - "\\colon\t"
   replace: ₡
 - triggers:
   - \copyright\
-  - \copyright
+  - '\copyright '
   - "\\copyright\t"
   replace: ©
 - triggers:
   - \cdots\
-  - \cdots
+  - '\cdots '
   - "\\cdots\t"
   replace: ⋯
 - triggers:
   - \cdot\
-  - \cdot
+  - '\cdot '
   - "\\cdot\t"
   replace: ⬝
 - triggers:
   - \cib\
-  - \cib
+  - '\cib '
   - "\\cib\t"
   replace: ●
 - triggers:
   - \ciw\
-  - \ciw
+  - '\ciw '
   - "\\ciw\t"
   replace: ○
 - triggers:
   - \ci..\
-  - \ci..
+  - '\ci.. '
   - "\\ci..\t"
   replace: ◌
 - triggers:
   - \ci.\
-  - \ci.
+  - '\ci. '
   - "\\ci.\t"
   replace: ◎
 - triggers:
   - \ciO\
-  - \ciO
+  - '\ciO '
   - "\\ciO\t"
   replace: ◯
 - triggers:
   - \circeq\
-  - \circeq
+  - '\circeq '
   - "\\circeq\t"
   replace: ≗
 - triggers:
   - \circlearrowleft\
-  - \circlearrowleft
+  - '\circlearrowleft '
   - "\\circlearrowleft\t"
   replace: ↺
 - triggers:
   - \circlearrowright\
-  - \circlearrowright
+  - '\circlearrowright '
   - "\\circlearrowright\t"
   replace: ↻
 - triggers:
   - \circledR\
-  - \circledR
+  - '\circledR '
   - "\\circledR\t"
   replace: ®
 - triggers:
   - \circledS\
-  - \circledS
+  - '\circledS '
   - "\\circledS\t"
   replace: Ⓢ
 - triggers:
   - \circledast\
-  - \circledast
+  - '\circledast '
   - "\\circledast\t"
   replace: ⊛
 - triggers:
   - \circledcirc\
-  - \circledcirc
+  - '\circledcirc '
   - "\\circledcirc\t"
   replace: ⊚
 - triggers:
   - \circleddash\
-  - \circleddash
+  - '\circleddash '
   - "\\circleddash\t"
   replace: ⊝
 - triggers:
   - \circ\
-  - \circ
+  - '\circ '
   - "\\circ\t"
   replace: ∘
 - triggers:
   - \ci\
-  - \ci
+  - '\ci '
   - "\\ci\t"
   replace: ●
 - triggers:
   - \centerdot\
-  - \centerdot
+  - '\centerdot '
   - "\\centerdot\t"
   replace: ·
 - triggers:
   - \cent\
-  - \cent
+  - '\cent '
   - "\\cent\t"
   replace: ¢
 - triggers:
   - \cedi\
-  - \cedi
+  - '\cedi '
   - "\\cedi\t"
   replace: ₵
 - triggers:
   - \celsius\
-  - \celsius
+  - '\celsius '
   - "\\celsius\t"
   replace: ℃
 - triggers:
   - \ce\
-  - \ce
+  - '\ce '
   - "\\ce\t"
   replace: ȩ
 - triggers:
   - \checkmark\
-  - \checkmark
+  - '\checkmark '
   - "\\checkmark\t"
   replace: ✓
 - triggers:
   - \chi\
-  - \chi
+  - '\chi '
   - "\\chi\t"
   replace: χ
 - triggers:
   - \cruzeiro\
-  - \cruzeiro
+  - '\cruzeiro '
   - "\\cruzeiro\t"
   replace: ₢
 - triggers:
   - \caution\
-  - \caution
+  - '\caution '
   - "\\caution\t"
   replace: ☡
 - triggers:
   - \cap\
-  - \cap
+  - '\cap '
   - "\\cap\t"
   replace: ∩
 - triggers:
   - \qed\
-  - \qed
+  - '\qed '
   - "\\qed\t"
   replace: ∎
 - triggers:
   - \quad\
-  - \quad
+  - '\quad '
   - "\\quad\t"
   replace:  
 - triggers:
   - \quot\
-  - \quot
+  - '\quot '
   - "\\quot\t"
   replace: ⧸
 - triggers:
   - \bigsolidus\
-  - \bigsolidus
+  - '\bigsolidus '
   - "\\bigsolidus\t"
   replace: ⧸
 - triggers:
   - \/\
-  - \/
+  - '\/ '
   - "\\/\t"
   replace: ⧸
 - triggers:
   - \+ \
-  - '\+ '
+  - '\+  '
   - "\\+ \t"
   replace: ⊹
 - triggers:
   - \b+\
-  - \b+
+  - '\b+ '
   - "\\b+\t"
   replace: ⊞
 - triggers:
   - \b-\
-  - \b-
+  - '\b- '
   - "\\b-\t"
   replace: ⊟
 - triggers:
   - \bx\
-  - \bx
+  - '\bx '
   - "\\bx\t"
   replace: ⊠
 - triggers:
   - \b.\
-  - \b.
+  - '\b. '
   - "\\b.\t"
   replace: ⊡
 - triggers:
   - \bn\
-  - \bn
+  - '\bn '
   - "\\bn\t"
   replace: ℕ
 - triggers:
   - \bz\
-  - \bz
+  - '\bz '
   - "\\bz\t"
   replace: ℤ
 - triggers:
   - \bq\
-  - \bq
+  - '\bq '
   - "\\bq\t"
   replace: ℚ
 - triggers:
   - \brokenbar\
-  - \brokenbar
+  - '\brokenbar '
   - "\\brokenbar\t"
   replace: ¦
 - triggers:
   - \br\
-  - \br
+  - '\br '
   - "\\br\t"
   replace: ℝ
 - triggers:
   - \bc\
-  - \bc
+  - '\bc '
   - "\\bc\t"
   replace: ℂ
 - triggers:
   - \bp\
-  - \bp
+  - '\bp '
   - "\\bp\t"
   replace: ℙ
 - triggers:
   - \bb\
-  - \bb
+  - '\bb '
   - "\\bb\t"
   replace: 𝔹
 - triggers:
   - \bsum\
-  - \bsum
+  - '\bsum '
   - "\\bsum\t"
   replace: ⅀
 - triggers:
   - \b0\
-  - \b0
+  - '\b0 '
   - "\\b0\t"
   replace: 𝟘
 - triggers:
   - \b1\
-  - \b1
+  - '\b1 '
   - "\\b1\t"
   replace: 𝟙
 - triggers:
   - \b2\
-  - \b2
+  - '\b2 '
   - "\\b2\t"
   replace: 𝟚
 - triggers:
   - \b3\
-  - \b3
+  - '\b3 '
   - "\\b3\t"
   replace: 𝟛
 - triggers:
   - \b4\
-  - \b4
+  - '\b4 '
   - "\\b4\t"
   replace: 𝟜
 - triggers:
   - \b5\
-  - \b5
+  - '\b5 '
   - "\\b5\t"
   replace: 𝟝
 - triggers:
   - \b6\
-  - \b6
+  - '\b6 '
   - "\\b6\t"
   replace: 𝟞
 - triggers:
   - \b7\
-  - \b7
+  - '\b7 '
   - "\\b7\t"
   replace: 𝟟
 - triggers:
   - \b8\
-  - \b8
+  - '\b8 '
   - "\\b8\t"
   replace: 𝟠
 - triggers:
   - \b9\
-  - \b9
+  - '\b9 '
   - "\\b9\t"
   replace: 𝟡
 - triggers:
   - \sb0\
-  - \sb0
+  - '\sb0 '
   - "\\sb0\t"
   replace: 𝟬
 - triggers:
   - \sb1\
-  - \sb1
+  - '\sb1 '
   - "\\sb1\t"
   replace: 𝟭
 - triggers:
   - \sb2\
-  - \sb2
+  - '\sb2 '
   - "\\sb2\t"
   replace: 𝟮
 - triggers:
   - \sb3\
-  - \sb3
+  - '\sb3 '
   - "\\sb3\t"
   replace: 𝟯
 - triggers:
   - \sb4\
-  - \sb4
+  - '\sb4 '
   - "\\sb4\t"
   replace: 𝟰
 - triggers:
   - \sb5\
-  - \sb5
+  - '\sb5 '
   - "\\sb5\t"
   replace: 𝟱
 - triggers:
   - \sb6\
-  - \sb6
+  - '\sb6 '
   - "\\sb6\t"
   replace: 𝟲
 - triggers:
   - \sb7\
-  - \sb7
+  - '\sb7 '
   - "\\sb7\t"
   replace: 𝟳
 - triggers:
   - \sb8\
-  - \sb8
+  - '\sb8 '
   - "\\sb8\t"
   replace: 𝟴
 - triggers:
   - \sb9\
-  - \sb9
+  - '\sb9 '
   - "\\sb9\t"
   replace: 𝟵
 - triggers:
   - \bub\
-  - \bub
+  - '\bub '
   - "\\bub\t"
   replace: •
 - triggers:
   - \buw\
-  - \buw
+  - '\buw '
   - "\\buw\t"
   replace: ◦
 - triggers:
   - \but\
-  - \but
+  - '\but '
   - "\\but\t"
   replace: ‣
 - triggers:
   - \bumpeq\
-  - \bumpeq
+  - '\bumpeq '
   - "\\bumpeq\t"
   replace: ≏
 - triggers:
   - \bu\
-  - \bu
+  - '\bu '
   - "\\bu\t"
   replace: •
 - triggers:
   - \biohazard\
-  - \biohazard
+  - '\biohazard '
   - "\\biohazard\t"
   replace: ☣
 - triggers:
   - \bihimp\
-  - \bihimp
+  - '\bihimp '
   - "\\bihimp\t"
   replace: ⇔
 - triggers:
   - \bigcap\
-  - \bigcap
+  - '\bigcap '
   - "\\bigcap\t"
   replace: ⋂
 - triggers:
   - \bigcirc\
-  - \bigcirc
+  - '\bigcirc '
   - "\\bigcirc\t"
   replace: ◯
 - triggers:
   - \bigcoprod\
-  - \bigcoprod
+  - '\bigcoprod '
   - "\\bigcoprod\t"
   replace: ∐
 - triggers:
   - \bigcup\
-  - \bigcup
+  - '\bigcup '
   - "\\bigcup\t"
   replace: ⋃
 - triggers:
   - \bigglb\
-  - \bigglb
+  - '\bigglb '
   - "\\bigglb\t"
   replace: ⨅
 - triggers:
   - \biginf\
-  - \biginf
+  - '\biginf '
   - "\\biginf\t"
   replace: ⨅
 - triggers:
   - \bigjoin\
-  - \bigjoin
+  - '\bigjoin '
   - "\\bigjoin\t"
   replace: ⨆
 - triggers:
   - \biglub\
-  - \biglub
+  - '\biglub '
   - "\\biglub\t"
   replace: ⨆
 - triggers:
   - \bigmeet\
-  - \bigmeet
+  - '\bigmeet '
   - "\\bigmeet\t"
   replace: ⨅
 - triggers:
   - \bigsqcap\
-  - \bigsqcap
+  - '\bigsqcap '
   - "\\bigsqcap\t"
   replace: ⨅
 - triggers:
   - \bigsqcup\
-  - \bigsqcup
+  - '\bigsqcup '
   - "\\bigsqcup\t"
   replace: ⨆
 - triggers:
   - \bigstar\
-  - \bigstar
+  - '\bigstar '
   - "\\bigstar\t"
   replace: ★
 - triggers:
   - \bigsup\
-  - \bigsup
+  - '\bigsup '
   - "\\bigsup\t"
   replace: ⨆
 - triggers:
   - \bigtriangledown\
-  - \bigtriangledown
+  - '\bigtriangledown '
   - "\\bigtriangledown\t"
   replace: ▽
 - triggers:
   - \bigtriangleup\
-  - \bigtriangleup
+  - '\bigtriangleup '
   - "\\bigtriangleup\t"
   replace: △
 - triggers:
   - \bigvee\
-  - \bigvee
+  - '\bigvee '
   - "\\bigvee\t"
   replace: ⋁
 - triggers:
   - \bigwedge\
-  - \bigwedge
+  - '\bigwedge '
   - "\\bigwedge\t"
   replace: ⋀
 - triggers:
   - \beta\
-  - \beta
+  - '\beta '
   - "\\beta\t"
   replace: β
 - triggers:
   - \beth\
-  - \beth
+  - '\beth '
   - "\\beth\t"
   replace: ℶ
 - triggers:
   - \between\
-  - \between
+  - '\between '
   - "\\between\t"
   replace: ≬
 - triggers:
   - \because\
-  - \because
+  - '\because '
   - "\\because\t"
   replace: ∵
 - triggers:
   - \backcong\
-  - \backcong
+  - '\backcong '
   - "\\backcong\t"
   replace: ≌
 - triggers:
   - \backepsilon\
-  - \backepsilon
+  - '\backepsilon '
   - "\\backepsilon\t"
   replace: ∍
 - triggers:
   - \backprime\
-  - \backprime
+  - '\backprime '
   - "\\backprime\t"
   replace: ‵
 - triggers:
   - \backsimeq\
-  - \backsimeq
+  - '\backsimeq '
   - "\\backsimeq\t"
   replace: ⋍
 - triggers:
   - \backsim\
-  - \backsim
+  - '\backsim '
   - "\\backsim\t"
   replace: ∽
 - triggers:
   - \barwedge\
-  - \barwedge
+  - '\barwedge '
   - "\\barwedge\t"
   replace: ⊼
 - triggers:
   - \blacklozenge\
-  - \blacklozenge
+  - '\blacklozenge '
   - "\\blacklozenge\t"
   replace: ✦
 - triggers:
   - \blacksquare\
-  - \blacksquare
+  - '\blacksquare '
   - "\\blacksquare\t"
   replace: ▪
 - triggers:
   - \blacksmiley\
-  - \blacksmiley
+  - '\blacksmiley '
   - "\\blacksmiley\t"
   replace: ☻
 - triggers:
   - \blacktriangledown\
-  - \blacktriangledown
+  - '\blacktriangledown '
   - "\\blacktriangledown\t"
   replace: ▾
 - triggers:
   - \blacktriangleleft\
-  - \blacktriangleleft
+  - '\blacktriangleleft '
   - "\\blacktriangleleft\t"
   replace: ◂
 - triggers:
   - \blacktriangleright\
-  - \blacktriangleright
+  - '\blacktriangleright '
   - "\\blacktriangleright\t"
   replace: ▸
 - triggers:
   - \blacktriangle\
-  - \blacktriangle
+  - '\blacktriangle '
   - "\\blacktriangle\t"
   replace: ▴
 - triggers:
   - \bot\
-  - \bot
+  - '\bot '
   - "\\bot\t"
   replace: ⊥
 - triggers:
   - \^bot\
-  - \^bot
+  - '\^bot '
   - "\\^bot\t"
   replace: ᗮ
 - triggers:
   - \bowtie\
-  - \bowtie
+  - '\bowtie '
   - "\\bowtie\t"
   replace: ⋈
 - triggers:
   - \boxminus\
-  - \boxminus
+  - '\boxminus '
   - "\\boxminus\t"
   replace: ⊟
 - triggers:
   - \boxmid\
-  - \boxmid
+  - '\boxmid '
   - "\\boxmid\t"
   replace: ◫
 - triggers:
   - \hcomp\
-  - \hcomp
+  - '\hcomp '
   - "\\hcomp\t"
   replace: ◫
 - triggers:
   - \boxplus\
-  - \boxplus
+  - '\boxplus '
   - "\\boxplus\t"
   replace: ⊞
 - triggers:
   - \boxtimes\
-  - \boxtimes
+  - '\boxtimes '
   - "\\boxtimes\t"
   replace: ⊠
 - triggers:
   - \join\
-  - \join
+  - '\join '
   - "\\join\t"
   replace: ⊔
 - triggers:
   - \r-2\
-  - \r-2
+  - '\r-2 '
   - "\\r-2\t"
   replace: ⇉
 - triggers:
   - \r-3\
-  - \r-3
+  - '\r-3 '
   - "\\r-3\t"
   replace: ⇶
 - triggers:
   - \r-l-\
-  - \r-l-
+  - '\r-l- '
   - "\\r-l-\t"
   replace: ⇄
 - triggers:
   - \r--\
-  - \r--
+  - '\r-- '
   - "\\r--\t"
   replace: ⟶
 - triggers:
   - \r-n\
-  - \r-n
+  - '\r-n '
   - "\\r-n\t"
   replace: ↛
 - triggers:
   - \r-|\
-  - \r-|
+  - '\r-| '
   - "\\r-|\t"
   replace: ↦
 - triggers:
   - \r->\
-  - \r->
+  - '\r-> '
   - "\\r->\t"
   replace: ↣
 - triggers:
   - \r-o\
-  - \r-o
+  - '\r-o '
   - "\\r-o\t"
   replace: ⊸
 - triggers:
   - \r-\
-  - \r-
+  - '\r- '
   - "\\r-\t"
   replace: →
 - triggers:
   - \r==\
-  - \r==
+  - '\r== '
   - "\\r==\t"
   replace: ⇛
 - triggers:
   - \r=n\
-  - \r=n
+  - '\r=n '
   - "\\r=n\t"
   replace: ⇏
 - triggers:
   - \r=\
-  - \r=
+  - '\r= '
   - "\\r=\t"
   replace: ⇒
 - triggers:
   - \r~\
-  - \r~
+  - '\r~ '
   - "\\r~\t"
   replace: ↝
 - triggers:
   - \rr-\
-  - \rr-
+  - '\rr- '
   - "\\rr-\t"
   replace: ↠
 - triggers:
   - \reb\
-  - \reb
+  - '\reb '
   - "\\reb\t"
   replace: ▬
 - triggers:
   - \rew\
-  - \rew
+  - '\rew '
   - "\\rew\t"
   replace: ▭
 - triggers:
   - \real\
-  - \real
+  - '\real '
   - "\\real\t"
   replace: ℝ
 - triggers:
   - \registered\
-  - \registered
+  - '\registered '
   - "\\registered\t"
   replace: ®
 - triggers:
   - \re\
-  - \re
+  - '\re '
   - "\\re\t"
   replace: ▬
 - triggers:
   - \rbag\
-  - \rbag
+  - '\rbag '
   - "\\rbag\t"
   replace: ⟆
 - triggers:
   - \rat\
-  - \rat
+  - '\rat '
   - "\\rat\t"
   replace: ℚ
 - triggers:
   - \radioactive\
-  - \radioactive
+  - '\radioactive '
   - "\\radioactive\t"
   replace: ☢
 - triggers:
   - \rrbracket\
-  - \rrbracket
+  - '\rrbracket '
   - "\\rrbracket\t"
   replace: 〛
 - triggers:
   - \rangle\
-  - \rangle
+  - '\rangle '
   - "\\rangle\t"
   replace: ⟩
 - triggers:
   - \rq\
-  - \rq
+  - '\rq '
   - "\\rq\t"
   replace: ’
 - triggers:
   - \rial\
-  - \rial
+  - '\rial '
   - "\\rial\t"
   replace: ﷼
 - triggers:
   - \rightarrowtail\
-  - \rightarrowtail
+  - '\rightarrowtail '
   - "\\rightarrowtail\t"
   replace: ↣
 - triggers:
   - \rightarrow\
-  - \rightarrow
+  - '\rightarrow '
   - "\\rightarrow\t"
   replace: →
 - triggers:
   - \rightharpoondown\
-  - \rightharpoondown
+  - '\rightharpoondown '
   - "\\rightharpoondown\t"
   replace: ⇁
 - triggers:
   - \rightharpoonup\
-  - \rightharpoonup
+  - '\rightharpoonup '
   - "\\rightharpoonup\t"
   replace: ⇀
 - triggers:
   - \rightleftarrows\
-  - \rightleftarrows
+  - '\rightleftarrows '
   - "\\rightleftarrows\t"
   replace: ⇄
 - triggers:
   - \rightleftharpoons\
-  - \rightleftharpoons
+  - '\rightleftharpoons '
   - "\\rightleftharpoons\t"
   replace: ⇌
 - triggers:
   - \rightrightarrows\
-  - \rightrightarrows
+  - '\rightrightarrows '
   - "\\rightrightarrows\t"
   replace: ⇉
 - triggers:
   - \rightthreetimes\
-  - \rightthreetimes
+  - '\rightthreetimes '
   - "\\rightthreetimes\t"
   replace: ⋌
 - triggers:
   - \risingdotseq\
-  - \risingdotseq
+  - '\risingdotseq '
   - "\\risingdotseq\t"
   replace: ≓
 - triggers:
   - \ruble\
-  - \ruble
+  - '\ruble '
   - "\\ruble\t"
   replace: ₽
 - triggers:
   - \rupee\
-  - \rupee
+  - '\rupee '
   - "\\rupee\t"
   replace: ₨
 - triggers:
   - \rho\
-  - \rho
+  - '\rho '
   - "\\rho\t"
   replace: ρ
 - triggers:
   - \rhd\
-  - \rhd
+  - '\rhd '
   - "\\rhd\t"
   replace: ▷
 - triggers:
   - \rceil\
-  - \rceil
+  - '\rceil '
   - "\\rceil\t"
   replace: ⌉
 - triggers:
   - \rfloor\
-  - \rfloor
+  - '\rfloor '
   - "\\rfloor\t"
   replace: ⌋
 - triggers:
   - \rtimes\
-  - \rtimes
+  - '\rtimes '
   - "\\rtimes\t"
   replace: ⋊
 - triggers:
   - \rdq\
-  - \rdq
+  - '\rdq '
   - "\\rdq\t"
   replace: ”
 - triggers:
   - \rdata\
-  - \rdata
+  - '\rdata '
   - "\\rdata\t"
   replace: 》
 - triggers:
   - \functor\
-  - \functor
+  - '\functor '
   - "\\functor\t"
   replace: ⥤
 - triggers:
   - \fun\
-  - \fun
+  - '\fun '
   - "\\fun\t"
   replace: λ
 - triggers:
   - \f<<\
-  - \f<<
+  - '\f<< '
   - "\\f<<\t"
   replace: «
 - triggers:
   - \f>>\
-  - \f>>
+  - '\f>> '
   - "\\f>>\t"
   replace: »
 - triggers:
   - \f<\
-  - \f<
+  - '\f< '
   - "\\f<\t"
   replace: ‹
 - triggers:
   - \f>\
-  - \f>
+  - '\f> '
   - "\\f>\t"
   replace: ›
 - triggers:
   - \finprod\
-  - \finprod
+  - '\finprod '
   - "\\finprod\t"
   replace: ∏ᶠ
 - triggers:
   - \finsum\
-  - \finsum
+  - '\finsum '
   - "\\finsum\t"
   replace: ∑ᶠ
 - triggers:
   - \frac12\
-  - \frac12
+  - '\frac12 '
   - "\\frac12\t"
   replace: ½
 - triggers:
   - \frac13\
-  - \frac13
+  - '\frac13 '
   - "\\frac13\t"
   replace: ⅓
 - triggers:
   - \frac14\
-  - \frac14
+  - '\frac14 '
   - "\\frac14\t"
   replace: ¼
 - triggers:
   - \frac15\
-  - \frac15
+  - '\frac15 '
   - "\\frac15\t"
   replace: ⅕
 - triggers:
   - \frac16\
-  - \frac16
+  - '\frac16 '
   - "\\frac16\t"
   replace: ⅙
 - triggers:
   - \frac18\
-  - \frac18
+  - '\frac18 '
   - "\\frac18\t"
   replace: ⅛
 - triggers:
   - \frac1\
-  - \frac1
+  - '\frac1 '
   - "\\frac1\t"
   replace: ⅟
 - triggers:
   - \frac23\
-  - \frac23
+  - '\frac23 '
   - "\\frac23\t"
   replace: ⅔
 - triggers:
   - \frac25\
-  - \frac25
+  - '\frac25 '
   - "\\frac25\t"
   replace: ⅖
 - triggers:
   - \frac34\
-  - \frac34
+  - '\frac34 '
   - "\\frac34\t"
   replace: ¾
 - triggers:
   - \frac35\
-  - \frac35
+  - '\frac35 '
   - "\\frac35\t"
   replace: ⅗
 - triggers:
   - \frac38\
-  - \frac38
+  - '\frac38 '
   - "\\frac38\t"
   replace: ⅜
 - triggers:
   - \frac45\
-  - \frac45
+  - '\frac45 '
   - "\\frac45\t"
   replace: ⅘
 - triggers:
   - \frac56\
-  - \frac56
+  - '\frac56 '
   - "\\frac56\t"
   replace: ⅚
 - triggers:
   - \frac58\
-  - \frac58
+  - '\frac58 '
   - "\\frac58\t"
   replace: ⅝
 - triggers:
   - \frac78\
-  - \frac78
+  - '\frac78 '
   - "\\frac78\t"
   replace: ⅞
 - triggers:
   - \frac\
-  - \frac
+  - '\frac '
   - "\\frac\t"
   replace: ¼
 - triggers:
   - \frown\
-  - \frown
+  - '\frown '
   - "\\frown\t"
   replace: ⌢
 - triggers:
   - \frqq\
-  - \frqq
+  - '\frqq '
   - "\\frqq\t"
   replace: »
 - triggers:
   - \frq\
-  - \frq
+  - '\frq '
   - "\\frq\t"
   replace: ›
 - triggers:
   - \female\
-  - \female
+  - '\female '
   - "\\female\t"
   replace: ♀
 - triggers:
   - \fei\
-  - \fei
+  - '\fei '
   - "\\fei\t"
   replace: ϥ
 - triggers:
   - \facsimile\
-  - \facsimile
+  - '\facsimile '
   - "\\facsimile\t"
   replace: ℻
 - triggers:
   - \fallingdotseq\
-  - \fallingdotseq
+  - '\fallingdotseq '
   - "\\fallingdotseq\t"
   replace: ≒
 - triggers:
   - \flat\
-  - \flat
+  - '\flat '
   - "\\flat\t"
   replace: ♭
 - triggers:
   - \flqq\
-  - \flqq
+  - '\flqq '
   - "\\flqq\t"
   replace: «
 - triggers:
   - \flq\
-  - \flq
+  - '\flq '
   - "\\flq\t"
   replace: ‹
 - triggers:
   - \forall\
-  - \forall
+  - '\forall '
   - "\\forall\t"
   replace: ∀
 - triggers:
   - \)b\
-  - \)b
+  - '\)b '
   - "\\)b\t"
   replace: ⟆
 - triggers:
   - \[[\
-  - \[[
+  - '\[[ '
   - "\\[[\t"
   replace: ⟦
 - triggers:
   - \]]\
-  - \]]
+  - '\]] '
   - "\\]]\t"
   replace: ⟧
 - triggers:
   - \{{\
-  - \{{
+  - '\{{ '
   - "\\{{\t"
   replace: ⦃
 - triggers:
   - \}}\
-  - \}}
+  - '\}} '
   - "\\}}\t"
   replace: ⦄
 - triggers:
   - \([\
-  - \([
+  - '\([ '
   - "\\([\t"
   replace: ⟮
 - triggers:
   - \])\
-  - \])
+  - '\]) '
   - "\\])\t"
   replace: ⟯
 - triggers:
   - \Xi\
-  - \Xi
+  - '\Xi '
   - "\\Xi\t"
   replace: Ξ
 - triggers:
   - \Nat\
-  - \Nat
+  - '\Nat '
   - "\\Nat\t"
   replace: ℕ
 - triggers:
   - \Nu\
-  - \Nu
+  - '\Nu '
   - "\\Nu\t"
   replace: Ν
 - triggers:
   - \Zeta\
-  - \Zeta
+  - '\Zeta '
   - "\\Zeta\t"
   replace: Ζ
 - triggers:
   - \Rat\
-  - \Rat
+  - '\Rat '
   - "\\Rat\t"
   replace: ℚ
 - triggers:
   - \Real\
-  - \Real
+  - '\Real '
   - "\\Real\t"
   replace: ℝ
 - triggers:
   - \Re\
-  - \Re
+  - '\Re '
   - "\\Re\t"
   replace: ℜ
 - triggers:
   - \Rho\
-  - \Rho
+  - '\Rho '
   - "\\Rho\t"
   replace: Ρ
 - triggers:
   - \Rightarrow\
-  - \Rightarrow
+  - '\Rightarrow '
   - "\\Rightarrow\t"
   replace: ⇒
 - triggers:
   - \Rrightarrow\
-  - \Rrightarrow
+  - '\Rrightarrow '
   - "\\Rrightarrow\t"
   replace: ⇛
 - triggers:
   - \Rsh\
-  - \Rsh
+  - '\Rsh '
   - "\\Rsh\t"
   replace: ↱
 - triggers:
   - \Fei\
-  - \Fei
+  - '\Fei '
   - "\\Fei\t"
   replace: Ϥ
 - triggers:
   - \Frowny\
-  - \Frowny
+  - '\Frowny '
   - "\\Frowny\t"
   replace: ☹
 - triggers:
   - \Hori\
-  - \Hori
+  - '\Hori '
   - "\\Hori\t"
   replace: Ϩ
 - triggers:
   - \Heta\
-  - \Heta
+  - '\Heta '
   - "\\Heta\t"
   replace: Ͱ
 - triggers:
   - \Khei\
-  - \Khei
+  - '\Khei '
   - "\\Khei\t"
   replace: Ϧ
 - triggers:
   - \Koppa\
-  - \Koppa
+  - '\Koppa '
   - "\\Koppa\t"
   replace: Ϟ
 - triggers:
   - \Kappa\
-  - \Kappa
+  - '\Kappa '
   - "\\Kappa\t"
   replace: Κ
 - triggers:
   - \^a\
-  - \^a
+  - '\^a '
   - "\\^a\t"
   replace: ᵃ
 - triggers:
   - \^b\
-  - \^b
+  - '\^b '
   - "\\^b\t"
   replace: ᵇ
 - triggers:
   - \^c\
-  - \^c
+  - '\^c '
   - "\\^c\t"
   replace: ᶜ
 - triggers:
   - \^d\
-  - \^d
+  - '\^d '
   - "\\^d\t"
   replace: ᵈ
 - triggers:
   - \^e\
-  - \^e
+  - '\^e '
   - "\\^e\t"
   replace: ᵉ
 - triggers:
   - \^f\
-  - \^f
+  - '\^f '
   - "\\^f\t"
   replace: ᶠ
 - triggers:
   - \^g\
-  - \^g
+  - '\^g '
   - "\\^g\t"
   replace: ᵍ
 - triggers:
   - \^h\
-  - \^h
+  - '\^h '
   - "\\^h\t"
   replace: ʰ
 - triggers:
   - \^i\
-  - \^i
+  - '\^i '
   - "\\^i\t"
   replace: ⁱ
 - triggers:
   - \^j\
-  - \^j
+  - '\^j '
   - "\\^j\t"
   replace: ʲ
 - triggers:
   - \^k\
-  - \^k
+  - '\^k '
   - "\\^k\t"
   replace: ᵏ
 - triggers:
   - \^l\
-  - \^l
+  - '\^l '
   - "\\^l\t"
   replace: ˡ
 - triggers:
   - \^m\
-  - \^m
+  - '\^m '
   - "\\^m\t"
   replace: ᵐ
 - triggers:
   - \^n\
-  - \^n
+  - '\^n '
   - "\\^n\t"
   replace: ⁿ
 - triggers:
   - \^o\
-  - \^o
+  - '\^o '
   - "\\^o\t"
   replace: ᵒ
 - triggers:
   - \^p\
-  - \^p
+  - '\^p '
   - "\\^p\t"
   replace: ᵖ
 - triggers:
   - \^r\
-  - \^r
+  - '\^r '
   - "\\^r\t"
   replace: ʳ
 - triggers:
   - \^s\
-  - \^s
+  - '\^s '
   - "\\^s\t"
   replace: ˢ
 - triggers:
   - \^t\
-  - \^t
+  - '\^t '
   - "\\^t\t"
   replace: ᵗ
 - triggers:
   - \^u\
-  - \^u
+  - '\^u '
   - "\\^u\t"
   replace: ᵘ
 - triggers:
   - \^v\
-  - \^v
+  - '\^v '
   - "\\^v\t"
   replace: ᵛ
 - triggers:
   - \^w\
-  - \^w
+  - '\^w '
   - "\\^w\t"
   replace: ʷ
 - triggers:
   - \^x\
-  - \^x
+  - '\^x '
   - "\\^x\t"
   replace: ˣ
 - triggers:
   - \^y\
-  - \^y
+  - '\^y '
   - "\\^y\t"
   replace: ʸ
 - triggers:
   - \^z\
-  - \^z
+  - '\^z '
   - "\\^z\t"
   replace: ᶻ
 - triggers:
   - \^A\
-  - \^A
+  - '\^A '
   - "\\^A\t"
   replace: ᴬ
 - triggers:
   - \^B\
-  - \^B
+  - '\^B '
   - "\\^B\t"
   replace: ᴮ
 - triggers:
   - \^D\
-  - \^D
+  - '\^D '
   - "\\^D\t"
   replace: ᴰ
 - triggers:
   - \^E\
-  - \^E
+  - '\^E '
   - "\\^E\t"
   replace: ᴱ
 - triggers:
   - \^G\
-  - \^G
+  - '\^G '
   - "\\^G\t"
   replace: ᴳ
 - triggers:
   - \^H\
-  - \^H
+  - '\^H '
   - "\\^H\t"
   replace: ᴴ
 - triggers:
   - \^I\
-  - \^I
+  - '\^I '
   - "\\^I\t"
   replace: ᴵ
 - triggers:
   - \^J\
-  - \^J
+  - '\^J '
   - "\\^J\t"
   replace: ᴶ
 - triggers:
   - \^K\
-  - \^K
+  - '\^K '
   - "\\^K\t"
   replace: ᴷ
 - triggers:
   - \^L\
-  - \^L
+  - '\^L '
   - "\\^L\t"
   replace: ᴸ
 - triggers:
   - \^M\
-  - \^M
+  - '\^M '
   - "\\^M\t"
   replace: ᴹ
 - triggers:
   - \^N\
-  - \^N
+  - '\^N '
   - "\\^N\t"
   replace: ᴺ
 - triggers:
   - \^O\
-  - \^O
+  - '\^O '
   - "\\^O\t"
   replace: ᴼ
 - triggers:
   - \^P\
-  - \^P
+  - '\^P '
   - "\\^P\t"
   replace: ᴾ
 - triggers:
   - \^R\
-  - \^R
+  - '\^R '
   - "\\^R\t"
   replace: ᴿ
 - triggers:
   - \^T\
-  - \^T
+  - '\^T '
   - "\\^T\t"
   replace: ᵀ
 - triggers:
   - \^U\
-  - \^U
+  - '\^U '
   - "\\^U\t"
   replace: ᵁ
 - triggers:
   - \^V\
-  - \^V
+  - '\^V '
   - "\\^V\t"
   replace: ⱽ
 - triggers:
   - \^W\
-  - \^W
+  - '\^W '
   - "\\^W\t"
   replace: ᵂ
 - triggers:
   - \^0\
-  - \^0
+  - '\^0 '
   - "\\^0\t"
   replace: ⁰
 - triggers:
   - \^1\
-  - \^1
+  - '\^1 '
   - "\\^1\t"
   replace: ¹
 - triggers:
   - \^2\
-  - \^2
+  - '\^2 '
   - "\\^2\t"
   replace: ²
 - triggers:
   - \^3\
-  - \^3
+  - '\^3 '
   - "\\^3\t"
   replace: ³
 - triggers:
   - \^4\
-  - \^4
+  - '\^4 '
   - "\\^4\t"
   replace: ⁴
 - triggers:
   - \^5\
-  - \^5
+  - '\^5 '
   - "\\^5\t"
   replace: ⁵
 - triggers:
   - \^6\
-  - \^6
+  - '\^6 '
   - "\\^6\t"
   replace: ⁶
 - triggers:
   - \^7\
-  - \^7
+  - '\^7 '
   - "\\^7\t"
   replace: ⁷
 - triggers:
   - \^8\
-  - \^8
+  - '\^8 '
   - "\\^8\t"
   replace: ⁸
 - triggers:
   - \^9\
-  - \^9
+  - '\^9 '
   - "\\^9\t"
   replace: ⁹
 - triggers:
   - \^)\
-  - \^)
+  - '\^) '
   - "\\^)\t"
   replace: ⁾
 - triggers:
   - \^(\
-  - \^(
+  - '\^( '
   - "\\^(\t"
   replace: ⁽
 - triggers:
   - \^=\
-  - \^=
+  - '\^= '
   - "\\^=\t"
   replace: ⁼
 - triggers:
   - \^+\
-  - \^+
+  - '\^+ '
   - "\\^+\t"
   replace: ⁺
 - triggers:
   - \^o_\
-  - \^o_
+  - '\^o_ '
   - "\\^o_\t"
   replace: º
 - triggers:
   - \^-\
-  - \^-
+  - '\^- '
   - "\\^-\t"
   replace: ⁻
 - triggers:
   - \^a_\
-  - \^a_
+  - '\^a_ '
   - "\\^a_\t"
   replace: ª
 - triggers:
   - \^uhook\
-  - \^uhook
+  - '\^uhook '
   - "\\^uhook\t"
   replace: ꭟ
 - triggers:
   - \^ubar\
-  - \^ubar
+  - '\^ubar '
   - "\\^ubar\t"
   replace: ᶶ
 - triggers:
   - \^upsilon\
-  - \^upsilon
+  - '\^upsilon '
   - "\\^upsilon\t"
   replace: ᶷ
 - triggers:
   - \^ltilde\
-  - \^ltilde
+  - '\^ltilde '
   - "\\^ltilde\t"
   replace: ꭞ
 - triggers:
   - \^ls\
-  - \^ls
+  - '\^ls '
   - "\\^ls\t"
   replace: ꭝ
 - triggers:
   - \^lhook\
-  - \^lhook
+  - '\^lhook '
   - "\\^lhook\t"
   replace: ᶪ
 - triggers:
   - \^lretroflexhook\
-  - \^lretroflexhook
+  - '\^lretroflexhook '
   - "\\^lretroflexhook\t"
   replace: ᶩ
 - triggers:
   - \^oe\
-  - \^oe
+  - '\^oe '
   - "\\^oe\t"
   replace: ꟹ
 - triggers:
   - \^heng\
-  - \^heng
+  - '\^heng '
   - "\\^heng\t"
   replace: ꭜ
 - triggers:
   - \^hhook\
-  - \^hhook
+  - '\^hhook '
   - "\\^hhook\t"
   replace: ʱ
 - triggers:
   - \^hwithhook\
-  - \^hwithhook
+  - '\^hwithhook '
   - "\\^hwithhook\t"
   replace: ʱ
 - triggers:
   - \^Hstroke\
-  - \^Hstroke
+  - '\^Hstroke '
   - "\\^Hstroke\t"
   replace: ꟸ
 - triggers:
   - \^theta\
-  - \^theta
+  - '\^theta '
   - "\\^theta\t"
   replace: ᶿ
 - triggers:
   - \^turnedv\
-  - \^turnedv
+  - '\^turnedv '
   - "\\^turnedv\t"
   replace: ᶺ
 - triggers:
   - \^turnedmleg\
-  - \^turnedmleg
+  - '\^turnedmleg '
   - "\\^turnedmleg\t"
   replace: ᶭ
 - triggers:
   - \^turnedm\
-  - \^turnedm
+  - '\^turnedm '
   - "\\^turnedm\t"
   replace: ᵚ
 - triggers:
   - \^turnedh\
-  - \^turnedh
+  - '\^turnedh '
   - "\\^turnedh\t"
   replace: ᶣ
 - triggers:
   - \^turnedalpha\
-  - \^turnedalpha
+  - '\^turnedalpha '
   - "\\^turnedalpha\t"
   replace: ᶛ
 - triggers:
   - \^turnedae\
-  - \^turnedae
+  - '\^turnedae '
   - "\\^turnedae\t"
   replace: ᵆ
 - triggers:
   - \^turneda\
-  - \^turneda
+  - '\^turneda '
   - "\\^turneda\t"
   replace: ᵄ
 - triggers:
   - \^turnedi\
-  - \^turnedi
+  - '\^turnedi '
   - "\\^turnedi\t"
   replace: ᵎ
 - triggers:
   - \^turnede\
-  - \^turnede
+  - '\^turnede '
   - "\\^turnede\t"
   replace: ᵌ
 - triggers:
   - \^turnedrhook\
-  - \^turnedrhook
+  - '\^turnedrhook '
   - "\\^turnedrhook\t"
   replace: ʵ
 - triggers:
   - \^turnedrwithhook\
-  - \^turnedrwithhook
+  - '\^turnedrwithhook '
   - "\\^turnedrwithhook\t"
   replace: ʵ
 - triggers:
   - \^turnedr\
-  - \^turnedr
+  - '\^turnedr '
   - "\\^turnedr\t"
   replace: ʴ
 - triggers:
   - \^twithpalatalhook\
-  - \^twithpalatalhook
+  - '\^twithpalatalhook '
   - "\\^twithpalatalhook\t"
   replace: ᶵ
 - triggers:
   - \^otop\
-  - \^otop
+  - '\^otop '
   - "\\^otop\t"
   replace: ᵔ
 - triggers:
   - \^ezh\
-  - \^ezh
+  - '\^ezh '
   - "\\^ezh\t"
   replace: ᶾ
 - triggers:
   - \^esh\
-  - \^esh
+  - '\^esh '
   - "\\^esh\t"
   replace: ᶴ
 - triggers:
   - \^eth\
-  - \^eth
+  - '\^eth '
   - "\\^eth\t"
   replace: ᶞ
 - triggers:
   - \^eng\
-  - \^eng
+  - '\^eng '
   - "\\^eng\t"
   replace: ᵑ
 - triggers:
   - \^zcurl\
-  - \^zcurl
+  - '\^zcurl '
   - "\\^zcurl\t"
   replace: ᶽ
 - triggers:
   - \^zretroflexhook\
-  - \^zretroflexhook
+  - '\^zretroflexhook '
   - "\\^zretroflexhook\t"
   replace: ᶼ
 - triggers:
   - \^vhook\
-  - \^vhook
+  - '\^vhook '
   - "\\^vhook\t"
   replace: ᶹ
 - triggers:
   - \^Ismall\
-  - \^Ismall
+  - '\^Ismall '
   - "\\^Ismall\t"
   replace: ᶦ
 - triggers:
   - \^Lsmall\
-  - \^Lsmall
+  - '\^Lsmall '
   - "\\^Lsmall\t"
   replace: ᶫ
 - triggers:
   - \^Nsmall\
-  - \^Nsmall
+  - '\^Nsmall '
   - "\\^Nsmall\t"
   replace: ᶰ
 - triggers:
   - \^Usmall\
-  - \^Usmall
+  - '\^Usmall '
   - "\\^Usmall\t"
   replace: ᶸ
 - triggers:
   - \^Istroke\
-  - \^Istroke
+  - '\^Istroke '
   - "\\^Istroke\t"
   replace: ᶧ
 - triggers:
   - \^Rinverted\
-  - \^Rinverted
+  - '\^Rinverted '
   - "\\^Rinverted\t"
   replace: ʶ
 - triggers:
   - \^ccurl\
-  - \^ccurl
+  - '\^ccurl '
   - "\\^ccurl\t"
   replace: ᶝ
 - triggers:
   - \^chi\
-  - \^chi
+  - '\^chi '
   - "\\^chi\t"
   replace: ᵡ
 - triggers:
   - \^shook\
-  - \^shook
+  - '\^shook '
   - "\\^shook\t"
   replace: ᶳ
 - triggers:
   - \^gscript\
-  - \^gscript
+  - '\^gscript '
   - "\\^gscript\t"
   replace: ᶢ
 - triggers:
   - \^schwa\
-  - \^schwa
+  - '\^schwa '
   - "\\^schwa\t"
   replace: ᵊ
 - triggers:
   - \^usideways\
-  - \^usideways
+  - '\^usideways '
   - "\\^usideways\t"
   replace: ᵙ
 - triggers:
   - \^phi\
-  - \^phi
+  - '\^phi '
   - "\\^phi\t"
   replace: ᶲ
 - triggers:
   - \^obarred\
-  - \^obarred
+  - '\^obarred '
   - "\\^obarred\t"
   replace: ᶱ
 - triggers:
   - \^beta\
-  - \^beta
+  - '\^beta '
   - "\\^beta\t"
   replace: ᵝ
 - triggers:
   - \^obottom\
-  - \^obottom
+  - '\^obottom '
   - "\\^obottom\t"
   replace: ᵕ
 - triggers:
   - \^nretroflexhook\
-  - \^nretroflexhook
+  - '\^nretroflexhook '
   - "\\^nretroflexhook\t"
   replace: ᶯ
 - triggers:
   - \^nlefthook\
-  - \^nlefthook
+  - '\^nlefthook '
   - "\\^nlefthook\t"
   replace: ᶮ
 - triggers:
   - \^mhook\
-  - \^mhook
+  - '\^mhook '
   - "\\^mhook\t"
   replace: ᶬ
 - triggers:
   - \^jtail\
-  - \^jtail
+  - '\^jtail '
   - "\\^jtail\t"
   replace: ᶨ
 - triggers:
   - \^iota\
-  - \^iota
+  - '\^iota '
   - "\\^iota\t"
   replace: ᶥ
 - triggers:
   - \^istroke\
-  - \^istroke
+  - '\^istroke '
   - "\\^istroke\t"
   replace: ᶤ
 - triggers:
   - \^ereversedopen\
-  - \^ereversedopen
+  - '\^ereversedopen '
   - "\\^ereversedopen\t"
   replace: ᶟ
 - triggers:
   - \^stop\
-  - \^stop
+  - '\^stop '
   - "\\^stop\t"
   replace: ˤ
 - triggers:
   - \^varphi\
-  - \^varphi
+  - '\^varphi '
   - "\\^varphi\t"
   replace: ᵠ
 - triggers:
   - \^vargamma\
-  - \^vargamma
+  - '\^vargamma '
   - "\\^vargamma\t"
   replace: ᵞ
 - triggers:
   - \^gamma\
-  - \^gamma
+  - '\^gamma '
   - "\\^gamma\t"
   replace: ˠ
 - triggers:
   - \^ain\
-  - \^ain
+  - '\^ain '
   - "\\^ain\t"
   replace: ᵜ
 - triggers:
   - \^alpha\
-  - \^alpha
+  - '\^alpha '
   - "\\^alpha\t"
   replace: ᵅ
 - triggers:
   - \^oopen\
-  - \^oopen
+  - '\^oopen '
   - "\\^oopen\t"
   replace: ᵓ
 - triggers:
   - \^eopen\
-  - \^eopen
+  - '\^eopen '
   - "\\^eopen\t"
   replace: ᵋ
 - triggers:
   - \^Ou\
-  - \^Ou
+  - '\^Ou '
   - "\\^Ou\t"
   replace: ᴽ
 - triggers:
   - \^Nreversed\
-  - \^Nreversed
+  - '\^Nreversed '
   - "\\^Nreversed\t"
   replace: ᴻ
 - triggers:
   - \^Ereversed\
-  - \^Ereversed
+  - '\^Ereversed '
   - "\\^Ereversed\t"
   replace: ᴲ
 - triggers:
   - \^Bbarred\
-  - \^Bbarred
+  - '\^Bbarred '
   - "\\^Bbarred\t"
   replace: ᴯ
 - triggers:
   - \^Ae\
-  - \^Ae
+  - '\^Ae '
   - "\\^Ae\t"
   replace: ᴭ
 - triggers:
   - \^SM\
-  - \^SM
+  - '\^SM '
   - "\\^SM\t"
   replace: ℠
 - triggers:
   - \^TEL\
-  - \^TEL
+  - '\^TEL '
   - "\\^TEL\t"
   replace: ℡
 - triggers:
   - \^TM\
-  - \^TM
+  - '\^TM '
   - "\\^TM\t"
   replace: ™
 - triggers:
   - \_a\
-  - \_a
+  - '\_a '
   - "\\_a\t"
   replace: ₐ
 - triggers:
   - \_e\
-  - \_e
+  - '\_e '
   - "\\_e\t"
   replace: ₑ
 - triggers:
   - \_h\
-  - \_h
+  - '\_h '
   - "\\_h\t"
   replace: ₕ
 - triggers:
   - \_i\
-  - \_i
+  - '\_i '
   - "\\_i\t"
   replace: ᵢ
 - triggers:
   - \_j\
-  - \_j
+  - '\_j '
   - "\\_j\t"
   replace: ⱼ
 - triggers:
   - \_k\
-  - \_k
+  - '\_k '
   - "\\_k\t"
   replace: ₖ
 - triggers:
   - \_l\
-  - \_l
+  - '\_l '
   - "\\_l\t"
   replace: ₗ
 - triggers:
   - \_m\
-  - \_m
+  - '\_m '
   - "\\_m\t"
   replace: ₘ
 - triggers:
   - \_n\
-  - \_n
+  - '\_n '
   - "\\_n\t"
   replace: ₙ
 - triggers:
   - \_o\
-  - \_o
+  - '\_o '
   - "\\_o\t"
   replace: ₒ
 - triggers:
   - \_p\
-  - \_p
+  - '\_p '
   - "\\_p\t"
   replace: ₚ
 - triggers:
   - \_r\
-  - \_r
+  - '\_r '
   - "\\_r\t"
   replace: ᵣ
 - triggers:
   - \_s\
-  - \_s
+  - '\_s '
   - "\\_s\t"
   replace: ₛ
 - triggers:
   - \_t\
-  - \_t
+  - '\_t '
   - "\\_t\t"
   replace: ₜ
 - triggers:
   - \_u\
-  - \_u
+  - '\_u '
   - "\\_u\t"
   replace: ᵤ
 - triggers:
   - \_v\
-  - \_v
+  - '\_v '
   - "\\_v\t"
   replace: ᵥ
 - triggers:
   - \_x\
-  - \_x
+  - '\_x '
   - "\\_x\t"
   replace: ₓ
 - triggers:
   - \_0\
-  - \_0
+  - '\_0 '
   - "\\_0\t"
   replace: ₀
 - triggers:
   - \_1\
-  - \_1
+  - '\_1 '
   - "\\_1\t"
   replace: ₁
 - triggers:
   - \_2\
-  - \_2
+  - '\_2 '
   - "\\_2\t"
   replace: ₂
 - triggers:
   - \_3\
-  - \_3
+  - '\_3 '
   - "\\_3\t"
   replace: ₃
 - triggers:
   - \_4\
-  - \_4
+  - '\_4 '
   - "\\_4\t"
   replace: ₄
 - triggers:
   - \_5\
-  - \_5
+  - '\_5 '
   - "\\_5\t"
   replace: ₅
 - triggers:
   - \_6\
-  - \_6
+  - '\_6 '
   - "\\_6\t"
   replace: ₆
 - triggers:
   - \_7\
-  - \_7
+  - '\_7 '
   - "\\_7\t"
   replace: ₇
 - triggers:
   - \_8\
-  - \_8
+  - '\_8 '
   - "\\_8\t"
   replace: ₈
 - triggers:
   - \_9\
-  - \_9
+  - '\_9 '
   - "\\_9\t"
   replace: ₉
 - triggers:
   - \_)\
-  - \_)
+  - '\_) '
   - "\\_)\t"
   replace: ₎
 - triggers:
   - \_(\
-  - \_(
+  - '\_( '
   - "\\_(\t"
   replace: ₍
 - triggers:
   - \_=\
-  - \_=
+  - '\_= '
   - "\\_=\t"
   replace: ₌
 - triggers:
   - \_+\
-  - \_+
+  - '\_+ '
   - "\\_+\t"
   replace: ₊
 - triggers:
   - \_--\
-  - \_--
+  - '\_-- '
   - "\\_--\t"
   replace: ̲
 - triggers:
   - \_-\
-  - \_-
+  - '\_- '
   - "\\_-\t"
   replace: ₋
 - triggers:
   - \!!\
-  - \!!
+  - '\!! '
   - "\\!!\t"
   replace: ‼
 - triggers:
   - \!?\
-  - \!?
+  - '\!? '
   - "\\!?\t"
   replace: ⁉
 - triggers:
   - \San\
-  - \San
+  - '\San '
   - "\\San\t"
   replace: Ϻ
 - triggers:
   - \Sampi\
-  - \Sampi
+  - '\Sampi '
   - "\\Sampi\t"
   replace: Ϡ
 - triggers:
   - \Sho\
-  - \Sho
+  - '\Sho '
   - "\\Sho\t"
   replace: Ϸ
 - triggers:
   - \Shima\
-  - \Shima
+  - '\Shima '
   - "\\Shima\t"
   replace: Ϭ
 - triggers:
   - \Shei\
-  - \Shei
+  - '\Shei '
   - "\\Shei\t"
   replace: Ϣ
 - triggers:
   - \Stigma\
-  - \Stigma
+  - '\Stigma '
   - "\\Stigma\t"
   replace: Ϛ
 - triggers:
   - \Sigma\
-  - \Sigma
+  - '\Sigma '
   - "\\Sigma\t"
   replace: Σ
 - triggers:
   - \Subset\
-  - \Subset
+  - '\Subset '
   - "\\Subset\t"
   replace: ⋐
 - triggers:
   - \Supset\
-  - \Supset
+  - '\Supset '
   - "\\Supset\t"
   replace: ⋑
 - triggers:
   - \Smiley\
-  - \Smiley
+  - '\Smiley '
   - "\\Smiley\t"
   replace: ☺
 - triggers:
   - \Psi\
-  - \Psi
+  - '\Psi '
   - "\\Psi\t"
   replace: Ψ
 - triggers:
   - \Phi\
-  - \Phi
+  - '\Phi '
   - "\\Phi\t"
   replace: Φ
 - triggers:
   - \Pi\
-  - \Pi
+  - '\Pi '
   - "\\Pi\t"
   replace: Π
 - triggers:
   - \Pi0\
-  - \Pi0
+  - '\Pi0 '
   - "\\Pi0\t"
   replace: Π₀
 - triggers:
   - \P0\
-  - \P0
+  - '\P0 '
   - "\\P0\t"
   replace: Π₀
 - triggers:
   - \Pi_0\
-  - \Pi_0
+  - '\Pi_0 '
   - "\\Pi_0\t"
   replace: Π₀
 - triggers:
   - \P_0\
-  - \P_0
+  - '\P_0 '
   - "\\P_0\t"
   replace: Π₀
 - triggers:
   - \bfA\
-  - \bfA
+  - '\bfA '
   - "\\bfA\t"
   replace: 𝐀
 - triggers:
   - \bfB\
-  - \bfB
+  - '\bfB '
   - "\\bfB\t"
   replace: 𝐁
 - triggers:
   - \bfC\
-  - \bfC
+  - '\bfC '
   - "\\bfC\t"
   replace: 𝐂
 - triggers:
   - \bfD\
-  - \bfD
+  - '\bfD '
   - "\\bfD\t"
   replace: 𝐃
 - triggers:
   - \bfE\
-  - \bfE
+  - '\bfE '
   - "\\bfE\t"
   replace: 𝐄
 - triggers:
   - \bfF\
-  - \bfF
+  - '\bfF '
   - "\\bfF\t"
   replace: 𝐅
 - triggers:
   - \bfG\
-  - \bfG
+  - '\bfG '
   - "\\bfG\t"
   replace: 𝐆
 - triggers:
   - \bfH\
-  - \bfH
+  - '\bfH '
   - "\\bfH\t"
   replace: 𝐇
 - triggers:
   - \bfI\
-  - \bfI
+  - '\bfI '
   - "\\bfI\t"
   replace: 𝐈
 - triggers:
   - \bfJ\
-  - \bfJ
+  - '\bfJ '
   - "\\bfJ\t"
   replace: 𝐉
 - triggers:
   - \bfK\
-  - \bfK
+  - '\bfK '
   - "\\bfK\t"
   replace: 𝐊
 - triggers:
   - \bfL\
-  - \bfL
+  - '\bfL '
   - "\\bfL\t"
   replace: 𝐋
 - triggers:
   - \bfM\
-  - \bfM
+  - '\bfM '
   - "\\bfM\t"
   replace: 𝐌
 - triggers:
   - \bfN\
-  - \bfN
+  - '\bfN '
   - "\\bfN\t"
   replace: 𝐍
 - triggers:
   - \bfO\
-  - \bfO
+  - '\bfO '
   - "\\bfO\t"
   replace: 𝐎
 - triggers:
   - \bfP\
-  - \bfP
+  - '\bfP '
   - "\\bfP\t"
   replace: 𝐏
 - triggers:
   - \bfQ\
-  - \bfQ
+  - '\bfQ '
   - "\\bfQ\t"
   replace: 𝐐
 - triggers:
   - \bfR\
-  - \bfR
+  - '\bfR '
   - "\\bfR\t"
   replace: 𝐑
 - triggers:
   - \bfS\
-  - \bfS
+  - '\bfS '
   - "\\bfS\t"
   replace: 𝐒
 - triggers:
   - \bfT\
-  - \bfT
+  - '\bfT '
   - "\\bfT\t"
   replace: 𝐓
 - triggers:
   - \bfU\
-  - \bfU
+  - '\bfU '
   - "\\bfU\t"
   replace: 𝐔
 - triggers:
   - \bfV\
-  - \bfV
+  - '\bfV '
   - "\\bfV\t"
   replace: 𝐕
 - triggers:
   - \bfW\
-  - \bfW
+  - '\bfW '
   - "\\bfW\t"
   replace: 𝐖
 - triggers:
   - \bfX\
-  - \bfX
+  - '\bfX '
   - "\\bfX\t"
   replace: 𝐗
 - triggers:
   - \bfY\
-  - \bfY
+  - '\bfY '
   - "\\bfY\t"
   replace: 𝐘
 - triggers:
   - \bfZ\
-  - \bfZ
+  - '\bfZ '
   - "\\bfZ\t"
   replace: 𝐙
 - triggers:
   - \bfa\
-  - \bfa
+  - '\bfa '
   - "\\bfa\t"
   replace: 𝐚
 - triggers:
   - \bfb\
-  - \bfb
+  - '\bfb '
   - "\\bfb\t"
   replace: 𝐛
 - triggers:
   - \bfc\
-  - \bfc
+  - '\bfc '
   - "\\bfc\t"
   replace: 𝐜
 - triggers:
   - \bfd\
-  - \bfd
+  - '\bfd '
   - "\\bfd\t"
   replace: 𝐝
 - triggers:
   - \bfe\
-  - \bfe
+  - '\bfe '
   - "\\bfe\t"
   replace: 𝐞
 - triggers:
   - \bff\
-  - \bff
+  - '\bff '
   - "\\bff\t"
   replace: 𝐟
 - triggers:
   - \bfg\
-  - \bfg
+  - '\bfg '
   - "\\bfg\t"
   replace: 𝐠
 - triggers:
   - \bfh\
-  - \bfh
+  - '\bfh '
   - "\\bfh\t"
   replace: 𝐡
 - triggers:
   - \bfi\
-  - \bfi
+  - '\bfi '
   - "\\bfi\t"
   replace: 𝐢
 - triggers:
   - \bfj\
-  - \bfj
+  - '\bfj '
   - "\\bfj\t"
   replace: 𝐣
 - triggers:
   - \bfk\
-  - \bfk
+  - '\bfk '
   - "\\bfk\t"
   replace: 𝐤
 - triggers:
   - \bfl\
-  - \bfl
+  - '\bfl '
   - "\\bfl\t"
   replace: 𝐥
 - triggers:
   - \bfm\
-  - \bfm
+  - '\bfm '
   - "\\bfm\t"
   replace: 𝐦
 - triggers:
   - \bfn\
-  - \bfn
+  - '\bfn '
   - "\\bfn\t"
   replace: 𝐧
 - triggers:
   - \bfo\
-  - \bfo
+  - '\bfo '
   - "\\bfo\t"
   replace: 𝐨
 - triggers:
   - \bfp\
-  - \bfp
+  - '\bfp '
   - "\\bfp\t"
   replace: 𝐩
 - triggers:
   - \bfq\
-  - \bfq
+  - '\bfq '
   - "\\bfq\t"
   replace: 𝐪
 - triggers:
   - \bfr\
-  - \bfr
+  - '\bfr '
   - "\\bfr\t"
   replace: 𝐫
 - triggers:
   - \bfs\
-  - \bfs
+  - '\bfs '
   - "\\bfs\t"
   replace: 𝐬
 - triggers:
   - \bft\
-  - \bft
+  - '\bft '
   - "\\bft\t"
   replace: 𝐭
 - triggers:
   - \bfu\
-  - \bfu
+  - '\bfu '
   - "\\bfu\t"
   replace: 𝐮
 - triggers:
   - \bfv\
-  - \bfv
+  - '\bfv '
   - "\\bfv\t"
   replace: 𝐯
 - triggers:
   - \bfw\
-  - \bfw
+  - '\bfw '
   - "\\bfw\t"
   replace: 𝐰
 - triggers:
   - \bfx\
-  - \bfx
+  - '\bfx '
   - "\\bfx\t"
   replace: 𝐱
 - triggers:
   - \bfy\
-  - \bfy
+  - '\bfy '
   - "\\bfy\t"
   replace: 𝐲
 - triggers:
   - \bfz\
-  - \bfz
+  - '\bfz '
   - "\\bfz\t"
   replace: 𝐳
 - triggers:
   - \MiA\
-  - \MiA
+  - '\MiA '
   - "\\MiA\t"
   replace: 𝐴
 - triggers:
   - \MiB\
-  - \MiB
+  - '\MiB '
   - "\\MiB\t"
   replace: 𝐵
 - triggers:
   - \MiC\
-  - \MiC
+  - '\MiC '
   - "\\MiC\t"
   replace: 𝐶
 - triggers:
   - \MiD\
-  - \MiD
+  - '\MiD '
   - "\\MiD\t"
   replace: 𝐷
 - triggers:
   - \MiE\
-  - \MiE
+  - '\MiE '
   - "\\MiE\t"
   replace: 𝐸
 - triggers:
   - \MiF\
-  - \MiF
+  - '\MiF '
   - "\\MiF\t"
   replace: 𝐹
 - triggers:
   - \MiG\
-  - \MiG
+  - '\MiG '
   - "\\MiG\t"
   replace: 𝐺
 - triggers:
   - \MiH\
-  - \MiH
+  - '\MiH '
   - "\\MiH\t"
   replace: 𝐻
 - triggers:
   - \MiI\
-  - \MiI
+  - '\MiI '
   - "\\MiI\t"
   replace: 𝐼
 - triggers:
   - \MiJ\
-  - \MiJ
+  - '\MiJ '
   - "\\MiJ\t"
   replace: 𝐽
 - triggers:
   - \MiK\
-  - \MiK
+  - '\MiK '
   - "\\MiK\t"
   replace: 𝐾
 - triggers:
   - \MiL\
-  - \MiL
+  - '\MiL '
   - "\\MiL\t"
   replace: 𝐿
 - triggers:
   - \MiM\
-  - \MiM
+  - '\MiM '
   - "\\MiM\t"
   replace: 𝑀
 - triggers:
   - \MiN\
-  - \MiN
+  - '\MiN '
   - "\\MiN\t"
   replace: 𝑁
 - triggers:
   - \MiO\
-  - \MiO
+  - '\MiO '
   - "\\MiO\t"
   replace: 𝑂
 - triggers:
   - \MiP\
-  - \MiP
+  - '\MiP '
   - "\\MiP\t"
   replace: 𝑃
 - triggers:
   - \MiQ\
-  - \MiQ
+  - '\MiQ '
   - "\\MiQ\t"
   replace: 𝑄
 - triggers:
   - \MiR\
-  - \MiR
+  - '\MiR '
   - "\\MiR\t"
   replace: 𝑅
 - triggers:
   - \MiS\
-  - \MiS
+  - '\MiS '
   - "\\MiS\t"
   replace: 𝑆
 - triggers:
   - \MiT\
-  - \MiT
+  - '\MiT '
   - "\\MiT\t"
   replace: 𝑇
 - triggers:
   - \MiU\
-  - \MiU
+  - '\MiU '
   - "\\MiU\t"
   replace: 𝑈
 - triggers:
   - \MiV\
-  - \MiV
+  - '\MiV '
   - "\\MiV\t"
   replace: 𝑉
 - triggers:
   - \MiW\
-  - \MiW
+  - '\MiW '
   - "\\MiW\t"
   replace: 𝑊
 - triggers:
   - \MiX\
-  - \MiX
+  - '\MiX '
   - "\\MiX\t"
   replace: 𝑋
 - triggers:
   - \MiY\
-  - \MiY
+  - '\MiY '
   - "\\MiY\t"
   replace: 𝑌
 - triggers:
   - \MiZ\
-  - \MiZ
+  - '\MiZ '
   - "\\MiZ\t"
   replace: 𝑍
 - triggers:
   - \Mia\
-  - \Mia
+  - '\Mia '
   - "\\Mia\t"
   replace: 𝑎
 - triggers:
   - \Mib\
-  - \Mib
+  - '\Mib '
   - "\\Mib\t"
   replace: 𝑏
 - triggers:
   - \Mic\
-  - \Mic
+  - '\Mic '
   - "\\Mic\t"
   replace: 𝑐
 - triggers:
   - \Mid\
-  - \Mid
+  - '\Mid '
   - "\\Mid\t"
   replace: 𝑑
 - triggers:
   - \Mie\
-  - \Mie
+  - '\Mie '
   - "\\Mie\t"
   replace: 𝑒
 - triggers:
   - \Mif\
-  - \Mif
+  - '\Mif '
   - "\\Mif\t"
   replace: 𝑓
 - triggers:
   - \Mig\
-  - \Mig
+  - '\Mig '
   - "\\Mig\t"
   replace: 𝑔
 - triggers:
   - \Mii\
-  - \Mii
+  - '\Mii '
   - "\\Mii\t"
   replace: 𝑖
 - triggers:
   - \Mij\
-  - \Mij
+  - '\Mij '
   - "\\Mij\t"
   replace: 𝑗
 - triggers:
   - \Mik\
-  - \Mik
+  - '\Mik '
   - "\\Mik\t"
   replace: 𝑘
 - triggers:
   - \Mil\
-  - \Mil
+  - '\Mil '
   - "\\Mil\t"
   replace: 𝑙
 - triggers:
   - \Mim\
-  - \Mim
+  - '\Mim '
   - "\\Mim\t"
   replace: 𝑚
 - triggers:
   - \Min\
-  - \Min
+  - '\Min '
   - "\\Min\t"
   replace: 𝑛
 - triggers:
   - \Mio\
-  - \Mio
+  - '\Mio '
   - "\\Mio\t"
   replace: 𝑜
 - triggers:
   - \Mip\
-  - \Mip
+  - '\Mip '
   - "\\Mip\t"
   replace: 𝑝
 - triggers:
   - \Miq\
-  - \Miq
+  - '\Miq '
   - "\\Miq\t"
   replace: 𝑞
 - triggers:
   - \Mir\
-  - \Mir
+  - '\Mir '
   - "\\Mir\t"
   replace: 𝑟
 - triggers:
   - \Mis\
-  - \Mis
+  - '\Mis '
   - "\\Mis\t"
   replace: 𝑠
 - triggers:
   - \Mit\
-  - \Mit
+  - '\Mit '
   - "\\Mit\t"
   replace: 𝑡
 - triggers:
   - \Miu\
-  - \Miu
+  - '\Miu '
   - "\\Miu\t"
   replace: 𝑢
 - triggers:
   - \Miv\
-  - \Miv
+  - '\Miv '
   - "\\Miv\t"
   replace: 𝑣
 - triggers:
   - \Miw\
-  - \Miw
+  - '\Miw '
   - "\\Miw\t"
   replace: 𝑤
 - triggers:
   - \Mix\
-  - \Mix
+  - '\Mix '
   - "\\Mix\t"
   replace: 𝑥
 - triggers:
   - \Miy\
-  - \Miy
+  - '\Miy '
   - "\\Miy\t"
   replace: 𝑦
 - triggers:
   - \Miz\
-  - \Miz
+  - '\Miz '
   - "\\Miz\t"
   replace: 𝑧
 - triggers:
   - \MIA\
-  - \MIA
+  - '\MIA '
   - "\\MIA\t"
   replace: 𝑨
 - triggers:
   - \MIB\
-  - \MIB
+  - '\MIB '
   - "\\MIB\t"
   replace: 𝑩
 - triggers:
   - \MIC\
-  - \MIC
+  - '\MIC '
   - "\\MIC\t"
   replace: 𝑪
 - triggers:
   - \MID\
-  - \MID
+  - '\MID '
   - "\\MID\t"
   replace: 𝑫
 - triggers:
   - \MIE\
-  - \MIE
+  - '\MIE '
   - "\\MIE\t"
   replace: 𝑬
 - triggers:
   - \MIF\
-  - \MIF
+  - '\MIF '
   - "\\MIF\t"
   replace: 𝑭
 - triggers:
   - \MIG\
-  - \MIG
+  - '\MIG '
   - "\\MIG\t"
   replace: 𝑮
 - triggers:
   - \MIH\
-  - \MIH
+  - '\MIH '
   - "\\MIH\t"
   replace: 𝑯
 - triggers:
   - \MII\
-  - \MII
+  - '\MII '
   - "\\MII\t"
   replace: 𝑰
 - triggers:
   - \MIJ\
-  - \MIJ
+  - '\MIJ '
   - "\\MIJ\t"
   replace: 𝑱
 - triggers:
   - \MIK\
-  - \MIK
+  - '\MIK '
   - "\\MIK\t"
   replace: 𝑲
 - triggers:
   - \MIL\
-  - \MIL
+  - '\MIL '
   - "\\MIL\t"
   replace: 𝑳
 - triggers:
   - \MIM\
-  - \MIM
+  - '\MIM '
   - "\\MIM\t"
   replace: 𝑴
 - triggers:
   - \MIN\
-  - \MIN
+  - '\MIN '
   - "\\MIN\t"
   replace: 𝑵
 - triggers:
   - \MIO\
-  - \MIO
+  - '\MIO '
   - "\\MIO\t"
   replace: 𝑶
 - triggers:
   - \MIP\
-  - \MIP
+  - '\MIP '
   - "\\MIP\t"
   replace: 𝑷
 - triggers:
   - \MIQ\
-  - \MIQ
+  - '\MIQ '
   - "\\MIQ\t"
   replace: 𝑸
 - triggers:
   - \MIR\
-  - \MIR
+  - '\MIR '
   - "\\MIR\t"
   replace: 𝑹
 - triggers:
   - \MIS\
-  - \MIS
+  - '\MIS '
   - "\\MIS\t"
   replace: 𝑺
 - triggers:
   - \MIT\
-  - \MIT
+  - '\MIT '
   - "\\MIT\t"
   replace: 𝑻
 - triggers:
   - \MIU\
-  - \MIU
+  - '\MIU '
   - "\\MIU\t"
   replace: 𝑼
 - triggers:
   - \MIV\
-  - \MIV
+  - '\MIV '
   - "\\MIV\t"
   replace: 𝑽
 - triggers:
   - \MIW\
-  - \MIW
+  - '\MIW '
   - "\\MIW\t"
   replace: 𝑾
 - triggers:
   - \MIX\
-  - \MIX
+  - '\MIX '
   - "\\MIX\t"
   replace: 𝑿
 - triggers:
   - \MIY\
-  - \MIY
+  - '\MIY '
   - "\\MIY\t"
   replace: 𝒀
 - triggers:
   - \MIZ\
-  - \MIZ
+  - '\MIZ '
   - "\\MIZ\t"
   replace: 𝒁
 - triggers:
   - \MIa\
-  - \MIa
+  - '\MIa '
   - "\\MIa\t"
   replace: 𝒂
 - triggers:
   - \MIb\
-  - \MIb
+  - '\MIb '
   - "\\MIb\t"
   replace: 𝒃
 - triggers:
   - \MIc\
-  - \MIc
+  - '\MIc '
   - "\\MIc\t"
   replace: 𝒄
 - triggers:
   - \MId\
-  - \MId
+  - '\MId '
   - "\\MId\t"
   replace: 𝒅
 - triggers:
   - \MIe\
-  - \MIe
+  - '\MIe '
   - "\\MIe\t"
   replace: 𝒆
 - triggers:
   - \MIf\
-  - \MIf
+  - '\MIf '
   - "\\MIf\t"
   replace: 𝒇
 - triggers:
   - \MIg\
-  - \MIg
+  - '\MIg '
   - "\\MIg\t"
   replace: 𝒈
 - triggers:
   - \MIh\
-  - \MIh
+  - '\MIh '
   - "\\MIh\t"
   replace: 𝒉
 - triggers:
   - \MIi\
-  - \MIi
+  - '\MIi '
   - "\\MIi\t"
   replace: 𝒊
 - triggers:
   - \MIj\
-  - \MIj
+  - '\MIj '
   - "\\MIj\t"
   replace: 𝒋
 - triggers:
   - \MIk\
-  - \MIk
+  - '\MIk '
   - "\\MIk\t"
   replace: 𝒌
 - triggers:
   - \MIl\
-  - \MIl
+  - '\MIl '
   - "\\MIl\t"
   replace: 𝒍
 - triggers:
   - \MIm\
-  - \MIm
+  - '\MIm '
   - "\\MIm\t"
   replace: 𝒎
 - triggers:
   - \MIn\
-  - \MIn
+  - '\MIn '
   - "\\MIn\t"
   replace: 𝒏
 - triggers:
   - \MIo\
-  - \MIo
+  - '\MIo '
   - "\\MIo\t"
   replace: 𝒐
 - triggers:
   - \MIp\
-  - \MIp
+  - '\MIp '
   - "\\MIp\t"
   replace: 𝒑
 - triggers:
   - \MIq\
-  - \MIq
+  - '\MIq '
   - "\\MIq\t"
   replace: 𝒒
 - triggers:
   - \MIr\
-  - \MIr
+  - '\MIr '
   - "\\MIr\t"
   replace: 𝒓
 - triggers:
   - \MIs\
-  - \MIs
+  - '\MIs '
   - "\\MIs\t"
   replace: 𝒔
 - triggers:
   - \MIt\
-  - \MIt
+  - '\MIt '
   - "\\MIt\t"
   replace: 𝒕
 - triggers:
   - \MIu\
-  - \MIu
+  - '\MIu '
   - "\\MIu\t"
   replace: 𝒖
 - triggers:
   - \MIv\
-  - \MIv
+  - '\MIv '
   - "\\MIv\t"
   replace: 𝒗
 - triggers:
   - \MIw\
-  - \MIw
+  - '\MIw '
   - "\\MIw\t"
   replace: 𝒘
 - triggers:
   - \MIx\
-  - \MIx
+  - '\MIx '
   - "\\MIx\t"
   replace: 𝒙
 - triggers:
   - \MIy\
-  - \MIy
+  - '\MIy '
   - "\\MIy\t"
   replace: 𝒚
 - triggers:
   - \MIz\
-  - \MIz
+  - '\MIz '
   - "\\MIz\t"
   replace: 𝒛
 - triggers:
   - \McA\
-  - \McA
+  - '\McA '
   - "\\McA\t"
   replace: 𝒜
 - triggers:
   - \McB\
-  - \McB
+  - '\McB '
   - "\\McB\t"
   replace: ℬ
 - triggers:
   - \McC\
-  - \McC
+  - '\McC '
   - "\\McC\t"
   replace: 𝒞
 - triggers:
   - \McD\
-  - \McD
+  - '\McD '
   - "\\McD\t"
   replace: 𝒟
 - triggers:
   - \McE\
-  - \McE
+  - '\McE '
   - "\\McE\t"
   replace: ℰ
 - triggers:
   - \McF\
-  - \McF
+  - '\McF '
   - "\\McF\t"
   replace: ℱ
 - triggers:
   - \McG\
-  - \McG
+  - '\McG '
   - "\\McG\t"
   replace: 𝒢
 - triggers:
   - \McH\
-  - \McH
+  - '\McH '
   - "\\McH\t"
   replace: ℋ
 - triggers:
   - \McI\
-  - \McI
+  - '\McI '
   - "\\McI\t"
   replace: ℐ
 - triggers:
   - \McJ\
-  - \McJ
+  - '\McJ '
   - "\\McJ\t"
   replace: 𝒥
 - triggers:
   - \McK\
-  - \McK
+  - '\McK '
   - "\\McK\t"
   replace: 𝒦
 - triggers:
   - \McL\
-  - \McL
+  - '\McL '
   - "\\McL\t"
   replace: ℒ
 - triggers:
   - \McM\
-  - \McM
+  - '\McM '
   - "\\McM\t"
   replace: ℳ
 - triggers:
   - \McN\
-  - \McN
+  - '\McN '
   - "\\McN\t"
   replace: 𝒩
 - triggers:
   - \McO\
-  - \McO
+  - '\McO '
   - "\\McO\t"
   replace: 𝒪
 - triggers:
   - \McP\
-  - \McP
+  - '\McP '
   - "\\McP\t"
   replace: 𝒫
 - triggers:
   - \McQ\
-  - \McQ
+  - '\McQ '
   - "\\McQ\t"
   replace: 𝒬
 - triggers:
   - \McR\
-  - \McR
+  - '\McR '
   - "\\McR\t"
   replace: ℛ
 - triggers:
   - \McS\
-  - \McS
+  - '\McS '
   - "\\McS\t"
   replace: 𝒮
 - triggers:
   - \McT\
-  - \McT
+  - '\McT '
   - "\\McT\t"
   replace: 𝒯
 - triggers:
   - \McU\
-  - \McU
+  - '\McU '
   - "\\McU\t"
   replace: 𝒰
 - triggers:
   - \McV\
-  - \McV
+  - '\McV '
   - "\\McV\t"
   replace: 𝒱
 - triggers:
   - \McW\
-  - \McW
+  - '\McW '
   - "\\McW\t"
   replace: 𝒲
 - triggers:
   - \McX\
-  - \McX
+  - '\McX '
   - "\\McX\t"
   replace: 𝒳
 - triggers:
   - \McY\
-  - \McY
+  - '\McY '
   - "\\McY\t"
   replace: 𝒴
 - triggers:
   - \McZ\
-  - \McZ
+  - '\McZ '
   - "\\McZ\t"
   replace: 𝒵
 - triggers:
   - \Mca\
-  - \Mca
+  - '\Mca '
   - "\\Mca\t"
   replace: 𝒶
 - triggers:
   - \Mcb\
-  - \Mcb
+  - '\Mcb '
   - "\\Mcb\t"
   replace: 𝒷
 - triggers:
   - \Mcc\
-  - \Mcc
+  - '\Mcc '
   - "\\Mcc\t"
   replace: 𝒸
 - triggers:
   - \Mcd\
-  - \Mcd
+  - '\Mcd '
   - "\\Mcd\t"
   replace: 𝒹
 - triggers:
   - \Mce\
-  - \Mce
+  - '\Mce '
   - "\\Mce\t"
   replace: ℯ
 - triggers:
   - \Mcf\
-  - \Mcf
+  - '\Mcf '
   - "\\Mcf\t"
   replace: 𝒻
 - triggers:
   - \Mcg\
-  - \Mcg
+  - '\Mcg '
   - "\\Mcg\t"
   replace: ℊ
 - triggers:
   - \Mch\
-  - \Mch
+  - '\Mch '
   - "\\Mch\t"
   replace: 𝒽
 - triggers:
   - \Mci\
-  - \Mci
+  - '\Mci '
   - "\\Mci\t"
   replace: 𝒾
 - triggers:
   - \Mcj\
-  - \Mcj
+  - '\Mcj '
   - "\\Mcj\t"
   replace: 𝒿
 - triggers:
   - \Mck\
-  - \Mck
+  - '\Mck '
   - "\\Mck\t"
   replace: 𝓀
 - triggers:
   - \Mcl\
-  - \Mcl
+  - '\Mcl '
   - "\\Mcl\t"
   replace: 𝓁
 - triggers:
   - \Mcm\
-  - \Mcm
+  - '\Mcm '
   - "\\Mcm\t"
   replace: 𝓂
 - triggers:
   - \Mcn\
-  - \Mcn
+  - '\Mcn '
   - "\\Mcn\t"
   replace: 𝓃
 - triggers:
   - \Mco\
-  - \Mco
+  - '\Mco '
   - "\\Mco\t"
   replace: ℴ
 - triggers:
   - \Mcp\
-  - \Mcp
+  - '\Mcp '
   - "\\Mcp\t"
   replace: 𝓅
 - triggers:
   - \Mcq\
-  - \Mcq
+  - '\Mcq '
   - "\\Mcq\t"
   replace: 𝓆
 - triggers:
   - \Mcr\
-  - \Mcr
+  - '\Mcr '
   - "\\Mcr\t"
   replace: 𝓇
 - triggers:
   - \Mcs\
-  - \Mcs
+  - '\Mcs '
   - "\\Mcs\t"
   replace: 𝓈
 - triggers:
   - \Mct\
-  - \Mct
+  - '\Mct '
   - "\\Mct\t"
   replace: 𝓉
 - triggers:
   - \Mcu\
-  - \Mcu
+  - '\Mcu '
   - "\\Mcu\t"
   replace: 𝓊
 - triggers:
   - \Mcv\
-  - \Mcv
+  - '\Mcv '
   - "\\Mcv\t"
   replace: 𝓋
 - triggers:
   - \Mcw\
-  - \Mcw
+  - '\Mcw '
   - "\\Mcw\t"
   replace: 𝓌
 - triggers:
   - \Mcx\
-  - \Mcx
+  - '\Mcx '
   - "\\Mcx\t"
   replace: 𝓍
 - triggers:
   - \Mcy\
-  - \Mcy
+  - '\Mcy '
   - "\\Mcy\t"
   replace: 𝓎
 - triggers:
   - \Mcz\
-  - \Mcz
+  - '\Mcz '
   - "\\Mcz\t"
   replace: 𝓏
 - triggers:
   - \MCA\
-  - \MCA
+  - '\MCA '
   - "\\MCA\t"
   replace: 𝓐
 - triggers:
   - \MCB\
-  - \MCB
+  - '\MCB '
   - "\\MCB\t"
   replace: 𝓑
 - triggers:
   - \MCC\
-  - \MCC
+  - '\MCC '
   - "\\MCC\t"
   replace: 𝓒
 - triggers:
   - \MCD\
-  - \MCD
+  - '\MCD '
   - "\\MCD\t"
   replace: 𝓓
 - triggers:
   - \MCE\
-  - \MCE
+  - '\MCE '
   - "\\MCE\t"
   replace: 𝓔
 - triggers:
   - \MCF\
-  - \MCF
+  - '\MCF '
   - "\\MCF\t"
   replace: 𝓕
 - triggers:
   - \MCG\
-  - \MCG
+  - '\MCG '
   - "\\MCG\t"
   replace: 𝓖
 - triggers:
   - \MCH\
-  - \MCH
+  - '\MCH '
   - "\\MCH\t"
   replace: 𝓗
 - triggers:
   - \MCI\
-  - \MCI
+  - '\MCI '
   - "\\MCI\t"
   replace: 𝓘
 - triggers:
   - \MCJ\
-  - \MCJ
+  - '\MCJ '
   - "\\MCJ\t"
   replace: 𝓙
 - triggers:
   - \MCK\
-  - \MCK
+  - '\MCK '
   - "\\MCK\t"
   replace: 𝓚
 - triggers:
   - \MCL\
-  - \MCL
+  - '\MCL '
   - "\\MCL\t"
   replace: 𝓛
 - triggers:
   - \MCM\
-  - \MCM
+  - '\MCM '
   - "\\MCM\t"
   replace: 𝓜
 - triggers:
   - \MCN\
-  - \MCN
+  - '\MCN '
   - "\\MCN\t"
   replace: 𝓝
 - triggers:
   - \MCO\
-  - \MCO
+  - '\MCO '
   - "\\MCO\t"
   replace: 𝓞
 - triggers:
   - \MCP\
-  - \MCP
+  - '\MCP '
   - "\\MCP\t"
   replace: 𝓟
 - triggers:
   - \MCQ\
-  - \MCQ
+  - '\MCQ '
   - "\\MCQ\t"
   replace: 𝓠
 - triggers:
   - \MCR\
-  - \MCR
+  - '\MCR '
   - "\\MCR\t"
   replace: 𝓡
 - triggers:
   - \MCS\
-  - \MCS
+  - '\MCS '
   - "\\MCS\t"
   replace: 𝓢
 - triggers:
   - \MCT\
-  - \MCT
+  - '\MCT '
   - "\\MCT\t"
   replace: 𝓣
 - triggers:
   - \MCU\
-  - \MCU
+  - '\MCU '
   - "\\MCU\t"
   replace: 𝓤
 - triggers:
   - \MCV\
-  - \MCV
+  - '\MCV '
   - "\\MCV\t"
   replace: 𝓥
 - triggers:
   - \MCW\
-  - \MCW
+  - '\MCW '
   - "\\MCW\t"
   replace: 𝓦
 - triggers:
   - \MCX\
-  - \MCX
+  - '\MCX '
   - "\\MCX\t"
   replace: 𝓧
 - triggers:
   - \MCY\
-  - \MCY
+  - '\MCY '
   - "\\MCY\t"
   replace: 𝓨
 - triggers:
   - \MCZ\
-  - \MCZ
+  - '\MCZ '
   - "\\MCZ\t"
   replace: 𝓩
 - triggers:
   - \MCa\
-  - \MCa
+  - '\MCa '
   - "\\MCa\t"
   replace: 𝓪
 - triggers:
   - \MCb\
-  - \MCb
+  - '\MCb '
   - "\\MCb\t"
   replace: 𝓫
 - triggers:
   - \MCc\
-  - \MCc
+  - '\MCc '
   - "\\MCc\t"
   replace: 𝓬
 - triggers:
   - \MCd\
-  - \MCd
+  - '\MCd '
   - "\\MCd\t"
   replace: 𝓭
 - triggers:
   - \MCe\
-  - \MCe
+  - '\MCe '
   - "\\MCe\t"
   replace: 𝓮
 - triggers:
   - \MCf\
-  - \MCf
+  - '\MCf '
   - "\\MCf\t"
   replace: 𝓯
 - triggers:
   - \MCg\
-  - \MCg
+  - '\MCg '
   - "\\MCg\t"
   replace: 𝓰
 - triggers:
   - \MCh\
-  - \MCh
+  - '\MCh '
   - "\\MCh\t"
   replace: 𝓱
 - triggers:
   - \MCi\
-  - \MCi
+  - '\MCi '
   - "\\MCi\t"
   replace: 𝓲
 - triggers:
   - \MCj\
-  - \MCj
+  - '\MCj '
   - "\\MCj\t"
   replace: 𝓳
 - triggers:
   - \MCk\
-  - \MCk
+  - '\MCk '
   - "\\MCk\t"
   replace: 𝓴
 - triggers:
   - \MCl\
-  - \MCl
+  - '\MCl '
   - "\\MCl\t"
   replace: 𝓵
 - triggers:
   - \MCm\
-  - \MCm
+  - '\MCm '
   - "\\MCm\t"
   replace: 𝓶
 - triggers:
   - \MCn\
-  - \MCn
+  - '\MCn '
   - "\\MCn\t"
   replace: 𝓷
 - triggers:
   - \MCo\
-  - \MCo
+  - '\MCo '
   - "\\MCo\t"
   replace: 𝓸
 - triggers:
   - \MCp\
-  - \MCp
+  - '\MCp '
   - "\\MCp\t"
   replace: 𝓹
 - triggers:
   - \MCq\
-  - \MCq
+  - '\MCq '
   - "\\MCq\t"
   replace: 𝓺
 - triggers:
   - \MCr\
-  - \MCr
+  - '\MCr '
   - "\\MCr\t"
   replace: 𝓻
 - triggers:
   - \MCs\
-  - \MCs
+  - '\MCs '
   - "\\MCs\t"
   replace: 𝓼
 - triggers:
   - \MCt\
-  - \MCt
+  - '\MCt '
   - "\\MCt\t"
   replace: 𝓽
 - triggers:
   - \MCu\
-  - \MCu
+  - '\MCu '
   - "\\MCu\t"
   replace: 𝓾
 - triggers:
   - \MCv\
-  - \MCv
+  - '\MCv '
   - "\\MCv\t"
   replace: 𝓿
 - triggers:
   - \MCw\
-  - \MCw
+  - '\MCw '
   - "\\MCw\t"
   replace: 𝔀
 - triggers:
   - \MCx\
-  - \MCx
+  - '\MCx '
   - "\\MCx\t"
   replace: 𝔁
 - triggers:
   - \MCy\
-  - \MCy
+  - '\MCy '
   - "\\MCy\t"
   replace: 𝔂
 - triggers:
   - \MCz\
-  - \MCz
+  - '\MCz '
   - "\\MCz\t"
   replace: 𝔃
 - triggers:
   - \MfA\
-  - \MfA
+  - '\MfA '
   - "\\MfA\t"
   replace: 𝔄
 - triggers:
   - \MfB\
-  - \MfB
+  - '\MfB '
   - "\\MfB\t"
   replace: 𝔅
 - triggers:
   - \MfC\
-  - \MfC
+  - '\MfC '
   - "\\MfC\t"
   replace: ℭ
 - triggers:
   - \MfD\
-  - \MfD
+  - '\MfD '
   - "\\MfD\t"
   replace: 𝔇
 - triggers:
   - \MfE\
-  - \MfE
+  - '\MfE '
   - "\\MfE\t"
   replace: 𝔈
 - triggers:
   - \MfF\
-  - \MfF
+  - '\MfF '
   - "\\MfF\t"
   replace: 𝔉
 - triggers:
   - \MfG\
-  - \MfG
+  - '\MfG '
   - "\\MfG\t"
   replace: 𝔊
 - triggers:
   - \MfH\
-  - \MfH
+  - '\MfH '
   - "\\MfH\t"
   replace: ℌ
 - triggers:
   - \MfI\
-  - \MfI
+  - '\MfI '
   - "\\MfI\t"
   replace: ℑ
 - triggers:
   - \MfJ\
-  - \MfJ
+  - '\MfJ '
   - "\\MfJ\t"
   replace: 𝔍
 - triggers:
   - \MfK\
-  - \MfK
+  - '\MfK '
   - "\\MfK\t"
   replace: 𝔎
 - triggers:
   - \MfL\
-  - \MfL
+  - '\MfL '
   - "\\MfL\t"
   replace: 𝔏
 - triggers:
   - \MfM\
-  - \MfM
+  - '\MfM '
   - "\\MfM\t"
   replace: 𝔐
 - triggers:
   - \MfN\
-  - \MfN
+  - '\MfN '
   - "\\MfN\t"
   replace: 𝔑
 - triggers:
   - \MfO\
-  - \MfO
+  - '\MfO '
   - "\\MfO\t"
   replace: 𝔒
 - triggers:
   - \MfP\
-  - \MfP
+  - '\MfP '
   - "\\MfP\t"
   replace: 𝔓
 - triggers:
   - \MfQ\
-  - \MfQ
+  - '\MfQ '
   - "\\MfQ\t"
   replace: 𝔔
 - triggers:
   - \MfR\
-  - \MfR
+  - '\MfR '
   - "\\MfR\t"
   replace: ℜ
 - triggers:
   - \MfS\
-  - \MfS
+  - '\MfS '
   - "\\MfS\t"
   replace: 𝔖
 - triggers:
   - \MfT\
-  - \MfT
+  - '\MfT '
   - "\\MfT\t"
   replace: 𝔗
 - triggers:
   - \MfU\
-  - \MfU
+  - '\MfU '
   - "\\MfU\t"
   replace: 𝔘
 - triggers:
   - \MfV\
-  - \MfV
+  - '\MfV '
   - "\\MfV\t"
   replace: 𝔙
 - triggers:
   - \MfW\
-  - \MfW
+  - '\MfW '
   - "\\MfW\t"
   replace: 𝔚
 - triggers:
   - \MfX\
-  - \MfX
+  - '\MfX '
   - "\\MfX\t"
   replace: 𝔛
 - triggers:
   - \MfY\
-  - \MfY
+  - '\MfY '
   - "\\MfY\t"
   replace: 𝔜
 - triggers:
   - \MfZ\
-  - \MfZ
+  - '\MfZ '
   - "\\MfZ\t"
   replace: ℨ
 - triggers:
   - \Mfa\
-  - \Mfa
+  - '\Mfa '
   - "\\Mfa\t"
   replace: 𝔞
 - triggers:
   - \Mfb\
-  - \Mfb
+  - '\Mfb '
   - "\\Mfb\t"
   replace: 𝔟
 - triggers:
   - \Mfc\
-  - \Mfc
+  - '\Mfc '
   - "\\Mfc\t"
   replace: 𝔠
 - triggers:
   - \Mfd\
-  - \Mfd
+  - '\Mfd '
   - "\\Mfd\t"
   replace: 𝔡
 - triggers:
   - \Mfe\
-  - \Mfe
+  - '\Mfe '
   - "\\Mfe\t"
   replace: 𝔢
 - triggers:
   - \Mff\
-  - \Mff
+  - '\Mff '
   - "\\Mff\t"
   replace: 𝔣
 - triggers:
   - \Mfg\
-  - \Mfg
+  - '\Mfg '
   - "\\Mfg\t"
   replace: 𝔤
 - triggers:
   - \Mfh\
-  - \Mfh
+  - '\Mfh '
   - "\\Mfh\t"
   replace: 𝔥
 - triggers:
   - \Mfi\
-  - \Mfi
+  - '\Mfi '
   - "\\Mfi\t"
   replace: 𝔦
 - triggers:
   - \Mfj\
-  - \Mfj
+  - '\Mfj '
   - "\\Mfj\t"
   replace: 𝔧
 - triggers:
   - \Mfk\
-  - \Mfk
+  - '\Mfk '
   - "\\Mfk\t"
   replace: 𝔨
 - triggers:
   - \Mfl\
-  - \Mfl
+  - '\Mfl '
   - "\\Mfl\t"
   replace: 𝔩
 - triggers:
   - \Mfm\
-  - \Mfm
+  - '\Mfm '
   - "\\Mfm\t"
   replace: 𝔪
 - triggers:
   - \Mfn\
-  - \Mfn
+  - '\Mfn '
   - "\\Mfn\t"
   replace: 𝔫
 - triggers:
   - \Mfo\
-  - \Mfo
+  - '\Mfo '
   - "\\Mfo\t"
   replace: 𝔬
 - triggers:
   - \Mfp\
-  - \Mfp
+  - '\Mfp '
   - "\\Mfp\t"
   replace: 𝔭
 - triggers:
   - \Mfq\
-  - \Mfq
+  - '\Mfq '
   - "\\Mfq\t"
   replace: 𝔮
 - triggers:
   - \Mfr\
-  - \Mfr
+  - '\Mfr '
   - "\\Mfr\t"
   replace: 𝔯
 - triggers:
   - \Mfs\
-  - \Mfs
+  - '\Mfs '
   - "\\Mfs\t"
   replace: 𝔰
 - triggers:
   - \Mft\
-  - \Mft
+  - '\Mft '
   - "\\Mft\t"
   replace: 𝔱
 - triggers:
   - \Mfu\
-  - \Mfu
+  - '\Mfu '
   - "\\Mfu\t"
   replace: 𝔲
 - triggers:
   - \Mfv\
-  - \Mfv
+  - '\Mfv '
   - "\\Mfv\t"
   replace: 𝔳
 - triggers:
   - \Mfw\
-  - \Mfw
+  - '\Mfw '
   - "\\Mfw\t"
   replace: 𝔴
 - triggers:
   - \Mfx\
-  - \Mfx
+  - '\Mfx '
   - "\\Mfx\t"
   replace: 𝔵
 - triggers:
   - \Mfy\
-  - \Mfy
+  - '\Mfy '
   - "\\Mfy\t"
   replace: 𝔶
 - triggers:
   - \Mfz\
-  - \Mfz
+  - '\Mfz '
   - "\\Mfz\t"
   replace: 𝔷
 - triggers:
   - \yen\
-  - \yen
+  - '\yen '
   - "\\yen\t"
   replace: ¥
 - triggers:
   - \varrho\
-  - \varrho
+  - '\varrho '
   - "\\varrho\t"
   replace: ϱ
 - triggers:
   - \varkappa\
-  - \varkappa
+  - '\varkappa '
   - "\\varkappa\t"
   replace: ϰ
 - triggers:
   - \varkai\
-  - \varkai
+  - '\varkai '
   - "\\varkai\t"
   replace: ϗ
 - triggers:
   - \varnothing\
-  - \varnothing
+  - '\varnothing '
   - "\\varnothing\t"
   replace: ∅
 - triggers:
   - \varpi\
-  - \varpi
+  - '\varpi '
   - "\\varpi\t"
   replace: ϖ
 - triggers:
   - \varphi\
-  - \varphi
+  - '\varphi '
   - "\\varphi\t"
   replace: ϕ
 - triggers:
   - \varprime\
-  - \varprime
+  - '\varprime '
   - "\\varprime\t"
   replace: ′
 - triggers:
   - \varpropto\
-  - \varpropto
+  - '\varpropto '
   - "\\varpropto\t"
   replace: ∝
 - triggers:
   - \vartheta\
-  - \vartheta
+  - '\vartheta '
   - "\\vartheta\t"
   replace: ϑ
 - triggers:
   - \vartriangleleft\
-  - \vartriangleleft
+  - '\vartriangleleft '
   - "\\vartriangleleft\t"
   replace: ⊲
 - triggers:
   - \vartriangleright\
-  - \vartriangleright
+  - '\vartriangleright '
   - "\\vartriangleright\t"
   replace: ⊳
 - triggers:
   - \varbeta\
-  - \varbeta
+  - '\varbeta '
   - "\\varbeta\t"
   replace: ϐ
 - triggers:
   - \varsigma\
-  - \varsigma
+  - '\varsigma '
   - "\\varsigma\t"
   replace: ς
 - triggers:
   - \veebar\
-  - \veebar
+  - '\veebar '
   - "\\veebar\t"
   replace: ⊻
 - triggers:
   - \vee\
-  - \vee
+  - '\vee '
   - "\\vee\t"
   replace: ∨
 - triggers:
   - \ve\
-  - \ve
+  - '\ve '
   - "\\ve\t"
   replace: ě
 - triggers:
   - \vE\
-  - \vE
+  - '\vE '
   - "\\vE\t"
   replace: Ě
 - triggers:
   - \vdash\
-  - \vdash
+  - '\vdash '
   - "\\vdash\t"
   replace: ⊢
 - triggers:
   - \vdots\
-  - \vdots
+  - '\vdots '
   - "\\vdots\t"
   replace: ⋮
 - triggers:
   - \vd\
-  - \vd
+  - '\vd '
   - "\\vd\t"
   replace: ď
 - triggers:
   - \vDash\
-  - \vDash
+  - '\vDash '
   - "\\vDash\t"
   replace: ⊨
 - triggers:
   - \vD\
-  - \vD
+  - '\vD '
   - "\\vD\t"
   replace: Ď
 - triggers:
   - \vc\
-  - \vc
+  - '\vc '
   - "\\vc\t"
   replace: č
 - triggers:
   - \vC\
-  - \vC
+  - '\vC '
   - "\\vC\t"
   replace: Č
 - triggers:
   - \koppa\
-  - \koppa
+  - '\koppa '
   - "\\koppa\t"
   replace: ϟ
 - triggers:
   - \kip\
-  - \kip
+  - '\kip '
   - "\\kip\t"
   replace: ₭
 - triggers:
   - \ki\
-  - \ki
+  - '\ki '
   - "\\ki\t"
   replace: į
 - triggers:
   - \kI\
-  - \kI
+  - '\kI '
   - "\\kI\t"
   replace: Į
 - triggers:
   - \kelvin\
-  - \kelvin
+  - '\kelvin '
   - "\\kelvin\t"
   replace: K
 - triggers:
   - \kappa\
-  - \kappa
+  - '\kappa '
   - "\\kappa\t"
   replace: κ
 - triggers:
   - \khei\
-  - \khei
+  - '\khei '
   - "\\khei\t"
   replace: ϧ
 - triggers:
   - \warning\
-  - \warning
+  - '\warning '
   - "\\warning\t"
   replace: ⚠
 - triggers:
   - \won\
-  - \won
+  - '\won '
   - "\\won\t"
   replace: ₩
 - triggers:
   - \wedge\
-  - \wedge
+  - '\wedge '
   - "\\wedge\t"
   replace: ∧
 - triggers:
   - \wp\
-  - \wp
+  - '\wp '
   - "\\wp\t"
   replace: ℘
 - triggers:
   - \wr\
-  - \wr
+  - '\wr '
   - "\\wr\t"
   replace: ≀
 - triggers:
   - \Dei\
-  - \Dei
+  - '\Dei '
   - "\\Dei\t"
   replace: Ϯ
 - triggers:
   - \Delta\
-  - \Delta
+  - '\Delta '
   - "\\Delta\t"
   replace: Δ
 - triggers:
   - \Digamma\
-  - \Digamma
+  - '\Digamma '
   - "\\Digamma\t"
   replace: Ϝ
 - triggers:
   - \Diamond\
-  - \Diamond
+  - '\Diamond '
   - "\\Diamond\t"
   replace: ◇
 - triggers:
   - \Downarrow\
-  - \Downarrow
+  - '\Downarrow '
   - "\\Downarrow\t"
   replace: ⇓
 - triggers:
   - \DH\
-  - \DH
+  - '\DH '
   - "\\DH\t"
   replace: Ð
 - triggers:
   - \zeta\
-  - \zeta
+  - '\zeta '
   - "\\zeta\t"
   replace: ζ
 - triggers:
   - \Eta\
-  - \Eta
+  - '\Eta '
   - "\\Eta\t"
   replace: Η
 - triggers:
   - \Epsilon\
-  - \Epsilon
+  - '\Epsilon '
   - "\\Epsilon\t"
   replace: Ε
 - triggers:
   - \Beta\
-  - \Beta
+  - '\Beta '
   - "\\Beta\t"
   replace: Β
 - triggers:
   - \Box\
-  - \Box
+  - '\Box '
   - "\\Box\t"
   replace: □
 - triggers:
   - \Bumpeq\
-  - \Bumpeq
+  - '\Bumpeq '
   - "\\Bumpeq\t"
   replace: ≎
 - triggers:
   - \bbA\
-  - \bbA
+  - '\bbA '
   - "\\bbA\t"
   replace: 𝔸
 - triggers:
   - \bbB\
-  - \bbB
+  - '\bbB '
   - "\\bbB\t"
   replace: 𝔹
 - triggers:
   - \bbC\
-  - \bbC
+  - '\bbC '
   - "\\bbC\t"
   replace: ℂ
 - triggers:
   - \bbD\
-  - \bbD
+  - '\bbD '
   - "\\bbD\t"
   replace: 𝔻
 - triggers:
   - \bbE\
-  - \bbE
+  - '\bbE '
   - "\\bbE\t"
   replace: 𝔼
 - triggers:
   - \bbF\
-  - \bbF
+  - '\bbF '
   - "\\bbF\t"
   replace: 𝔽
 - triggers:
   - \bbG\
-  - \bbG
+  - '\bbG '
   - "\\bbG\t"
   replace: 𝔾
 - triggers:
   - \bbH\
-  - \bbH
+  - '\bbH '
   - "\\bbH\t"
   replace: ℍ
 - triggers:
   - \bbI\
-  - \bbI
+  - '\bbI '
   - "\\bbI\t"
   replace: 𝕀
 - triggers:
   - \bbJ\
-  - \bbJ
+  - '\bbJ '
   - "\\bbJ\t"
   replace: 𝕁
 - triggers:
   - \bbK\
-  - \bbK
+  - '\bbK '
   - "\\bbK\t"
   replace: 𝕂
 - triggers:
   - \bbL\
-  - \bbL
+  - '\bbL '
   - "\\bbL\t"
   replace: 𝕃
 - triggers:
   - \bbM\
-  - \bbM
+  - '\bbM '
   - "\\bbM\t"
   replace: 𝕄
 - triggers:
   - \bbN\
-  - \bbN
+  - '\bbN '
   - "\\bbN\t"
   replace: ℕ
 - triggers:
   - \bbO\
-  - \bbO
+  - '\bbO '
   - "\\bbO\t"
   replace: 𝕆
 - triggers:
   - \bbP\
-  - \bbP
+  - '\bbP '
   - "\\bbP\t"
   replace: ℙ
 - triggers:
   - \bbQ\
-  - \bbQ
+  - '\bbQ '
   - "\\bbQ\t"
   replace: ℚ
 - triggers:
   - \bbR\
-  - \bbR
+  - '\bbR '
   - "\\bbR\t"
   replace: ℝ
 - triggers:
   - \bbS\
-  - \bbS
+  - '\bbS '
   - "\\bbS\t"
   replace: 𝕊
 - triggers:
   - \bbT\
-  - \bbT
+  - '\bbT '
   - "\\bbT\t"
   replace: 𝕋
 - triggers:
   - \bbU\
-  - \bbU
+  - '\bbU '
   - "\\bbU\t"
   replace: 𝕌
 - triggers:
   - \bbV\
-  - \bbV
+  - '\bbV '
   - "\\bbV\t"
   replace: 𝕍
 - triggers:
   - \bbW\
-  - \bbW
+  - '\bbW '
   - "\\bbW\t"
   replace: 𝕎
 - triggers:
   - \bbX\
-  - \bbX
+  - '\bbX '
   - "\\bbX\t"
   replace: 𝕏
 - triggers:
   - \bbY\
-  - \bbY
+  - '\bbY '
   - "\\bbY\t"
   replace: 𝕐
 - triggers:
   - \bbZ\
-  - \bbZ
+  - '\bbZ '
   - "\\bbZ\t"
   replace: ℤ
 - triggers:
   - \bba\
-  - \bba
+  - '\bba '
   - "\\bba\t"
   replace: 𝕒
 - triggers:
   - \bbb\
-  - \bbb
+  - '\bbb '
   - "\\bbb\t"
   replace: 𝕓
 - triggers:
   - \bbc\
-  - \bbc
+  - '\bbc '
   - "\\bbc\t"
   replace: 𝕔
 - triggers:
   - \bbd\
-  - \bbd
+  - '\bbd '
   - "\\bbd\t"
   replace: 𝕕
 - triggers:
   - \bbe\
-  - \bbe
+  - '\bbe '
   - "\\bbe\t"
   replace: 𝕖
 - triggers:
   - \bbf\
-  - \bbf
+  - '\bbf '
   - "\\bbf\t"
   replace: 𝕗
 - triggers:
   - \bbg\
-  - \bbg
+  - '\bbg '
   - "\\bbg\t"
   replace: 𝕘
 - triggers:
   - \bbh\
-  - \bbh
+  - '\bbh '
   - "\\bbh\t"
   replace: 𝕙
 - triggers:
   - \bbi\
-  - \bbi
+  - '\bbi '
   - "\\bbi\t"
   replace: 𝕚
 - triggers:
   - \bbj\
-  - \bbj
+  - '\bbj '
   - "\\bbj\t"
   replace: 𝕛
 - triggers:
   - \bbk\
-  - \bbk
+  - '\bbk '
   - "\\bbk\t"
   replace: 𝕜
 - triggers:
   - \bbl\
-  - \bbl
+  - '\bbl '
   - "\\bbl\t"
   replace: 𝕝
 - triggers:
   - \bbm\
-  - \bbm
+  - '\bbm '
   - "\\bbm\t"
   replace: 𝕞
 - triggers:
   - \bbn\
-  - \bbn
+  - '\bbn '
   - "\\bbn\t"
   replace: 𝕟
 - triggers:
   - \bbo\
-  - \bbo
+  - '\bbo '
   - "\\bbo\t"
   replace: 𝕠
 - triggers:
   - \bbp\
-  - \bbp
+  - '\bbp '
   - "\\bbp\t"
   replace: 𝕡
 - triggers:
   - \bbq\
-  - \bbq
+  - '\bbq '
   - "\\bbq\t"
   replace: 𝕢
 - triggers:
   - \bbr\
-  - \bbr
+  - '\bbr '
   - "\\bbr\t"
   replace: 𝕣
 - triggers:
   - \bbs\
-  - \bbs
+  - '\bbs '
   - "\\bbs\t"
   replace: 𝕤
 - triggers:
   - \bbt\
-  - \bbt
+  - '\bbt '
   - "\\bbt\t"
   replace: 𝕥
 - triggers:
   - \bbu\
-  - \bbu
+  - '\bbu '
   - "\\bbu\t"
   replace: 𝕦
 - triggers:
   - \bbv\
-  - \bbv
+  - '\bbv '
   - "\\bbv\t"
   replace: 𝕧
 - triggers:
   - \bbw\
-  - \bbw
+  - '\bbw '
   - "\\bbw\t"
   replace: 𝕨
 - triggers:
   - \bbx\
-  - \bbx
+  - '\bbx '
   - "\\bbx\t"
   replace: 𝕩
 - triggers:
   - \bby\
-  - \bby
+  - '\bby '
   - "\\bby\t"
   replace: 𝕪
 - triggers:
   - \bbz\
-  - \bbz
+  - '\bbz '
   - "\\bbz\t"
   replace: 𝕫
 - triggers:
   - \Rge0\
-  - \Rge0
+  - '\Rge0 '
   - "\\Rge0\t"
   replace: ℝ≥0
 - triggers:
   - \R>=0\
-  - \R>=0
+  - '\R>=0 '
   - "\\R>=0\t"
   replace: ℝ≥0
 - triggers:
   - \nnreal\
-  - \nnreal
+  - '\nnreal '
   - "\\nnreal\t"
   replace: ℝ≥0
 - triggers:
   - \ennreal\
-  - \ennreal
+  - '\ennreal '
   - "\\ennreal\t"
   replace: ℝ≥0∞
 - triggers:
   - \enat\
-  - \enat
+  - '\enat '
   - "\\enat\t"
   replace: ℕ∞
 - triggers:
   - \Zsqrt\
-  - \Zsqrt
+  - '\Zsqrt '
   - "\\Zsqrt\t"
   replace: ℤ√
 - triggers:
   - \zsqrtd\
-  - \zsqrtd
+  - '\zsqrtd '
   - "\\zsqrtd\t"
   replace: ℤ√
 - triggers:
   - \liel\
-  - \liel
+  - '\liel '
   - "\\liel\t"
   replace: ⁅
 - triggers:
   - \bracketl\
-  - \bracketl
+  - '\bracketl '
   - "\\bracketl\t"
   replace: ⁅
 - triggers:
   - \lier\
-  - \lier
+  - '\lier '
   - "\\lier\t"
   replace: ⁆
 - triggers:
   - \[-\
-  - \[-
+  - '\[- '
   - "\\[-\t"
   replace: ⁅
 - triggers:
   - \-]\
-  - \-]
+  - '\-] '
   - "\\-]\t"
   replace: ⁆
 - triggers:
   - \bracketr\
-  - \bracketr
+  - '\bracketr '
   - "\\bracketr\t"
   replace: ⁆
 - triggers:
   - \nhds\
-  - \nhds
+  - '\nhds '
   - "\\nhds\t"
   replace: 𝓝
 - triggers:
   - \nbhds\
-  - \nbhds
+  - '\nbhds '
   - "\\nbhds\t"
   replace: 𝓝
 - triggers:
   - \X\
-  - \X
+  - '\X '
   - "\\X\t"
   replace: ⨯
 - triggers:
   - \vectorproduct\
-  - \vectorproduct
+  - '\vectorproduct '
   - "\\vectorproduct\t"
   replace: ⨯
 - triggers:
   - \crossproduct\
-  - \crossproduct
+  - '\crossproduct '
   - "\\crossproduct\t"
   replace: ⨯
 - triggers:
   - \coprod\
-  - \coprod
+  - '\coprod '
   - "\\coprod\t"
   replace: ⨿
 - triggers:
   - \sigmaobj\
-  - \sigmaobj
+  - '\sigmaobj '
   - "\\sigmaobj\t"
   replace: ∐
 - triggers:
   - \xf\
-  - \xf
+  - '\xf '
   - "\\xf\t"
   replace: ×ᶠ
 - triggers:
   - \exf\
-  - \exf
+  - '\exf '
   - "\\exf\t"
   replace: ∃ᶠ
 - triggers:
   - \c[\
-  - \c[
+  - '\c[ '
   - "\\c[\t"
   replace: ⦃
 - triggers:
   - \c]\
-  - \c]
+  - '\c] '
   - "\\c]\t"
   replace: ⦄
 - triggers:
   - \Yot\
-  - \Yot
+  - '\Yot '
   - "\\Yot\t"
   replace: Ϳ
 - triggers:
   - \goal\
-  - \goal
+  - '\goal '
   - "\\goal\t"
   replace: ⊢
 - triggers:
   - \Vdash\
-  - \Vdash
+  - '\Vdash '
   - "\\Vdash\t"
   replace: ⊩
 - triggers:
   - \Vert\
-  - \Vert
+  - '\Vert '
   - "\\Vert\t"
   replace: ‖
 - triggers:
   - \Vvdash\
-  - \Vvdash
+  - '\Vvdash '
   - "\\Vvdash\t"
   replace: ⊪
