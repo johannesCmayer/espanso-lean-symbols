@@ -13,9 +13,7 @@ def json_to_espanso(json_file, espanso_file):
         espanso_mappings.append(
             {
                 "matches": [
-                    {"trigger": f"\\{key}\\"},
-                    {"trigger": f"\\{key} "},
-                    {"trigger": f"\\{key}\t"}
+                    {"triggers": [f"\\{key}\\", f"\\{key}", f"\\{key}\t"]},
                 ],
                 "replace": value
             }
