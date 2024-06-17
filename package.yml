@@ -12776,6 +12776,8 @@ matches:
   replace: '⊪ '
 - triggers:
   - \map\
-  - '\map '
   - "\\map\t"
   replace: ↦
+- triggers:
+  - '\map '
+  replace: '↦ '
